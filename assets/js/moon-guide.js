@@ -50,8 +50,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "레인보우 제너레이터 가동 후, 레인보우 록스 끝에서 닛카와 대화",
       "hint": "레인보우 제너레이터로 길을 연 뒤 오른쪽 끝까지 진행해 닛카 앞을 지나가면 닛카가 불러 세운다. 대화를 끝내면 소년의 집을 넘겨받고 두 번째 수면 거점이 열린다.",
-      "review": "필수 이벤트로 분류됨. '旅立ち'를 너무 거창하게 번역하지 말고 첫 거점 획득 느낌도 고려.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%8B%E3%83%83%E3%82%AB%E3%81%AE%E6%97%85%E7%AB%8B%E3%81%A1.html",
@@ -69,8 +67,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "소년의 집 앞 포카에게 반복해서 대화",
       "hint": "포카에게 계속 말을 걸고, 모든 선택지를 전부 한 번씩 골라 확인한다.",
-      "review": "道しるべ는 '이정표/길잡이' 둘 다 가능. 포카의 역할과 말투 확인 후 결정.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%9D%E3%83%83%E3%82%AB%E3%81%AE%E9%81%93%E3%81%97%E3%82%8B%E3%81%B9.html",
@@ -88,8 +84,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "전파숭이와의 연주 완료 후, 밤에 BAR 완다 뒤 새장의 요시다와 대화",
       "hint": "바리바리섬 원정을 끝낸 뒤 밤에 BAR 완다 뒤편 새장에 있는 요시다에게 대학 이야기를 듣는다. 이후 소년의 집에서 밤에 잠들면 수업이 시작되며, 총 4번 수업을 들으면 완료된다.",
-      "review": "'大学' 이벤트명은 직역하면 '대학'이나, 용어집용으로는 요시다와의 공부 쪽이 더 안전.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%A8%E3%82%B7%E3%83%80%E3%81%A8%E3%81%AE%E5%8B%89%E5%BC%B7.html",
@@ -107,8 +101,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "세 곳의 수술에게서 꽃가루 3종을 받아 소년의 집 암술에게 전달",
       "hint": "수술은 레인보우 록스의 성밑마을 쪽, 버섯의 숲과 유령저택 사이, 트로피컬 필드와 헤이거 박사의 연구소 사이에 있다. 각 수술에게 받은 꽃가루를 소년의 집 암술에게 하나씩 건네고 지름길 3곳을 모두 열면 완료된다.",
-      "review": "꽃가루/암술/수술 관련 말장난 가능성 있음. 실제 대사 대조 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E8%8A%B1%E7%B2%89%E9%9B%86%E3%82%81.html",
@@ -126,8 +118,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "할머니의 부탁을 받고 150네카를 받은 뒤 빵 구매",
       "hint": "성밑마을 베이커의 빵집에서 크루아상이나 식빵을 하나 사서 할머니에게 전달한다. 어느 빵이든 이벤트는 진행되므로, 네카를 아끼고 싶다면 더 싼 쪽을 사도 된다.",
-      "review": "빵 이름은 아이템 시트와 반드시 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%81%8A%E3%81%B0%E3%81%82%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E3%81%8A%E4%BD%BF%E3%81%84.html",
@@ -145,9 +135,7 @@ window.MOON_GUIDE_DATA = {
       "love": 4,
       "condition": "닛카의 여행길 완료 후 할머니의 집 / 타오의 간식 7개 정도 준비",
       "hint": "타오에게 간식을 주면 행동을 하나 한다. 지시한 행동과 맞았을 때만 칭찬하고, 틀렸다면 다시 시도한다. 성공을 6번 쌓으면 타오가 「소환」을 배워 완료된다. 잘못 칭찬하거나 혼내도 간식은 줄지 않아 재도전할 수 있다.",
-      "review": "러브 수치가 자료마다 다름. Kamigame 목록은 4, 11game은 5. 실게임/스크립트 확인 필요.",
-      "status": "자료차이",
-      "discrepancy": "획득 LOVE: 상세 Kamigame +4 / 11game +5. 현재 표는 용어집의 Kamigame 기준 +4 유지.",
+      "discrepancy": "획득 LOVE: Kamigame 상세 공략은 +4, 11game은 +5로 안내합니다. 이 공략에는 +4로 표시했습니다.",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%BF%E3%82%AA%E3%81%AE%E3%81%97%E3%81%A4%E3%81%91.html",
         "https://11game.site/love-event/"
@@ -164,8 +152,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "타오 훈련 완료 후",
       "hint": "타오 훈련을 끝낸 뒤 타오에게 간식을 한 번 더 주고 「소환」을 시킨다. 나타난 헤비의 영혼을 소울캐치한 다음 할머니에게 말을 걸면 완료된다. 이 이벤트가 끝날 때까지 할머니의 집 침대는 사용할 수 없다.",
-      "review": "타오/헤비/할머니 이벤트가 한 흐름이라 번역 순서 주의.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%81%8A%E3%81%B0%E3%81%82%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E4%BD%93%E8%AA%BF%E4%B8%8D%E8%89%AF.html",
@@ -183,8 +169,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "성 왼쪽 복도에서 대신의 사법서 습득 후, 밤에 가장 안쪽 테라스",
       "hint": "성 왼쪽 복도에서 아래쪽에서 두 번째 램프가 달린 기둥의 왼쪽을 조사하면 「대신의 사법서」를 얻는다. 사법서를 얻으면 대신이 가장 안쪽 테라스로 이동하므로, 밤에 찾아가 아이템을 사용해 돌려준다. 마지막 선택지는 어느 쪽을 골라도 진행된다.",
-      "review": "카미게임명은 落とし物, 피들리오/11game 코멘트는 司法書. 실제 아이템명에 맞춰야 함.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/01.html",
@@ -202,8 +186,6 @@ window.MOON_GUIDE_DATA = {
       "love": 6,
       "condition": "초승달의 날·눈물의 날·네카의 날 중 밤",
       "hint": "초승달의 날·눈물의 날·네카의 날 중 밤에 성 2층, 계단 사이와 위병 방 근처에서 프레드가 나오기를 기다린다. 프레드가 방을 나서면 바로 붙지 말고 들키지 않을 거리를 유지한 채 몰래 뒤를 따라 알현실까지 간다. 프레드에게 들키지 않고 알현실의 라이브를 끝까지 보면 완료된다.",
-      "review": "라이브 가사/음악 관련 문구는 별도 원문 대조 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%95%E3%83%AC%E3%83%83%E3%83%89%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96.html",
@@ -222,8 +204,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "버섯의 숲 비밀 낚시터에서 플스테를 낚은 뒤 노지에게 전달",
       "hint": "먼저 노지와 장난감 이야기를 해 플스테를 빌려주기로 약속해 둔다. 이후 버섯의 숲 비밀 낚시터에서 「플스테(게임스테이션)」를 낚아 노지에게 사용하면 완료된다. 비밀 낚시터는 톳토테루리 소울캐치 뒤 카쿤테인에게 말을 걸어 열 수 있다.",
-      "review": "ゲーステ는 아이템/오브젝트 시트와 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%8E%E3%83%BC%E3%82%B8%E3%81%A8%E7%B4%84%E6%9D%9F.html",
@@ -243,8 +223,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "밤에 위병 방에서 이빌리와 대화 후, 태양의 날 낮 테라스 3회 방문",
       "hint": "먼저 밤에 성의 위병 방에서 이빌리에게 모형비행기 이야기를 들어 이벤트를 연다. 그 뒤 태양의 날 낮마다 성 안쪽 테라스에서 모형비행기를 날리는 이빌리에게 말을 건다. 태양의 날 방문을 3회 채우면 노지가 나타나고 모형비행기가 완성된다. 최소 3주가 걸리므로 초반부터 시작하는 편이 좋다.",
-      "review": "한글판 프로젝트 용어는 ‘모형비행기’로 확정. 일반적인 飛行機 문장은 문맥에 따라 ‘비행기’ 유지.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%A4%E3%83%93%E3%83%AA%E3%83%BC%E3%81%AE%E3%82%A8%E3%82%A2%E3%83%97%E3%83%AC%E3%83%BC%E3%83%B3.html",
@@ -263,8 +241,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "노지와의 약속 + 이빌리의 모형비행기 완료 후",
       "hint": "두 선행 이벤트를 끝낸 뒤 태양의 날 밤 노지의 방에 있으면 아버지가 찾아오는 장면을 볼 수 있다. 이후 초승달의 날·눈물의 날·네카의 날 중 밤에 성 중정으로 가면 아버지가 다시 찾아와 노지와 작별하는 이벤트가 이어진다.",
-      "review": "초기 자료가 누락되기 쉬운 이벤트. 단계 순서 메모 필수.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%8E%E3%83%BC%E3%82%B8%E3%81%A8%E3%81%AE%E3%81%8A%E5%88%A5%E3%82%8C.html",
@@ -282,8 +258,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "왕의 편지를 헤이거 박사에게 전달 후 / 초승달·눈물·네카의 날 아침",
       "hint": "왕의 편지를 헤이거 박사에게 건넨 뒤 초승달의 날·눈물의 날·네카의 날 아침에 성 중정으로 간다. 왕과 가세가 나타나고 대신이 쫓아내러 오는 순간, 성을 바라봤을 때 오른쪽 위에 있는 고양이 모양 식물을 조사해 대신의 시선을 돌리면 둘이 다시 제자리로 돌아온다.",
-      "review": "'入れ替わり'는 자리바꿈/뒤바뀜. 코믹 톤 살리기.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/01.html",
@@ -301,8 +275,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "BAR 완다 영업 중 반지 분실 이야기를 들은 뒤, 이른 아침 베이커 빵집 뒤",
       "hint": "BAR 완다에서 음료를 주문해 선라이즈 펄을 잃어버렸다는 이야기를 듣는다. 이른 아침 베이커의 빵집 오른쪽 위·뒤쪽 길에서 햇빛을 받아 반짝이는 지점을 조사하면 「선라이즈 펄」을 얻는다. 완다에게 돌려주면 완료된다.",
-      "review": "サンライズパール은 아이템명으로 고정 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%AF%E3%83%B3%E3%83%80%E3%81%AE%E6%8C%87%E8%BC%AA.html",
@@ -321,8 +293,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "밤, BAR 완다 2층 플로라의 방",
       "hint": "밤에 BAR 완다 2층으로 올라가 플로라의 방에서 잠든 모습을 확인한다. 그 장면을 본 뒤 페미의 설교가 이어지며 러브를 얻는다.",
-      "review": "説教 시리즈는 페미/모미/우미 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%95%E3%82%A7%E3%83%9F%E3%81%AE%E3%81%8A%E8%AA%AC%E6%95%99.html",
@@ -340,8 +310,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "밤의 큐리오 가게에서 물건을 보되 사지 않고 나가려 할 때",
       "hint": "밤에 큐리오의 가게에서 상품을 확인한 뒤 아무것도 사지 않고 나가려 하면 「카쿤테 스톤」을 권한다. 제안을 계속 거절하면 가격이 내려가며, 200네카까지 흥정한 뒤 구입하면 러브도 함께 얻는다.",
-      "review": "흥정/가격 문구는 상점 UI와 대조.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AD%E3%83%A5%E3%83%AA%E3%82%AA%E3%81%AE%E6%8E%98%E3%82%8A%E5%87%BA%E3%81%97%E7%89%A9%E8%B2%A9%E5%A3%B2.html",
@@ -360,8 +328,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "공원에서 요시다와 가세의 대화를 엿들은 뒤",
       "hint": "공원에서 요시다와 가세의 이야기를 들은 뒤 큐리오의 가게 밖 쓰레기통에서 「가세의 러브레터」를 찾는다. 이 편지를 가세에게 먼저 보여주면 먹어버리므로 절대 먼저 보여주지 말고, 플로라에게 보여 답장을 받은 다음 그 답장을 가세에게 전달한다.",
-      "review": "먼저 가세에게 보이면 먹어버린다는 주의 문구도 번역 지뢰.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AC%E3%82%BB%E3%81%AE%E3%83%A9%E3%83%96%E3%83%AC%E3%82%BF%E3%83%BC.html",
@@ -379,8 +345,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "완다의 반지 완료 + 플로렌스를 원래 세계로 돌려보낸 뒤",
       "hint": "먼저 살쾡이 식당에서 모래선인장 샐러드를 주문해 켄지의 회상 이벤트를 진행하고 플로렌스를 돌아오게 한다. 그 뒤 BAR 완다에서 음료를 주문하면 완다가 선라이즈 펄 반지를 맡긴다. 버섯의 숲에 있는 플로렌스에게 반지를 전달하면 완료된다.",
-      "review": "'思い出'의 감정선이 큼. 완다/플로렌스 관계 대조 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E6%8C%87%E8%BC%AA.html",
@@ -399,8 +363,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "메아리의 날 밤 BAR 완다",
       "hint": "메아리의 날 밤 BAR 완다에서 술을 마시는 베이커에게 말을 건다. 베이커가 가게를 나가면 뒤를 따라 빵집으로 가고, 잠기지 않은 문으로 들어가 안쪽 방에서 기다린다. 베이커의 비밀 행동을 끝까지 확인하면 완료된다.",
-      "review": "비밀 내용 대사 스포일러/톤 확인 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%99%E3%82%A4%E3%82%AB%E3%83%BC%E3%81%AE%E7%A7%98%E5%AF%86.html",
@@ -418,8 +380,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "레인보우 록스의 제너레이터 스위치 입력",
       "hint": "레인보우 제너레이터의 스위치를 빨강 → 주황 → 노랑 → 초록 → 하늘색 → 파랑 → 보라 순서로 누른다. 순서가 맞으면 무지개 길이 열리고 진행 루트가 확장된다.",
-      "review": "색상명은 퍼즐 직결. スカイブルー/水色 번역 통일 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%9C%E3%82%A6%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC.html",
@@ -437,8 +397,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "레인보우 록스의 커플우산 낙서가 새겨진 나무 조사",
       "hint": "레인보우 록스 위쪽에 있는, 커플우산 낙서가 새겨진 나무를 조사한다. 모미가 나타나 설교를 시작하고 그대로 이벤트가 완료된다. 비하브 보물찾기의 메모 위치 기준점으로도 쓰이는 나무다.",
-      "review": "説教 시리즈 통일. 相合傘 번역 주의.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%A2%E3%83%9F%E3%81%AE%E3%81%8A%E8%AA%AC%E6%95%99.html",
@@ -456,8 +414,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "큐리오의 가게에서 돋보기 구입 후, 비하브 메모를 순서대로 조사",
       "hint": "돋보기로 메모를 반드시 순서대로 찾는다. ①성밑마을 입구 전 간판 뒤 → ②레인보우 록스 커플우산 나무에서 화면 끝까지 남쪽의 바위 뒤 → ③번 음악당 노란 상자 뒤 벽 → ④타마야 공방 간판의 「구슬 옥」 글자에서 점 부분 → ⑤조개고래의 만 캠프 밥통 → ⑥풍차암 지하 아지트의 코타츠 앞쪽 → ⑦황혼 캐니언 배율표. 1~7을 다 읽은 뒤 첫 메모가 있던 곳에서 왼쪽으로 두 그루 떨어진 나무를 조사하면 크라운을 얻는다.",
-      "review": "메모 위치/암호문은 별도 시트 필요. 직역 금지 가능성 높음.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%93%E3%83%BC%E3%83%8F%E3%83%B4%E3%81%AE%E5%AE%9D%E6%8E%A2%E3%81%97.html",
@@ -475,8 +431,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "밤 큐리오의 가게에서 클로로포름 구입 후 아저씨의 동굴",
       "hint": "밤에 큐리오의 가게에서 클로로포름을 산 뒤 잠들지 못하는 아저씨에게 사용한다. 바로 「드림 성인」의 영혼이 나타나므로 소울캐치하고, 잠든 아저씨에게 다시 말을 걸어 이벤트를 마무리한다. 이후 이곳에서 귀환용 아이템 타코츄를 살 수 있다.",
-      "review": "클로로포름 사용 대사는 현대적 민감도 있음. 원문 톤 유지.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E4%B8%8D%E7%9C%A0%E7%97%87%E3%81%AE%E3%81%8A%E3%81%A3%E3%81%95%E3%82%93.html",
@@ -494,8 +448,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "밤, 마마스가 아이 방에 들어간 것을 확인한 뒤",
       "hint": "밤에 아메리칸 하우스에서 마마스가 아이 방으로 들어가는 모습을 확인한다. 그 틈에 주방 냉장고를 조사하면 「헤이거 배지」를 얻으며 이벤트가 완료된다.",
-      "review": "숨긴 물건/비밀 번역은 실제 이벤트명과 대조.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%9E%E3%83%9E%E3%82%B9%E3%81%AE%E9%9A%A0%E3%81%97%E7%89%A9.html",
@@ -513,8 +465,6 @@ window.MOON_GUIDE_DATA = {
       "love": 4,
       "condition": "마마스·파파스 방의 인형을 조사한 뒤 4일 이상 경과",
       "hint": "마마스와 파파스의 방에서 인형을 먼저 조사하고 4일 이상 기다린다. 다시 아메리칸 하우스에 와서 다이아의 방에서 완성된 인형탈을 입고, 벽난로를 조사해 인형탈에 불을 붙인 뒤 밖으로 나가면 페로곤을 구출하고 완료된다.",
-      "review": "비소울캐치 이벤트성 애니멀과 연계. 애니멀 시트와 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%9A%E3%83%AD%E3%82%B4%E3%83%B3%E3%81%AE%E6%95%91%E5%87%BA.html",
@@ -532,8 +482,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "페로곤 관련 용사 이벤트 이후 며칠 경과 / 파파스 작업실",
       "hint": "페로곤 사건 뒤 바로 끝나는 이벤트가 아니다. 며칠이 지나 파파스가 작업실로 돌아간 뒤 다시 찾아가 기뻐하는 모습을 확인하고, 작업실 책상 위의 「용사맨」 만화를 조사하면 완료된다.",
-      "review": "ユウシャメン은 말장난/패러디명. 가급적 원어감 보존 검토.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%91%E3%83%91%E3%82%B9%E3%81%AE%E3%80%8C%E3%83%A6%E3%82%A6%E3%82%B7%E3%83%A3%E3%83%A1%E3%83%B3%E3%80%8D.html",
@@ -551,8 +499,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "시계가 5시 부근일 때 타마야 공방 앞 / 하루 1회 기회",
       "hint": "저녁 5시 무렵 타마야 공방 앞에서 기다리다가 시계 바늘이 5와 6 사이일 때 안에서 날아오는 불꽃에 일부러 맞는다. 헤이키치의 질문에는 「할 수 있어」를 고르고, 화약을 5 → 7 → 4 → 8 → 2 → 1 → 3 → 9 → 4 순서로 배치한다. 불꽃은 하루에 한 번만 나오므로 놓치면 다음 날 다시 와야 한다.",
-      "review": "화약 배열은 퍼즐. 'どえらい'의 사투리/과장 톤 검토.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%81%A9%E3%81%88%E3%82%89%E3%81%84%E8%8A%B1%E7%81%AB.html",
@@ -570,8 +516,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "엄청난 불꽃 완료 후 밤",
       "hint": "「엄청난 불꽃」을 끝낸 뒤 밤에 타마야 공방의 큰 통 앞을 지나가면 가족 이벤트가 자동으로 시작된다. 별도 아이템이나 선택지는 필요 없으므로 전 이벤트를 끝낸 뒤 밤 시간만 맞추면 된다.",
-      "review": "부부/가족 관계 대사 톤 중요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E7%8E%89%E5%B1%8B%E4%B8%80%E5%AE%B6%E3%81%AE%E7%B5%86.html",
@@ -589,9 +533,7 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "처음 풍차암에 들어가려 할 때",
       "hint": "풍차암에 처음 들어가 할아버지와 대화한다. 어떤 선택지를 골라도 할아버지가 푸념하며 결국 쫓겨나지만, 이 흐름 자체가 이벤트이므로 선택지 정답을 찾으려고 되돌릴 필요는 없다.",
-      "review": "Kamigame에서는 서브이벤트 설명에도 등장. 러브 획득 처리 확인 필요.",
-      "status": "검증완료",
-      "discrepancy": "과거 용어집에 2?로 남아 있었으나 11game은 +2, 현재 가이드는 +2 유지.",
+      "discrepancy": "일부 자료는 수치를 확정하지 않았고 11game은 +2로 안내합니다. 이 공략에는 +2로 표시했습니다.",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%81%8A%E3%81%98%E3%81%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E6%84%9A%E7%97%B4.html",
         "https://11game.site/love-event/"
@@ -608,8 +550,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "MD No.25 또는 No.29를 BGM으로 틀고 풍차암의 미닫이문 열기",
       "hint": "번 음악당에서 MD No.25 「달빛 존가라 로드」 또는 No.29 「거품의 노래」를 준비한다. 둘 중 하나를 BGM으로 재생한 상태에서 풍차암의 미닫이문을 열면 할아버지가 반응하며 이벤트가 진행된다. 두 곡을 모두 쓸 필요는 없다.",
-      "review": "MD No.25 달빛 존가라 로드 또는 No.29 거품의 노래 중 하나를 BGM으로 사용. LOVE 수치는 자료 차이 있음.",
-      "status": "자료차이",
       "discrepancy": "획득 LOVE: Kamigame 전체 목록은 +1, 11game 및 풍차암 계열 상세 자료는 +2. 현재 표는 +2로 보강.",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0/MD.html",
@@ -627,8 +567,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "아더의 집에서 세 가지 시련 완료",
       "hint": "시련은 「신님 포엠」 → 「신님 보이스」 → 「신님 페이스」 순서다. 세 시련 뒤 나오는 첫 선택지는 아래쪽을 고르면 「달의 눈물」을 받고, 두 번째 선택지도 아래쪽을 골라 시드 비셔스를 소울캐치한다. 여기서 끝난 것처럼 보여도 아더가 집 안으로 들어간 뒤 다시 한 번 말을 걸어야 이벤트 러브까지 받는다.",
-      "review": "アダー 표기와 말투 중요. '試練'을 시험/시련 중 선택.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%A2%E3%83%80%E3%83%BC%E3%81%AE3%E3%81%A4%E3%81%AE%E8%A9%A6%E7%B7%B4.html",
@@ -646,8 +584,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "버섯의 숲 입구의 쓰러진 카쿤테인",
       "hint": "버섯의 숲 입구에서 쓰러진 카쿤테인을 확인한 뒤 동굴에서 얻는 빨간 「묘한 버섯」을 사용해 먹인다. 카쿤테인이 회복하면 러브를 얻고 길이 열린다. 이후 버섯 관련 진행이 이어지므로 주변의 카쿤테인 대화도 함께 확인해 두면 좋다.",
-      "review": "カクンテ 표기 고정 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AB%E3%82%AF%E3%83%B3%E3%83%86%E4%BA%BA%E3%81%AE%E6%95%91%E5%8A%A9.html",
@@ -666,8 +602,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "유령저택 2층 경보장치 → 헤이거 박사 → 소리구슬/시계 → 위스퍼",
       "hint": "2층 왼쪽 복도의 기계를 만져 경보를 울리고 지하 감옥의 헤이거 박사와 대화한다. 경보에 놀라 튀어나온 「소리구슬」을 챙겨 2층 시계에 넣은 뒤, 오른쪽 복도 끝의 구멍으로 들어가 위스퍼를 만난다. 이후 큰 그림 앞에 잠깐 서 있으면 그림 속으로 들어가는데, 그 안에서 수제 쿠키 → 식빵 → 블랙 캐비어(올챙이) 순서로 건네면 미련을 풀 수 있다.",
-      "review": "LOVE 수치 자료 충돌. Kamigame 상세(2025 갱신)와 11game은 +2, 일부 목록은 +1.",
-      "status": "자료차이",
       "discrepancy": "획득 LOVE: Kamigame 상세 페이지와 11game은 +2, 일부 Kamigame 목록은 +1. 현재 표는 상세 공략 기준 +2로 보강.",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%A6%E3%82%A3%E3%82%B9%E3%83%91%E3%83%BC%E3%81%AE%E6%9C%AA%E7%B7%B4.html",
@@ -685,8 +619,6 @@ window.MOON_GUIDE_DATA = {
       "love": 3,
       "condition": "MD No.34 「flower waltz」를 BGM으로 설정",
       "hint": "BAR 완다 2층 플로라의 방에서 MD No.34 「flower waltz」를 주워 둔다. 바람의 계곡에서 이 곡을 BGM으로 틀고 시든 꽃을 하나씩 모두 조사해 음악을 들려주면 꽃들이 다시 일어나며 완료된다.",
-      "review": "음악명/꽃 말투 대조 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E8%8A%B1%E6%BA%80%E9%96%8B.html",
@@ -705,8 +637,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "황혼 캐니언에서 새남자의 새 색 맞히기 내기",
       "hint": "새남자에게 말을 걸어 다음에 올 새의 색에 내기를 건다. 한 번만 맞히는 것이 아니라 파랑부터 검정까지 네 색을 각각 한 번 이상 맞혀야 완료된다. 한 번에 50네카씩 거는 것을 추천한다. 내기를 걸다가 검정색 새가 오면 그 날 밤에 애니멀 「새드마일」이 나타나므로, 새드마일 소울캐치도 같이 처리하는 것을 추천한다.",
-      "review": "도박/배율표/색상명 용어 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E9%B3%A5%E7%94%B7%E3%81%A8%E3%81%AE%E8%B3%AD%E3%81%91%E5%8B%9D%E8%B2%A0.html",
@@ -724,8 +654,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "용사가 살쾡이 식당에 다녀간 후, 크리스가 가게 밖에서 MD를 팔기 시작한 뒤",
       "hint": "살쾡이 식당에서 용사가 행패를 부려 크리스가 알바를 그만둔 상태가 되면, 크리스가 밖에서 MD를 팔게 된다. 밤에 큐리오의 가게에서 「프릴 드레스」를 사서 크리스에게 건넨 뒤, 참참참에서 3승하면 완료된다. 크리스는 위쪽을 고르는 경향이 강하다.",
-      "review": "실기 관측에서 로켓 부품 5개 납품 후에도 이벤트가 유지됨. Kamigame도 로켓 부품 전부 전달 후 진행하는 순서를 제시한다. 11game 간이 차트의 ‘5개째 납품 시 소멸’ 문구는 오기 가능성이 높아, 부품 개수 대신 게임 내 상태(크리스가 가게 밖에서 MD 판매)를 발생 기준으로 사용한다.",
-      "status": "실기확인",
       "discrepancy": "11game 간이 차트는 5개째 납품 시 소멸한다고 적지만, 실기 관측과 Kamigame의 완료 후 진행 순서가 이를 반박한다. 현재 공략에서는 소멸 경고를 제거했다.",
       "sources": [
         "https://11game.site/love-event/",
@@ -745,8 +673,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "크리스와 참참참 완료 + 로켓 부품 5개 납품 후",
       "hint": "「크리스와 참참참」을 먼저 끝낸 뒤 헤이거 박사에게 5번째 로켓 부품까지 넘긴다. 용사가 살쾡이 식당에서 사라지고 크리스가 다시 돌아온 상태에서 켄지에게 말을 걸면 식당의 평온이 돌아왔다는 이벤트가 진행된다.",
-      "review": "상호명 살쾡이 식당 고정 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/14.html",
@@ -764,8 +690,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "조개고래 구출 후, 태양의 날 낚시 콘테스트 참가",
       "hint": "먼저 조개고래를 구출해 낚시 콘테스트가 열리는 상태로 만든다. 태양의 날 낮에 콘테스트에 참가하면 우미가 나타나 설교 이벤트가 함께 진행된다. 낚시 콘테스트 자체의 러브와 별개로 우미의 러브도 챙길 수 있다.",
-      "review": "説教 시리즈 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%A6%E3%83%9F%E3%81%AE%E3%81%8A%E8%AA%AC%E6%95%99.html",
@@ -783,8 +707,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "조개고래 구출 후 태양의 날 낮 / 낚시 미끼 준비",
       "hint": "징기스칸과 함께 이 게임 러브 입수 난이도 부동의 1위 이벤트. 운과 다회 도전이 필요하다. 태양의 날 아침시간이 되자마자 도전하면 하루에 2번 도전할 수 있다. 참가하기 전에 낚시 미끼를 충분히 준비하고, 가능하면 살쾡이 식당에서 낚시 성공률을 올려 주는 「찌르르 볶음」를 먹어 둔다. 첫 참가 때는 낚시터에서 먼저 한 번 낚아 고정으로 나오는 기판 아이템을 빼낸 뒤 가마카츠에게 말을 걸어 콘테스트를 시작하고, 제한시간 안에 물고기 5마리를 잡으면 완료된다.",
-      "review": "생선명/낚시 UI와 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E9%87%A3%E3%82%8A%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88.html",
@@ -803,8 +725,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "밤에 BAR 완다 뒤 요시다에게 바리바리섬 원정을 부탁 / 액션 리미트 1.5일 이상 권장",
       "hint": "밤에 BAR 완다 뒷길 새장의 요시다에게 말을 걸어 바리바리섬 여행을 잡는다. 해당 맵에서 아침까지 기다리면 출발할 수 있으며, 맵을 벗어나면 예약이 자동으로 취소된다. 이동 중에는 음식을 먹을 수 없으므로 출발 전에 최소 1.5일, 안전하게는 2일 정도의 액션 리미트를 확보한다. 섬 오른쪽에서 마데☆스마를 만나 모범 연주를 듣고 총 4번의 연주 미니게임을 통과하면 완료된다. 이벤트 중에는 액션 리미트가 줄지 않고 실패해도 재도전할 수 있다.",
-      "review": "이동에 2일분 체력 필요. ギャムラン 표기와 음악성 검토.",
-      "status": "자료차이",
       "discrepancy": "바리바리섬 편도 소요: Kamigame/11game 간이 차트는 약 1.5일. 일부 기존 자료는 2일로 안내. 사이트는 1.5일 이상, 안전하게 2일 권장.",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%87%E3%83%B3%E3%83%91%E3%82%B6%E3%83%AB%E3%81%A8%E3%81%AE%E6%BC%94%E5%A5%8F.html",
@@ -824,9 +744,7 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "왕의 편지로 로켓 개발 시작 후, 로켓 부품 5종 전달",
       "hint": "필요한 부품은 「로비의 전자두뇌」, 「플스테(게임스테이션)」, 「냉장고」, 「전파 리큐르」, 「헤이키치백척폭죽알」 5종이다. 플스테·냉장고는 버섯의 숲 비밀 낚시터, 전파 리큐르는 바리바리섬, 전자두뇌는 테크노폴리스 113호실, 폭죽알은 타마야 공방에서 얻는다.",
-      "review": "LOVE 수치 자료 충돌. Kamigame +2 / 11game +3. 부품 목록과 진행 순서는 교차검증됨.",
-      "status": "자료차이",
-      "discrepancy": "획득 LOVE: Kamigame은 +2, 11game은 +3. 현재 표는 용어집의 Kamigame 기준 +2 유지.",
+      "discrepancy": "획득 LOVE: Kamigame은 +2, 11game은 +3으로 안내합니다. 이 공략에는 +2로 표시했습니다.",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%98%E3%82%A4%E3%82%AC%E3%83%BC%E5%8D%9A%E5%A3%AB%E3%81%AE%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88%E9%96%8B%E7%99%BA.html",
         "https://11game.site/moon-chart/",
@@ -844,8 +762,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "메아리의 날 또는 태양의 날, 테크노폴리스 113호실",
       "hint": "메아리의 날이나 태양의 날에 113호실로 가면 로비가 충전 중이다. 가슴을 열어 잠금 해제 미니게임을 시작하고, 회로가 빛난 순서를 외운 뒤 같은 순서로 버튼을 누른다. 단계가 올라갈수록 난이도가 높아지며, 한 번 틀리면 처음부터 다시 해야 한다. 동영상을 틀어 두고 휴대폰 등으로 빛나는 순서를 찍으면서 하면 훨씬 쉽다.",
-      "review": "로켓 부품과도 연결. 아이템명 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/22.html",
@@ -863,8 +779,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "크리스와 참참참 완료 후, 밤의 클럽 테크노",
       "hint": "살쾡이 식당에서 「크리스와 참참참」을 끝낸 상태로 밤에 클럽 테크노에 들어간다. 조건이 맞으면 입장과 함께 크리스의 라이브가 시작되며, 공연을 끝까지 보면 완료된다.",
-      "review": "라이브 대사/곡명 대조 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/22.html",
@@ -882,8 +796,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "크리스의 라이브 + 새크리파이스 애니멀즈의 라이브 완료 후",
       "hint": "두 라이브를 모두 본 뒤 사이케가 DJ를 하고 있지 않을 때 말을 건다. 두 공연에 대한 감상을 묻는 대화가 나오며 선택지는 어느 쪽을 골라도 러브를 받을 수 있다.",
-      "review": "'감상'보다 '사이케의 꿈'이 이벤트 의미에 맞을 수도 있음.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/22.html",
@@ -901,8 +813,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "초승달·눈물·네카의 날 밤 VIP룸 3회 → 메아리의 날",
       "hint": "초승달의 날·눈물의 날·네카의 날 밤에 클럽 테크노 VIP룸을 각각 한 번씩 찾아 로보 시장들과 샐러리맨의 대화를 모두 듣는다. 세 날을 채운 뒤 메아리의 날 VIP룸의 레이디 테크노에게 자신이 로봇이라는 사실을 알려 준다. 레이디가 오버히트한 뒤 302호실로 찾아가 다시 대화해야 완료된다.",
-      "review": "テクノ/レディ 표기와 방번호 UI 대조.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/22.html",
@@ -920,8 +830,6 @@ window.MOON_GUIDE_DATA = {
       "love": 4,
       "condition": "새벽 직전, 테크노폴리스 전차 199호실",
       "hint": "새벽이 되기 직전 199호실에 가면 샐러리맨 한 명이 설문을 부탁한다. 제한시간이 짧으므로 곧바로 방 안의 모든 샐러리맨에게 빠짐없이 말을 건 뒤, 처음 의뢰한 샐러리맨에게 돌아가 결과를 보고한다.",
-      "review": "시간 제한 이벤트. 리맨/샐러리맨 표기 결정 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/22.html",
@@ -939,8 +847,6 @@ window.MOON_GUIDE_DATA = {
       "love": 2,
       "condition": "새크리파이스 애니멀즈 멤버 전원 소울캐치 후, 밤의 클럽 테크노",
       "hint": "새크리파이스 애니멀즈의 멤버를 전부 소울캐치한 뒤 밤에 클럽 테크노로 간다. 조건이 맞으면 스페셜 라이브가 열리고 공연을 끝까지 보면 러브와 MD No.36 「2001」을 받는다. 라이브가 바로 뜨지 않으면 사이케에게 공연 이야기를 먼저 확인한다.",
-      "review": "밴드명은 음차 유지 후보. 애니멀 시트와 연결.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/22.html",
@@ -958,8 +864,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "레이디 테크노의 비밀 완료 후 VIP룸",
       "hint": "레이디 테크노가 자신이 로봇이라는 사실을 깨달은 뒤 다시 클럽 테크노 VIP룸으로 간다. 돌아온 로보 시장에게 말을 걸어 이후의 대화를 들으면 의문이 풀리며 완료된다.",
-      "review": "町長을 시장/동장 중 결정. 테크노폴리스 톤상 시장 후보.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/22.html",
@@ -977,8 +881,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "테크노폴리스 로켓 개발실 오른쪽 게임기 / LEVEL 5까지",
       "hint": "낚시 콘테스트와 함께 이 게임 러브 입수 난이도 부동의 1위 이벤트. 로켓 개발실 오른쪽의 게임기를 조사해 징기스칸을 시작하고 LEVEL 5까지 클리어한다. 각 레벨을 끝낼 때의 이동 속도와 관성이 다음 레벨 시작에 그대로 이어지므로, 특히 LEVEL 4 마지막에서는 급하게 움직이지 말고 속도를 충분히 줄인 상태로 골인해야 LEVEL 5 시작 직후 사고를 피하기 쉽다.",
-      "review": "음식/춤/게임명 패러디 가능성. 원문 대사 대조 필요.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://pidlio.com/moon/map/22.html",
@@ -996,8 +898,6 @@ window.MOON_GUIDE_DATA = {
       "love": 1,
       "condition": "번 음악당에서 번에게 두 번 말해 퀴즈 시작 / 3문제 연속 정답",
       "hint": "번에게 계속 말을 걸어 인트로 퀴즈 도전을 받아들인다. 흘러나오는 곡의 인트로를 듣고 선택지에서 곡명을 맞히며, 3문제를 연속으로 정답 처리하면 완료된다. 중간에 틀리면 연승이 끊기므로 다시 처음부터 도전한다.",
-      "review": "バーン 표기 미정이면 인물 시트와 통일.",
-      "status": "검증완료",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%90%E3%83%BC%E3%83%B3%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA.html",
@@ -3304,42 +3204,26 @@ window.MOON_GUIDE_DATA = {
       "title": "달 출발",
       "where": "테크노폴리스 → 달",
       "summary": "로켓 완성 후 충분한 액션 리미트를 확보하고 최종 구간으로 간다.",
-      "hint": "달로 향하면 되돌아올 수 없다. 용어집은 Lv22를 최소선으로 기록하고, 외부 공략은 5일가량의 액션 리미트를 확보하라고 안내한다. 엔딩 선택 자체는 사이트에서 기본 스포일러로 숨긴다."
+      "hint": "달로 향하면 되돌아올 수 없다. 러브 레벨 22 이상을 목표로 하고, 약 5일분의 액션 리미트를 확보한 뒤 출발하는 편이 안전하다. 엔딩 선택은 기본 스포일러로 숨긴다."
     }
   ],
   "sources": [
     {
-      "name": "moon: Remix RPG Adventure 통합 용어집 v1.5",
-      "kind": "사용자 제공 기준 자료",
-      "url": ""
-    },
-    {
-      "name": "moon v1.10 전체 번역 검수 HTML",
-      "kind": "한국어 표기 교차확인",
-      "url": ""
-    },
-    {
       "name": "神ゲー攻略 — 공략 TOP / 이벤트 / 러브 / 애니멀 / MD",
-      "kind": "조건·진행·시간 교차검증",
+      "kind": "이벤트·러브·애니멀·MD 참고",
       "url": "https://kamigame.jp/moon/index.html"
     },
     {
       "name": "ピドリオ.com moon 공략",
-      "kind": "요일·지도·퍼즐·애니멀 교차검증",
+      "kind": "요일·지도·퍼즐·애니멀 참고",
       "url": "https://pidlio.com/moon/"
     },
     {
       "name": "ヒスイの攻略DB — MOON 이벤트",
-      "kind": "이벤트 진행 흐름 교차검증",
+      "kind": "이벤트 진행 참고",
       "url": "https://11game.site/love-event/"
     }
-  ],
-  "notes": {
-    "glossary": "한국어 명칭은 제공된 용어집 v1.5의 권장 한국어/게임 내 표기를 우선합니다.",
-    "spoiler": "요일·시간·장소·러브 값은 기본 표시하고, 실제 해결 순서와 정답은 힌트로 가립니다.",
-    "schedule": "요일표는 확인된 핵심 일정부터 채운 실사용 베타입니다. 모든 NPC 일과표를 의미하지 않습니다.",
-    "loveHints": "러브 이벤트 50개 힌트 1차 전수 검증·보강 완료(v1.1). 여러 공략에서 값이 충돌하는 항목은 자료 차이 배지로 표시했으며 임의로 단정하지 않음."
-  }
+  ]
 };
 
 (()=>{
@@ -3469,7 +3353,7 @@ const KIBAN_DATA=[
   {name:'타오의 석판',jp:'タオの石板',decode:true,acquire:'타오의 은신처에 있는 구멍에서 입수.',detail:'해독기로는 ‘무언가를 만들어 내기 위한 마법진’ 정도만 읽힌다. 그림을 공략에 대조하면 타마야 공방의 불꽃 화약 배열을 알려 주는 힌트로 볼 수 있다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/','https://11game.info/moon/stone-board/']},
   {name:'연구실 석판',jp:'研究室の石板',decode:true,acquire:'헤이거 박사의 연구실에서 입수.',detail:'해독기는 ‘무언가의 숨은 장소’라고만 읽어 준다. 그림을 보면 로비와 전파숭이가 표시되어 있어 로켓 부품의 행방—로비의 전자두뇌와 전파 리큐르—을 찾는 힌트가 된다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/']},
   {name:'문어의 돌',jp:'タコの石',decode:true,acquire:'나뭇잎의 날에 소년의 집에서 자면 문어가 떨어뜨린다.',detail:'해독기는 역시 ‘무언가의 숨은 장소’라고만 읽어 준다. 그림과 공략상 의미는 로켓 부품의 다른 단서인 ‘낚시’와 ‘타마야 공방’이다. 버섯의 숲 낚시터와 타마야 공방 쪽을 조사할 이유를 알려 준다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/','https://11game.info/moon/stone-board/']},
-  {name:'떨어진 소년이야기',jp:'落ちた少年の物語',decode:false,acquire:'바리바리섬의 전파숭이 연주 미니게임을 완료한 뒤 받는다.',detail:'해독기에서는 읽을 수 없다. 일본 공략에서는 그림을 ‘게임의 도해’로 정리하며, 사이트의 기존 용어집 설명처럼 주인공과 이 세계의 구조를 생각하게 하는 기판이다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/']},
+  {name:'떨어진 소년이야기',jp:'落ちた少年の物語',decode:false,acquire:'바리바리섬의 전파숭이 연주 미니게임을 완료한 뒤 받는다.',detail:'해독기에서는 읽을 수 없다. 그림은 ‘게임의 도해’로 정리되며, 주인공과 이 세계의 구조를 생각하게 하는 기판이다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/']},
   {name:'대신의 보물',jp:'大臣の宝物',decode:false,acquire:'풍차암 지하의 에코클럽 아지트에서 입수.',detail:'해독기에서는 읽을 수 없지만, 그림은 하얀 깃 화살로 용사를 선정하는 ‘하얀 깃 화살 의식’을 나타내는 것으로 정리된다. 용사가 만들어진 경위를 이해하는 스토리 단서다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/','https://pidlio.com/moon/data/chara.html']},
   {name:'???????',jp:'？？？？？？？',decode:false,acquire:'조개고래의 후미에서 낚시로 획득.',detail:'해독기에서는 읽을 수 없다. 그림은 풍차암 지하를 가리키는 힌트로 해석되며, 에코클럽 아지트에 들어가는 단서가 된다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/']}
 ];
@@ -3605,7 +3489,7 @@ fillSelect($('#animalPlace'),D.animals.map(x=>getPlaceRoot(x.place)),'전체 지
 fillSelect($('#itemCategory'),D.items.map(x=>x.category),'전체 분류');
 
 function renderLove(){
-  $('#loveBody').innerHTML=D.love.map(x=>{const id='love:'+x.id;return `<tr id="love-event-${esc(x.id)}" data-progress-row="${id}" data-love-row data-search="${esc(norm([x.name,x.jp,x.place,x.condition,x.related].join(' ')))}" data-place="${esc(getPlaceRoot(x.place))}" class="${isDone(id)?'done':''}"><td>${progressCheckbox(id,x.name+' 완료')}</td><td><span class="primaryName">${esc(x.name)}</span><span class="subName">${esc(x.jp)}${x.status?` · ${esc(x.status)}`:''}</span></td><td>${esc(x.place)}</td><td>${esc(x.condition||'—')}</td><td><span class="loveVal">+${esc(x.love)}</span>${x.discrepancy?`<span class="badge discrepancy" title="${esc(x.discrepancy)}">자료 차이</span>`:''}</td><td>${spoiler('love-'+x.id,x.hint,'진행 힌트 보기')}${sourceLinks(x.sources)}</td></tr>`}).join('');
+  $('#loveBody').innerHTML=D.love.map(x=>{const id='love:'+x.id;return `<tr id="love-event-${esc(x.id)}" data-progress-row="${id}" data-love-row data-search="${esc(norm([x.name,x.jp,x.place,x.condition,x.related].join(' ')))}" data-place="${esc(getPlaceRoot(x.place))}" class="${isDone(id)?'done':''}"><td>${progressCheckbox(id,x.name+' 완료')}</td><td><span class="primaryName">${esc(x.name)}</span><span class="subName">${esc(x.jp)}</span></td><td>${esc(x.place)}</td><td>${esc(x.condition||'—')}</td><td><span class="loveVal">+${esc(x.love)}</span>${x.discrepancy?`<span class="badge discrepancy" title="${esc(x.discrepancy)}">자료 차이</span>`:''}</td><td>${spoiler('love-'+x.id,x.hint,'진행 힌트 보기')}${sourceLinks(x.sources)}</td></tr>`}).join('');
   bindProgress($('#loveBody'));initSpoilers($('#loveBody'));filterLove();
 }
 function filterLove(){

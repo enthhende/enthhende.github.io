@@ -22,7 +22,7 @@
   </div>
 </header>
 <nav class="topnav" aria-label="주요 메뉴"><div class="wrap navInner">
-  <a href="#start">처음 시작</a><a href="#tips">초반 팁</a><a href="#schedule">요일별 일정</a><a href="#story">스토리</a><a href="#love">러브</a><a href="#animals">애니멀</a><a href="#md">MD</a><a href="#items">아이템</a><a href="#kiban">기판</a><a href="#areas">지역</a><a href="#sources">출처</a>
+  <a href="#start">처음 시작</a><a href="#tips">초반 팁</a><a href="#schedule">요일별 일정</a><a href="#story">스토리</a><a href="#love">러브</a><a href="#animals">애니멀</a><a href="#md">MD</a><a href="#items">아이템</a><a href="#kiban">기판</a><a href="#areas">지역</a><a href="#sources">참고 자료</a>
 </div></nav>
 <main class="wrap">
 <section class="controlDock" aria-label="공통 설정">
@@ -83,7 +83,7 @@
 
 <section id="schedule" class="section">
   <div class="sectionHead"><div><span class="kicker">WEEKLY PLANNER</span><h2>요일별 일정표</h2></div><p>“오늘 뭐 하지?”에 바로 답하는 페이지.</p></div>
-  <div class="notice slim"><b>요일표는 확인된 핵심 일정부터 채운 실사용 베타입니다.</b> 모든 NPC의 일과표를 뜻하지 않으며, 러브가 아닌 유용한 날짜 한정 행동도 포함합니다.</div>
+  <div class="notice slim"><b>요일표에는 플레이에 중요한 핵심 일정을 정리했습니다.</b> 모든 NPC의 일과표를 뜻하지 않으며, 러브가 아닌 유용한 날짜 한정 행동도 포함합니다.</div>
   <div class="toolbar wrapTools">
     <div id="dayTabs" class="tabs" role="group" aria-label="요일 필터"></div>
     <div class="tabs" role="group" aria-label="완료 상태 필터">
@@ -109,8 +109,8 @@
 </section>
 
 <section id="love" class="section dataSection">
-<div class="notice slim"><strong>러브 힌트 v1.1 검증 완료</strong> · 50개 이벤트의 선행조건·시간·행동 순서를 공략 자료와 교차검증했습니다. 자료가 충돌하는 항목은 <b>자료 차이</b>로 남겨 두었습니다.</div>
-  <div class="sectionHead"><div><span class="kicker">LOVE EVENTS</span><h2>러브 이벤트 50</h2></div><p>용어집 v1.5의 한국어명을 기준으로 정리.</p></div>
+<div class="notice slim"><strong>자료마다 LOVE 수치가 다른 항목에는 ‘자료 차이’ 배지가 표시됩니다.</strong></div>
+  <div class="sectionHead"><div><span class="kicker">LOVE EVENTS</span><h2>러브 이벤트 50</h2></div><p>장소·시간·진행 힌트를 한눈에 확인합니다.</p></div>
   <div class="toolbar">
     <input id="loveSearch" class="search" type="search" placeholder="이벤트·장소·인물 검색">
     <select id="loveStatus" class="select"><option value="all">전체 상태</option><option value="open">미완료만</option><option value="done">완료만</option></select>
@@ -142,7 +142,7 @@
 </section>
 
 <section id="items" class="section dataSection">
-  <div class="sectionHead"><div><span class="kicker">ITEMS</span><h2>아이템 사전</h2></div><p>MD를 제외한 용어집 아이템 77항목.</p></div>
+  <div class="sectionHead"><div><span class="kicker">ITEMS</span><h2>아이템 사전</h2></div><p>MD를 제외한 아이템 77종.</p></div>
   <div class="toolbar">
     <input id="itemSearch" class="search" type="search" placeholder="아이템·용도·입수처 검색">
     <select id="itemCategory" class="select"><option value="all">전체 분류</option></select>
@@ -172,13 +172,12 @@
 </section>
 
 <section id="sources" class="section">
-  <div class="sectionHead"><div><span class="kicker">SOURCES</span><h2>자료 기준과 출처</h2></div></div>
-  <div class="notice"><b>한국어 명칭 우선순위</b><p>사용자가 제공한 통합 용어집 v1.5 → 번역 검수 HTML의 실제 한글판 표기 → 외부 공략의 사실관계 순으로 적용했습니다. 외부 공략 문장은 그대로 옮기지 않고 요약했습니다.</p></div>
+  <div class="sectionHead"><div><span class="kicker">REFERENCES</span><h2>참고한 공략 자료</h2></div></div>
   <div id="sourceList" class="sourceList"></div>
-  <details class="sourcePolicy"><summary>자료 차이가 있는 항목 처리 원칙</summary><p>용어집과 외부 공략의 LOVE 수치·최소 레벨 등이 다르면 사이트에서 ‘자료 차이’ 배지를 표시하고, 임의로 하나를 정답이라고 덮어쓰지 않습니다. 실제 패치 런타임으로 확인된 값이 생기면 그 값을 우선하도록 데이터만 교체할 수 있습니다.</p></details>
+  <details class="sourcePolicy"><summary>‘자료 차이’ 배지 안내</summary><p>참고 자료마다 LOVE 수치나 최소 레벨이 다른 항목에 표시됩니다. 해당 항목의 참고 링크에서 자료 내용을 확인할 수 있습니다.</p></details>
 </section>
 </main>
-<footer><div class="wrap"><b>moon 한국어 패치 & 공략</b><span>정적 사이트 · 오프라인 동작 · GitHub Pages 대응 · v1.1.13</span></div></footer>
+<footer><div class="wrap"><b>moon 한국어 패치 & 공략</b><span>공략 v1.1.13</span></div></footer>
 <script src="../../../assets/js/moon-guide.js"></script>
 </body>
 </html>

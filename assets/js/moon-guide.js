@@ -49,7 +49,7 @@ window.MOON_GUIDE_DATA = {
       "related": "ニッカ",
       "love": 1,
       "condition": "레인보우 제너레이터 가동 후, 레인보우 록스 끝에서 닛카와 대화",
-      "hint": "레인보우 제너레이터로 길을 연 뒤 오른쪽 끝까지 진행해 닛카 앞을 지나가면 닛카가 불러 세운다. 대화를 끝내면 소년의 집을 넘겨받고 두 번째 수면 거점이 열린다.",
+      "hint": "레인보우 제너레이터로 길을 연 뒤 오른쪽 끝까지 진행해 닛카 앞을 지나가면 닛카가 불러 세운다. 대화를 끝내면 소년의 집을 넘겨받고 두 번째 수면 거점이 열린다. 소년의 집에서 자면 헤비가 할머니의 집에 찾아와 그곳의 침대를 더는 이용할 수 없게 되므로, 성과 레인보우 록스의 러브를 어느 정도 챙긴 뒤 집을 받는 것을 추천한다.",
       "discrepancy": "",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%83%8B%E3%83%83%E3%82%AB%E3%81%AE%E6%97%85%E7%AB%8B%E3%81%A1.html",
@@ -1254,12 +1254,12 @@ window.MOON_GUIDE_DATA = {
       "jp": "貝クジラ",
       "name": "조개고래",
       "alt": "셸웨일",
-      "place": "조개고래의 후미",
+      "place": "조개고래의 만",
       "time": "밤에만",
       "love": 2,
       "reward": "달의 조각",
       "file": "애니멀 파일 확인 불가. 울음/물기둥이 힌트.",
-      "hint": "밤에 조개고래의 후미로 간다. 조개고래의 울음소리가 들리거나 바다에서 물을 뿜는 모습이 보일 때 낚시를 하면 조개고래가 걸리며 그대로 소울캐치할 수 있다.",
+      "hint": "밤에 조개고래의 만으로 간다. 조개고래의 울음소리가 들리거나 바다에서 물을 뿜는 모습이 보일 때 낚시를 하면 조개고래가 걸리며 그대로 소울캐치할 수 있다.",
       "status": "검토",
       "sources": [
         "https://kamigame.jp/moon/%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB/index.html",
@@ -2364,7 +2364,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "マンボウ",
       "name": "개복치",
       "effect": "먹거나 판매 가능. 판매가 90네카.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "검토",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -2373,7 +2373,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "アンコウ",
       "name": "아귀",
       "effect": "먹거나 판매 가능. 판매가 112네카.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "검토",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -2382,7 +2382,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "アイアンフィッシュ",
       "name": "아이언피시",
       "effect": "먹거나 판매 가능. 판매가 202네카.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "검토",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -2391,7 +2391,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "ピラルクー",
       "name": "피라루쿠",
       "effect": "먹거나 판매 가능. 판매가 217네카.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "검토",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -2400,7 +2400,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "ピンクフィッシュ",
       "name": "핑크피시",
       "effect": "먹거나 판매 가능. 판매가 225네카.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "검토",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -2409,7 +2409,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "オコゼ",
       "name": "쑤기미",
       "effect": "먹거나 판매 가능. 판매가 300네카.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "검토",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -2544,7 +2544,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "？？？？？？？",
       "name": "???????",
       "effect": "에코클럽 아지트 입장 힌트가 적힌 기판.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "확정",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -2553,7 +2553,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "空き缶",
       "name": "빈 깡통",
       "effect": "가라쿠타. 판매가 75네카.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "검토",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -2562,7 +2562,7 @@ window.MOON_GUIDE_DATA = {
       "jp": "ボロ靴",
       "name": "낡은 신발",
       "effect": "가라쿠타. 판매가 75네카.",
-      "acquire": "조개고래의 후미에서 낚시.",
+      "acquire": "조개고래의 만에서 낚시.",
       "status": "검토",
       "source": "https://pidlio.com/moon/data/item.html"
     },
@@ -3362,7 +3362,7 @@ const KIBAN_DATA=[
   {name:'문어의 돌',jp:'タコの石',decode:true,acquire:'나뭇잎의 날에 소년의 집에서 자면 문어가 떨어뜨린다.',detail:'해독기는 역시 ‘무언가의 숨은 장소’라고만 읽어 준다. 그림과 공략상 의미는 로켓 부품의 다른 단서인 ‘낚시’와 ‘타마야 공방’이다. 버섯의 숲 낚시터와 타마야 공방 쪽을 조사할 이유를 알려 준다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/','https://11game.info/moon/stone-board/']},
   {name:'떨어진 소년이야기',jp:'落ちた少年の物語',decode:false,acquire:'바리바리섬의 전파숭이 연주 미니게임을 완료한 뒤 받는다.',detail:'해독기에서는 읽을 수 없다. 그림은 ‘게임의 도해’로 정리되며, 주인공과 이 세계의 구조를 생각하게 하는 기판이다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/']},
   {name:'대신의 보물',jp:'大臣の宝物',decode:false,acquire:'풍차암 지하의 에코클럽 아지트에서 입수.',detail:'해독기에서는 읽을 수 없지만, 그림은 하얀 깃 화살로 용사를 선정하는 ‘하얀 깃 화살 의식’을 나타내는 것으로 정리된다. 용사가 만들어진 경위를 이해하는 스토리 단서다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/','https://pidlio.com/moon/data/chara.html']},
-  {name:'???????',jp:'？？？？？？？',decode:false,acquire:'조개고래의 후미에서 낚시로 획득.',detail:'해독기에서는 읽을 수 없다. 그림은 풍차암 지하를 가리키는 힌트로 해석되며, 에코클럽 아지트에 들어가는 단서가 된다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/']}
+  {name:'???????',jp:'？？？？？？？',decode:false,acquire:'조개고래의 만에서 낚시로 획득.',detail:'해독기에서는 읽을 수 없다. 그림은 풍차암 지하를 가리키는 힌트로 해석되며, 에코클럽 아지트에 들어가는 단서가 된다.',sources:['https://pidlio.com/moon/data/kiban.html','https://11game.site/moon-item/']}
 ];
 const AREA_CORE_HINTS={
   "레인보우 록스": [

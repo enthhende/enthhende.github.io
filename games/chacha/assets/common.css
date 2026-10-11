@@ -1,0 +1,184 @@
+:root {
+      --bg: #f4f0e8;
+      --paper: #fffdf8;
+      --ink: #28241f;
+      --muted: #756e64;
+      --line: #ddd5c8;
+      --accent: #5a609d;
+      --accent2: #343857;
+      --soft: #eeedf8;
+      --ok: #3d7a61;
+      --soon: #8a6a35;
+      --shadow: 0 10px 32px rgba(49, 43, 34, .08);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 15px/1.65 system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 28px)); margin: auto; }
+
+    .hero {
+      background: linear-gradient(135deg, #292b47, #575d91);
+      color: #fff;
+      padding: 52px 0 44px;
+    }
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: .14em;
+      font-weight: 900;
+      color: #dcdcf0;
+    }
+    .hero h1 {
+      font-size: clamp(32px, 6vw, 52px);
+      line-height: 1.08;
+      margin: 8px 0 12px;
+    }
+    .hero p {
+      max-width: 720px;
+      color: #e7e7f3;
+      margin: 0;
+    }
+
+    .topnav {
+      background: rgba(255, 253, 248, .96);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(8px);
+    }
+    .nav {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      padding: 8px 0;
+      overflow: auto;
+    }
+    .nav a {
+      text-decoration: none;
+      padding: 7px 10px;
+      border-radius: 8px;
+      white-space: nowrap;
+      font-size: 13px;
+    }
+    .nav a:hover {
+      background: var(--soft);
+      color: var(--accent);
+    }
+
+    main { padding: 30px 0 70px; }
+    .section { margin-top: 32px; }
+    .section:first-child { margin-top: 0; }
+    .section h2 { font-size: 26px; margin: 0 0 6px; }
+    .sectionLead { color: var(--muted); margin: 0 0 16px; }
+
+    /* 게임이 늘어나면 PC에서는 자동으로 여러 열, 모바일에서는 한 열로 배치됩니다. */
+    .gameGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+    .gameCard {
+      display: flex;
+      flex-direction: column;
+      min-height: 280px;
+    }
+    .gameCard h3 {
+      margin: 8px 0 7px;
+      font-size: 24px;
+    }
+    .gameCard p { margin: 0; color: var(--muted); }
+    .gameCard .actions { margin-top: auto; padding-top: 20px; }
+
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 850;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #ece8df;
+      color: #5f574d;
+    }
+    .badge.live { background: #e4f0e9; color: #2f654f; }
+    .badge.soon { background: #f6edd8; color: #7c602b; }
+
+    .gameLinks {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+    .gameLinks span + span::before {
+      content: "·";
+      margin-right: 7px;
+      color: #b6ada0;
+    }
+
+    .actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 8px 13px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 800;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .btn.secondary {
+      background: var(--soft);
+      border-color: #d6d3eb;
+      color: #454b82;
+    }
+
+    .guideNote {
+      margin-top: 10px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .tiny { font-size: 12px; color: var(--muted); }
+    footer {
+      border-top: 1px solid var(--line);
+      background: #ece7de;
+      padding: 24px 0;
+      color: var(--muted);
+    }
+    footer b { color: var(--ink); }
+
+    @media (max-width: 560px) {
+      .hero { padding: 38px 0 32px; }
+      .wrap { width: min(100% - 20px, 1120px); }
+      .gameGrid { grid-template-columns: 1fr; }
+      .btn { width: 100%; }
+    }

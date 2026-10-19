@@ -1,0 +1,959 @@
+{
+  "schema": "homestar-homepage-data-v1",
+  "version": "1.0.0",
+  "menus": [
+    {
+      "id": "sky",
+      "title": "밤하늘 재현",
+      "screen": "03-starry-sky-night"
+    },
+    {
+      "id": "theater",
+      "title": "판타지 시어터",
+      "screen": "18-theater-list"
+    },
+    {
+      "id": "sharing",
+      "title": "게임 공유",
+      "screen": "23-sharing-main-menu"
+    },
+    {
+      "id": "gps",
+      "title": "GPS",
+      "screen": "29-gps-menu"
+    },
+    {
+      "id": "sound",
+      "title": "사운드",
+      "screen": "21-sound-list"
+    },
+    {
+      "id": "credits",
+      "title": "제작진",
+      "screen": null
+    }
+  ],
+  "theater": [
+    {
+      "id": "theater-01",
+      "title": "봄의 별자리",
+      "translation_id": "U023-0263"
+    },
+    {
+      "id": "theater-02",
+      "title": "여름의 별자리",
+      "translation_id": "U023-0264"
+    },
+    {
+      "id": "theater-03",
+      "title": "가을의 별자리",
+      "translation_id": "U023-0265"
+    },
+    {
+      "id": "theater-04",
+      "title": "겨울의 별자리",
+      "translation_id": "U023-0266"
+    },
+    {
+      "id": "theater-05",
+      "title": "여름철 대삼각형",
+      "translation_id": "U023-0267"
+    },
+    {
+      "id": "theater-06",
+      "title": "겨울철 대삼각형",
+      "translation_id": "U023-0268"
+    },
+    {
+      "id": "theater-07",
+      "title": "태양계",
+      "translation_id": "U023-0269"
+    },
+    {
+      "id": "theater-08",
+      "title": "유성",
+      "translation_id": "U023-0270"
+    },
+    {
+      "id": "theater-09",
+      "title": "일식",
+      "translation_id": "U023-0271"
+    },
+    {
+      "id": "theater-10",
+      "title": "남반구의 밤하늘",
+      "translation_id": "U023-0272"
+    },
+    {
+      "id": "theater-11",
+      "title": "이시가키섬의 특별한 밤",
+      "translation_id": "U023-0273"
+    },
+    {
+      "id": "theater-12",
+      "title": "성단",
+      "translation_id": "U023-0274"
+    },
+    {
+      "id": "theater-13",
+      "title": "성운",
+      "translation_id": "U023-0275"
+    },
+    {
+      "id": "theater-14",
+      "title": "우리은하",
+      "translation_id": "U023-0276"
+    },
+    {
+      "id": "theater-15",
+      "title": "칠석",
+      "translation_id": "U023-0277"
+    },
+    {
+      "id": "theater-16",
+      "title": "황도 12별자리",
+      "translation_id": "U023-0278"
+    },
+    {
+      "id": "theater-17",
+      "title": "오리온자리",
+      "translation_id": "U023-0279"
+    },
+    {
+      "id": "theater-18",
+      "title": "별빛이 도착하기까지",
+      "translation_id": "U023-0280"
+    },
+    {
+      "id": "theater-19",
+      "title": "별의 밝기",
+      "translation_id": "U023-0281"
+    },
+    {
+      "id": "theater-20",
+      "title": "홈스타의 밤하늘",
+      "translation_id": "U023-0282"
+    }
+  ],
+  "sound": [
+    "Jupiter",
+    "여행의 시작",
+    "지구에 닿는 목소리",
+    "빛의 곁에서",
+    "멀어지는 온기",
+    "바람을 따라",
+    "겨울을 부르는 목소리",
+    "the cycle of..",
+    "shooting star",
+    "우주의 나그네"
+  ],
+  "settings": [
+    {
+      "group": "밤하늘 설정",
+      "name": "낮의 밝기",
+      "values": [
+        "표시",
+        "숨김"
+      ]
+    },
+    {
+      "group": "밤하늘 설정",
+      "name": "자연 현상",
+      "values": [
+        "표시",
+        "숨김"
+      ]
+    },
+    {
+      "group": "밤하늘 설정",
+      "name": "재생 속도",
+      "values": [
+        "초고속",
+        "고속",
+        "실시간",
+        "홈스타"
+      ]
+    },
+    {
+      "group": "밤하늘 설정",
+      "name": "등급 필터",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        16
+      ],
+      "note": "화면에 표시된 선택값. 수치의 천문학적 경계를 임의로 미만/이상으로 풀어 쓰지 않음."
+    },
+    {
+      "group": "밤하늘 설정",
+      "name": "고도선",
+      "values": [
+        "표시",
+        "숨김"
+      ]
+    },
+    {
+      "group": "밤하늘 설정",
+      "name": "비디오 모드",
+      "values": [
+        "ON",
+        "OFF"
+      ]
+    },
+    {
+      "group": "밤하늘 설정",
+      "name": "초기화",
+      "values": [
+        "초기 상태로 되돌리기"
+      ]
+    },
+    {
+      "group": "별자리·천체",
+      "name": "별자리 이름",
+      "values": [
+        "표시",
+        "숨김"
+      ]
+    },
+    {
+      "group": "별자리·천체",
+      "name": "별자리 선",
+      "values": [
+        "표시",
+        "숨김"
+      ]
+    },
+    {
+      "group": "별자리·천체",
+      "name": "별자리 그림",
+      "values": [
+        "표시",
+        "숨김"
+      ]
+    },
+    {
+      "group": "별자리·천체",
+      "name": "천체 이름",
+      "values": [
+        "표시",
+        "숨김"
+      ]
+    },
+    {
+      "group": "날짜·시간 변경",
+      "name": "날짜·시간",
+      "values": [
+        "년",
+        "월",
+        "일",
+        "시",
+        "분"
+      ],
+      "note": "자릿수 직접 변경 / 본체 시간 적용"
+    },
+    {
+      "group": "관측지 변경",
+      "name": "지역",
+      "values": [
+        "홋카이도",
+        "도호쿠",
+        "간토",
+        "주부",
+        "긴키",
+        "주고쿠",
+        "시코쿠",
+        "규슈",
+        "오키나와",
+        "북아메리카",
+        "남아메리카",
+        "아시아",
+        "동남아시아",
+        "오세아니아·남극",
+        "중동·아프리카",
+        "유럽",
+        "입력"
+      ]
+    },
+    {
+      "group": "관측지 변경",
+      "name": "직접 입력",
+      "values": [
+        "위도",
+        "경도",
+        "시차"
+      ],
+      "note": "수치상한은 이 자료에서 임의로 단정하지 않음"
+    },
+    {
+      "group": "천체 검색",
+      "name": "분류",
+      "values": [
+        "별자리",
+        "항성",
+        "메시에 천체",
+        "태양계",
+        "기타"
+      ]
+    },
+    {
+      "group": "GPS·기본판",
+      "name": "메뉴",
+      "values": [
+        "현재 위치에서 관측",
+        "GPS 모드 해제"
+      ],
+      "note": "외장 GPS 실물 미검증. Vita판 GPS 미지원"
+    },
+    {
+      "group": "공유 수신기",
+      "name": "설정",
+      "values": [
+        "시각 변경",
+        "관측지 변경"
+      ]
+    }
+  ],
+  "location_names": [
+    {
+      "name": "홋카이도 왓카나이",
+      "translation_id": "U023-0072"
+    },
+    {
+      "name": "홋카이도 아바시리",
+      "translation_id": "U023-0073"
+    },
+    {
+      "name": "홋카이도 아사히카와",
+      "translation_id": "U023-0074"
+    },
+    {
+      "name": "홋카이도 삿포로",
+      "translation_id": "U023-0075"
+    },
+    {
+      "name": "홋카이도 구시로",
+      "translation_id": "U023-0076"
+    },
+    {
+      "name": "홋카이도 히다카",
+      "translation_id": "U023-0077"
+    },
+    {
+      "name": "홋카이도 하코다테",
+      "translation_id": "U023-0078"
+    },
+    {
+      "name": "아오모리현 아오모리",
+      "translation_id": "U023-0079"
+    },
+    {
+      "name": "이와테현 모리오카",
+      "translation_id": "U023-0080"
+    },
+    {
+      "name": "미야기현 센다이",
+      "translation_id": "U023-0081"
+    },
+    {
+      "name": "아키타현 아키타",
+      "translation_id": "U023-0082"
+    },
+    {
+      "name": "야마가타현 야마가타",
+      "translation_id": "U023-0083"
+    },
+    {
+      "name": "후쿠시마현 후쿠시마",
+      "translation_id": "U023-0084"
+    },
+    {
+      "name": "이바라키현 미토",
+      "translation_id": "U023-0085"
+    },
+    {
+      "name": "도치기현 우쓰노미야",
+      "translation_id": "U023-0086"
+    },
+    {
+      "name": "군마현 마에바시",
+      "translation_id": "U023-0087"
+    },
+    {
+      "name": "사이타마현 사이타마",
+      "translation_id": "U023-0088"
+    },
+    {
+      "name": "지바현 지바",
+      "translation_id": "U023-0089"
+    },
+    {
+      "name": "도쿄도 신주쿠",
+      "translation_id": "U023-0090"
+    },
+    {
+      "name": "도쿄도 하치조섬",
+      "translation_id": "U023-0091"
+    },
+    {
+      "name": "도쿄도 오가사와라 제도(지치지마섬)",
+      "translation_id": "U023-0092"
+    },
+    {
+      "name": "가나가와현 요코하마",
+      "translation_id": "U023-0093"
+    },
+    {
+      "name": "니가타현 니가타",
+      "translation_id": "U023-0094"
+    },
+    {
+      "name": "도야마현 도야마",
+      "translation_id": "U023-0095"
+    },
+    {
+      "name": "이시카와현 가나자와",
+      "translation_id": "U023-0096"
+    },
+    {
+      "name": "후쿠이현 후쿠이",
+      "translation_id": "U023-0097"
+    },
+    {
+      "name": "야마나시현 고후",
+      "translation_id": "U023-0098"
+    },
+    {
+      "name": "나가노현 나가노",
+      "translation_id": "U023-0099"
+    },
+    {
+      "name": "기후현 기후",
+      "translation_id": "U023-0100"
+    },
+    {
+      "name": "시즈오카현 시즈오카",
+      "translation_id": "U023-0101"
+    },
+    {
+      "name": "아이치현 나고야",
+      "translation_id": "U023-0102"
+    },
+    {
+      "name": "미에현 쓰",
+      "translation_id": "U023-0103"
+    },
+    {
+      "name": "시가현 오쓰",
+      "translation_id": "U023-0104"
+    },
+    {
+      "name": "교토부 교토",
+      "translation_id": "U023-0105"
+    },
+    {
+      "name": "오사카부 오사카",
+      "translation_id": "U023-0106"
+    },
+    {
+      "name": "효고현 고베",
+      "translation_id": "U023-0107"
+    },
+    {
+      "name": "나라현 나라",
+      "translation_id": "U023-0108"
+    },
+    {
+      "name": "와카야마현 와카야마",
+      "translation_id": "U023-0109"
+    },
+    {
+      "name": "돗토리현 돗토리",
+      "translation_id": "U023-0110"
+    },
+    {
+      "name": "시마네현 마쓰에",
+      "translation_id": "U023-0111"
+    },
+    {
+      "name": "오카야마현 오카야마",
+      "translation_id": "U023-0112"
+    },
+    {
+      "name": "히로시마현 히로시마",
+      "translation_id": "U023-0113"
+    },
+    {
+      "name": "야마구치현 야마구치",
+      "translation_id": "U023-0114"
+    },
+    {
+      "name": "도쿠시마현 도쿠시마",
+      "translation_id": "U023-0115"
+    },
+    {
+      "name": "가가와현 다카마쓰",
+      "translation_id": "U023-0116"
+    },
+    {
+      "name": "에히메현 마쓰야마",
+      "translation_id": "U023-0117"
+    },
+    {
+      "name": "고치현 고치",
+      "translation_id": "U023-0118"
+    },
+    {
+      "name": "후쿠오카현 후쿠오카",
+      "translation_id": "U023-0119"
+    },
+    {
+      "name": "사가현 사가",
+      "translation_id": "U023-0120"
+    },
+    {
+      "name": "나가사키현 나가사키",
+      "translation_id": "U023-0121"
+    },
+    {
+      "name": "구마모토현 구마모토",
+      "translation_id": "U023-0122"
+    },
+    {
+      "name": "오이타현 오이타",
+      "translation_id": "U023-0123"
+    },
+    {
+      "name": "미야자키현 미야자키",
+      "translation_id": "U023-0124"
+    },
+    {
+      "name": "가고시마현 가고시마",
+      "translation_id": "U023-0125"
+    },
+    {
+      "name": "가고시마현 야쿠시마섬",
+      "translation_id": "U023-0126"
+    },
+    {
+      "name": "가고시마현 도카라 열도 나카노시마",
+      "translation_id": "U023-0127"
+    },
+    {
+      "name": "가고시마현 도카라 열도 아쿠세키섬",
+      "translation_id": "U023-0128"
+    },
+    {
+      "name": "가고시마현 아마미오섬",
+      "translation_id": "U023-0129"
+    },
+    {
+      "name": "오키나와현 나하",
+      "translation_id": "U023-0130"
+    },
+    {
+      "name": "오키나와현 미나미다이토섬",
+      "translation_id": "U023-0131"
+    },
+    {
+      "name": "오키나와현 미야코섬",
+      "translation_id": "U023-0132"
+    },
+    {
+      "name": "오키나와현 이시가키섬",
+      "translation_id": "U023-0133"
+    },
+    {
+      "name": "오키나와현 요나구니섬",
+      "translation_id": "U023-0134"
+    },
+    {
+      "name": "미국:알래스카 페어뱅크스",
+      "translation_id": "U023-0135"
+    },
+    {
+      "name": "캐나다:새스커툰",
+      "translation_id": "U023-0136"
+    },
+    {
+      "name": "캐나다:캘거리",
+      "translation_id": "U023-0137"
+    },
+    {
+      "name": "캐나다:위니펙",
+      "translation_id": "U023-0138"
+    },
+    {
+      "name": "캐나다:밴쿠버",
+      "translation_id": "U023-0139"
+    },
+    {
+      "name": "미국:시애틀",
+      "translation_id": "U023-0140"
+    },
+    {
+      "name": "캐나다:몬트리올",
+      "translation_id": "U023-0141"
+    },
+    {
+      "name": "캐나다:오타와",
+      "translation_id": "U023-0142"
+    },
+    {
+      "name": "미국:시카고",
+      "translation_id": "U023-0143"
+    },
+    {
+      "name": "미국:뉴욕",
+      "translation_id": "U023-0144"
+    },
+    {
+      "name": "미국:샌프란시스코",
+      "translation_id": "U023-0145"
+    },
+    {
+      "name": "미국:모뉴먼트밸리",
+      "translation_id": "U023-0146"
+    },
+    {
+      "name": "미국:라스베이거스",
+      "translation_id": "U023-0147"
+    },
+    {
+      "name": "미국:로스앤젤레스",
+      "translation_id": "U023-0148"
+    },
+    {
+      "name": "미국:애틀랜타",
+      "translation_id": "U023-0149"
+    },
+    {
+      "name": "미국:마이애미",
+      "translation_id": "U023-0150"
+    },
+    {
+      "name": "멕시코:멕시코시티",
+      "translation_id": "U023-0151"
+    },
+    {
+      "name": "베네수엘라:카라카스",
+      "translation_id": "U023-0152"
+    },
+    {
+      "name": "콜롬비아:보고타",
+      "translation_id": "U023-0153"
+    },
+    {
+      "name": "에콰도르:갈라파고스 제도",
+      "translation_id": "U023-0154"
+    },
+    {
+      "name": "페루:리마",
+      "translation_id": "U023-0155"
+    },
+    {
+      "name": "브라질:리우데자네이루",
+      "translation_id": "U023-0156"
+    },
+    {
+      "name": "칠레:이스터섬",
+      "translation_id": "U023-0157"
+    },
+    {
+      "name": "칠레:산티아고",
+      "translation_id": "U023-0158"
+    },
+    {
+      "name": "아르헨티나:부에노스아이레스",
+      "translation_id": "U023-0159"
+    },
+    {
+      "name": "러시아:모스크바",
+      "translation_id": "U023-0160"
+    },
+    {
+      "name": "몽골:울란바토르",
+      "translation_id": "U023-0161"
+    },
+    {
+      "name": "중국:베이징",
+      "translation_id": "U023-0162"
+    },
+    {
+      "name": "한국:서울",
+      "translation_id": "U023-0163"
+    },
+    {
+      "name": "중국:상하이",
+      "translation_id": "U023-0164"
+    },
+    {
+      "name": "인도:뉴델리",
+      "translation_id": "U023-0165"
+    },
+    {
+      "name": "대만:타이베이",
+      "translation_id": "U023-0166"
+    },
+    {
+      "name": "인도:캘커타",
+      "translation_id": "U023-0167"
+    },
+    {
+      "name": "필리핀:마닐라",
+      "translation_id": "U023-0168"
+    },
+    {
+      "name": "태국:방콕",
+      "translation_id": "U023-0169"
+    },
+    {
+      "name": "필리핀:세부섬",
+      "translation_id": "U023-0170"
+    },
+    {
+      "name": "팔라우:코로르",
+      "translation_id": "U023-0171"
+    },
+    {
+      "name": "미크로네시아",
+      "translation_id": "U023-0172"
+    },
+    {
+      "name": "말레이시아:랑카위섬",
+      "translation_id": "U023-0173"
+    },
+    {
+      "name": "인도네시아:자카르타",
+      "translation_id": "U023-0174"
+    },
+    {
+      "name": "말레이시아:팡코르섬",
+      "translation_id": "U023-0175"
+    },
+    {
+      "name": "몰디브:말레",
+      "translation_id": "U023-0176"
+    },
+    {
+      "name": "말레이시아:쿠알라룸푸르",
+      "translation_id": "U023-0177"
+    },
+    {
+      "name": "싱가포르",
+      "translation_id": "U023-0178"
+    },
+    {
+      "name": "인도네시아:발리섬",
+      "translation_id": "U023-0179"
+    },
+    {
+      "name": "하와이:오아후섬",
+      "translation_id": "U023-0180"
+    },
+    {
+      "name": "하와이:마우이섬",
+      "translation_id": "U023-0181"
+    },
+    {
+      "name": "하와이:하와이섬",
+      "translation_id": "U023-0182"
+    },
+    {
+      "name": "사이판섬",
+      "translation_id": "U023-0183"
+    },
+    {
+      "name": "로타섬",
+      "translation_id": "U023-0184"
+    },
+    {
+      "name": "괌:괌섬",
+      "translation_id": "U023-0185"
+    },
+    {
+      "name": "오스트레일리아:케언스",
+      "translation_id": "U023-0186"
+    },
+    {
+      "name": "오스트레일리아:에어스록",
+      "translation_id": "U023-0187"
+    },
+    {
+      "name": "오스트레일리아:골드코스트",
+      "translation_id": "U023-0188"
+    },
+    {
+      "name": "오스트레일리아:시드니",
+      "translation_id": "U023-0189"
+    },
+    {
+      "name": "오스트레일리아:애들레이드",
+      "translation_id": "U023-0190"
+    },
+    {
+      "name": "오스트레일리아:멜버른",
+      "translation_id": "U023-0191"
+    },
+    {
+      "name": "뉴질랜드:오클랜드",
+      "translation_id": "U023-0192"
+    },
+    {
+      "name": "뉴질랜드:웰링턴",
+      "translation_id": "U023-0193"
+    },
+    {
+      "name": "타히티섬",
+      "translation_id": "U023-0194"
+    },
+    {
+      "name": "피지:난디",
+      "translation_id": "U023-0195"
+    },
+    {
+      "name": "뉴칼레도니아:누메아",
+      "translation_id": "U023-0196"
+    },
+    {
+      "name": "남극:쇼와 기지",
+      "translation_id": "U023-0197"
+    },
+    {
+      "name": "터키:이스탄불",
+      "translation_id": "U023-0198"
+    },
+    {
+      "name": "이란:테헤란",
+      "translation_id": "U023-0199"
+    },
+    {
+      "name": "요르단:암만",
+      "translation_id": "U023-0200"
+    },
+    {
+      "name": "쿠웨이트:쿠웨이트",
+      "translation_id": "U023-0201"
+    },
+    {
+      "name": "바레인:바레인",
+      "translation_id": "U023-0202"
+    },
+    {
+      "name": "사우디아라비아:리야드",
+      "translation_id": "U023-0203"
+    },
+    {
+      "name": "이집트:카이로",
+      "translation_id": "U023-0204"
+    },
+    {
+      "name": "모로코:카사블랑카",
+      "translation_id": "U023-0205"
+    },
+    {
+      "name": "알제리:알제",
+      "translation_id": "U023-0206"
+    },
+    {
+      "name": "케냐:나이로비",
+      "translation_id": "U023-0207"
+    },
+    {
+      "name": "남아프리카공화국:요하네스버그",
+      "translation_id": "U023-0208"
+    },
+    {
+      "name": "남아프리카공화국:케이프타운",
+      "translation_id": "U023-0209"
+    },
+    {
+      "name": "핀란드:헬싱키",
+      "translation_id": "U023-0210"
+    },
+    {
+      "name": "노르웨이:오슬로",
+      "translation_id": "U023-0211"
+    },
+    {
+      "name": "스웨덴:스톡홀름",
+      "translation_id": "U023-0212"
+    },
+    {
+      "name": "아일랜드:더블린",
+      "translation_id": "U023-0213"
+    },
+    {
+      "name": "독일:베를린",
+      "translation_id": "U023-0214"
+    },
+    {
+      "name": "네덜란드:암스테르담",
+      "translation_id": "U023-0215"
+    },
+    {
+      "name": "영국:런던",
+      "translation_id": "U023-0216"
+    },
+    {
+      "name": "프랑스:파리",
+      "translation_id": "U023-0217"
+    },
+    {
+      "name": "스위스:취리히",
+      "translation_id": "U023-0218"
+    },
+    {
+      "name": "스위스:제네바",
+      "translation_id": "U023-0219"
+    },
+    {
+      "name": "프랑스:마르세유",
+      "translation_id": "U023-0220"
+    },
+    {
+      "name": "스페인:마드리드",
+      "translation_id": "U023-0221"
+    },
+    {
+      "name": "포르투갈:리스본",
+      "translation_id": "U023-0222"
+    },
+    {
+      "name": "그리스:아테네",
+      "translation_id": "U023-0223"
+    },
+    {
+      "name": "그리스:크레타섬",
+      "translation_id": "U023-0224"
+    },
+    {
+      "name": "이탈리아:로마",
+      "translation_id": "U023-0225"
+    }
+  ],
+  "calendar": {
+    "first_month": "2006-07",
+    "last_month": "2011-12",
+    "clock": "PSP 본체 현재 연월",
+    "events": 140
+  },
+  "editions": [
+    {
+      "id": "psp",
+      "label": "PSP·PPSSPP 기본판",
+      "gps": "원래 연동 처리 유지·실물 미검증"
+    },
+    {
+      "id": "vita",
+      "label": "GPS 제외 Vita·Adrenaline 호환판",
+      "gps": "외장 GPS 연동 제외·수동 관측지 유지"
+    }
+  ]
+}

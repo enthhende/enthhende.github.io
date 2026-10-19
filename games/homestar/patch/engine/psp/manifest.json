@@ -1,0 +1,33 @@
+{
+  "schema": "homestar-korean-release-v1",
+  "version": "1.0.0",
+  "edition": "psp",
+  "edition_label": "PSP·PPSSPP 기본판",
+  "game": "HOMESTAR PORTABLE",
+  "disc_id": "ULJM05184",
+  "disc_version": "1.00",
+  "source": {
+    "filename": "Homestar_original.iso",
+    "size_bytes": 614465536,
+    "sha256": "33e334b2e8789c12c782ef28e7cec99c93e469e029cb14bb5a9fd5ad7970c0c1"
+  },
+  "patch": {
+    "filename": "homestar-portable-ko-1.0.0-psp.xdelta",
+    "size_bytes": 14971826,
+    "sha256": "d032f1213c9d25c5be9eba60c3f56177831a47790d1e0fd3544e889fe02c9b4f",
+    "format": "VCDIFF",
+    "secondary_compression": false,
+    "application_header": false
+  },
+  "output": {
+    "filename": "HOMESTAR_KO_1.0.0.ISO",
+    "size_bytes": 633032704,
+    "sha256": "cec9c657f6cb8364b691e0d2cbf7c44be88ba20387c7c780ca4ec5cfad0ffcb0"
+  },
+  "font_external_file_required": false,
+  "gps_policy": "원래 GPS 연동 경로 보존. 실제 수신기 미검증.",
+  "supported_runtime": [
+    "PSP",
+    "PPSSPP"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "homestar-korean-release-v1",
+  "version": "1.0.0",
+  "edition": "vita",
+  "edition_label": "GPS 제외 Vita·Adrenaline 호환판",
+  "game": "HOMESTAR PORTABLE",
+  "disc_id": "ULJM05184",
+  "disc_version": "1.00",
+  "source": {
+    "filename": "Homestar_original.iso",
+    "size_bytes": 614465536,
+    "sha256": "33e334b2e8789c12c782ef28e7cec99c93e469e029cb14bb5a9fd5ad7970c0c1"
+  },
+  "patch": {
+    "filename": "homestar-portable-ko-1.0.0-vita.xdelta",
+    "size_bytes": 14971832,
+    "sha256": "2ec1b1317831bfdea8eaddc116aefd166bc0e90d4da254f0d416a293459b41c1",
+    "format": "VCDIFF",
+    "secondary_compression": false,
+    "application_header": false
+  },
+  "output": {
+    "filename": "HOMESTAR_KO_1.0.0.ISO",
+    "size_bytes": 633032704,
+    "sha256": "e28d77acd11c1eb393db7f4170efa8de466640db5ffe2b4d367848dd4ca187d5"
+  },
+  "font_external_file_required": false,
+  "gps_policy": "PSP용 외장 GPS 연동 제외. 수동 날짜·시각·관측지 유지.",
+  "supported_runtime": [
+    "PS Vita / Adrenaline"
+  ]
+}

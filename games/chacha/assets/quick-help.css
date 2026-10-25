@@ -1,0 +1,14 @@
+/* Questions stay compact; answers are disclosed only on request. */
+.quickGrid.compactHelp{gap:10px;align-items:start}
+.quickTip{min-width:0;background:#fffdfa;border:1px solid #dda3ae;border-radius:5px;box-shadow:0 2px 0 #f0d4d8}
+.quickTip>summary{display:flex;align-items:center;gap:12px;min-height:44px;padding:9px 14px;list-style:none;cursor:pointer;color:#59323e;font-size:14px;font-weight:750;line-height:1.6}
+.quickTip>summary::-webkit-details-marker{display:none}
+.quickTip>summary>span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.quickTip>summary:after{content:'＋';flex:0 0 auto;margin-left:auto;color:#a4334c;font-size:17px;font-weight:500}
+.quickTip>summary:hover{background:#fff0ed}
+.quickTip[open]>summary{border-bottom:1px dashed #e1b6be;background:#fff0ed}
+.quickTip[open]>summary:after{content:'−'}
+.quickTipBody{padding:14px 16px 16px;color:#63414a;font-size:13px;line-height:1.9;overflow-wrap:break-word}
+.quickTipBody p{margin:0 0 10px}
+.quickTipBody a{color:#8c2139;font-size:12px;font-weight:750}
+@media(max-width:600px){.quickTip>summary{font-size:13px;padding-inline:12px}.quickTipBody{padding:12px 14px 14px}}

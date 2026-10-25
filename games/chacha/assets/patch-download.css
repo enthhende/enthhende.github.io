@@ -1,0 +1,50 @@
+.patchPage .wrap{width:min(1040px,calc(100% - 48px))}
+.patchPage .hero{padding:28px 0 24px}
+.patchPage .hero h1{font-size:clamp(28px,4vw,44px);margin:16px 0 10px}
+.patchPage .hero p{max-width:none;margin:0}
+.patchPage main{padding-bottom:44px}
+.patchIntro{padding:24px 0 22px}
+.patchIntro>div:first-child{display:flex;align-items:center;gap:12px}
+.patchIntro h2{font-size:21px;margin:0}
+.patchIntro>p{font-size:14px;color:var(--muted);margin:9px 0}
+.patchLinks{display:flex;gap:8px 22px;flex-wrap:wrap;font-size:13px}
+.patchMethods{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.methodCard{min-width:0;background:var(--paper);border:1px solid #dca8b2;border-radius:14px;padding:28px;box-shadow:0 5px 0 #efd7dc;scroll-margin-top:88px}
+.browserCard{grid-column:1/-1;border:2px solid #bb3b50;padding:32px 36px;background:linear-gradient(135deg,#fffdfa 55%,#fff0ef)}
+.methodTag{display:inline-block;color:#92243a;background:#ffe5e9;padding:3px 10px;border-radius:30px;font-size:12px;font-weight:750;letter-spacing:.02em}
+.methodHeader h2{margin:12px 0 10px;font-size:24px;letter-spacing:-.035em;line-height:1.35}
+.browserCard .methodHeader h2{font-size:clamp(25px,3.4vw,34px)}
+.methodHeader p{font-size:15px;color:var(--muted);margin:0 0 20px}
+.patchSteps{display:flex;flex-wrap:wrap;gap:9px 28px;list-style:none;padding:0;margin:0 0 22px;font-size:14px;font-weight:650}
+.patchSteps li{display:flex;gap:8px;align-items:center}
+.patchSteps span{display:inline-grid;place-items:center;width:25px;height:25px;background:#b32b43;color:white;border-radius:50%;font-size:12px}
+.patchDropzone{border:2px dashed #d09aa5;border-radius:10px;padding:22px 24px;background:#fffdfa}
+.patchDropzone:focus-within{border-color:#8c2139;outline:3px solid #ffe0e7;outline-offset:3px}
+.patchDropzone label{display:block;font-size:17px;font-weight:750;margin-bottom:6px}
+.patchDropzone input{display:block;width:100%;max-width:100%;font-size:14px;color:var(--ink);border:1px solid #dfbac1;border-radius:6px;background:#fff;padding:6px}
+.patchDropzone input::file-selector-button{border:0;border-radius:4px;background:#f6e2e5;color:#7e2436;padding:10px 14px;margin-right:12px;font:inherit;font-weight:700;cursor:pointer}
+.patchHint{font-size:13px;color:var(--muted);line-height:1.75}
+.selectedFile{font-size:13px;overflow-wrap:anywhere;margin:9px 0 0;color:#72545a}
+.patchControls{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0 14px}
+.patchControls .btn{font-size:16px;font-weight:750;padding:12px 26px;border-radius:7px;min-height:50px}
+.patchControls .patchSave{background:#29624d;border-color:#29624d;color:white}
+.patchControls .patchSave:hover{background:#204b3c;color:white}
+.patchStatus{background:#f6eeea;border:1px solid #ead5d2;padding:12px 16px;border-radius:7px;font-size:14px;min-height:51px;overflow-wrap:anywhere;margin-bottom:16px}
+.patchPrivacy{font-size:13px;font-weight:650;margin:0 0 5px}
+.browserCard>.patchHint{margin:0}
+.methodDownload{display:flex;justify-content:center;margin:0 0 20px;font-weight:700}
+.methodInstructions{font-size:14px;padding-left:22px;margin:18px 0}
+.methodInstructions li+li{margin-top:12px}
+.formatDownloads{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 20px}
+.formatDownloads a{flex:1;text-align:center;white-space:nowrap;font-weight:700}
+.methodFoot{font-size:13px;margin:16px 0 0}
+.patchMore{margin-top:34px;padding:24px 0 0;border-top:1px solid var(--line)}
+.patchMore h2{font-size:20px;margin:0 0 12px}
+.patchMore>p{font-size:14px}
+.patchDetails{background:#fffdfa;border:1px solid var(--line);border-radius:7px;margin-top:18px}
+.patchDetails summary{padding:13px 18px;cursor:pointer;font-weight:700;font-size:14px}
+.patchDetails>p{margin:14px 18px}
+.patchDetails .patchHashes{margin:0 18px}
+.patchHashes code{overflow-wrap:anywhere;word-break:break-all}
+.patchPage code{font-size:.88em}
+@media(max-width:700px){.patchPage .wrap{width:calc(100% - 32px)}.patchPage .hero{padding:24px 0}.patchMethods{grid-template-columns:minmax(0,1fr);gap:18px}.browserCard{padding:24px 20px}.methodCard{padding:24px 20px}.methodHeader h2{font-size:23px}.methodHeader h2 br{display:none}.patchDropzone{padding:16px}.patchDropzone input{font-size:12px}.patchSteps{gap:9px 16px;font-size:12px}.patchControls .btn{flex:1;text-align:center;padding:12px}.patchIntro>div:first-child{align-items:flex-start}.patchIntro h2{font-size:20px}.patchDetails .patchHashes{overflow-x:auto}.patchHashes table{min-width:520px}}

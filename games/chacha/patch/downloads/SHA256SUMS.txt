@@ -1,0 +1,4 @@
+f9cf692c6dc781662d3a690c6ca20280ac99a2de9399260b5ccc60c8fd6ee59d  chacha-sfc-korean-patch-v1.0.0-easy.zip
+cf08f012ad7ee9282762b8c7105c18b263ed4bef6e295c36ee58a6134cce6232  chacha-sfc-korean-patch-v1.0.0.bps
+658f3a47a3b45e61a0350561e36b5aac062ea7b6dbb9a810d9ea1fe2e8f4a9f5  chacha-sfc-korean-patch-v1.0.0.xdelta
+1b4068ded14c559ff7e13ca3844fbdd3f7ec96b06d6cb66fef955864b3cffa20  chacha-sfc-korean-patch-v1.0.0.zip

@@ -1,0 +1,50 @@
+/* A little illustrated notebook, using the existing Chacha palette and sprites. */
+.journalHero{padding:48px 0 44px}
+.journalHeroGrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);gap:56px;align-items:center}
+.journalHero h1{font-size:clamp(34px,4.5vw,54px);line-height:1.3;letter-spacing:-.045em}
+.journalHero h1 .heroSub{font-size:.61em;line-height:1.5;margin-top:4px}
+.journalHero p{margin-bottom:18px}
+.journalByline{font-size:12px;color:#814252;display:flex;gap:10px}
+.journalParty{display:flex;gap:16px;align-items:flex-end;margin-top:28px}
+.journalParty .nativeSprite{background-image:url('../assets/party-sprites-native.png');background-size:1024px 512px}
+.journalParty .riiya{background-position:-784px -220px;width:32px;height:58px}
+.journalParty .chacha{background-position:-752px -226px;width:32px;height:52px}
+.journalParty .shiine{background-position:-702px -174px;width:40px;height:60px}
+.partyNote{font-size:12px;background:#fffaf1;border:1px solid #dca4af;border-radius:14px 14px 14px 2px;padding:7px 12px;margin:0 0 18px 2px}
+.journalLayout{display:grid;grid-template-columns:200px minmax(0,1fr);gap:34px;align-items:start;padding-block:38px 68px}
+.journalContents{position:sticky;top:86px;max-height:calc(100dvh - 105px);overflow:auto;padding:20px 0;color:var(--accent2)}
+.contentsLabel{display:block;font-size:13px;font-weight:800;border-bottom:2px solid #dba6ad;padding-bottom:12px;margin-bottom:10px}
+.journalContents nav{display:grid;gap:2px}
+.journalContents nav a{display:flex;gap:12px;text-decoration:none;font-size:13px;line-height:1.65;padding:11px 6px;border-bottom:1px dashed #e5c4c8}
+.journalContents nav a:hover{background:#ffe5e7}
+.journalContents nav span{color:#ad5b6e;font-size:11px;padding-top:2px}
+.contentsPatch{display:block;font-size:12px;font-weight:750;margin-top:22px}
+.journalPaper{min-width:0;padding:48px 58px 36px;background:#fffdf8;border:1px solid #e1bec0;border-radius:5px;box-shadow:5px 5px 0 #f0d9d7;position:relative}
+.journalPaper:before{content:'';display:block;position:absolute;top:12px;left:12px;right:12px;height:6px;background:radial-gradient(circle,#e3b6bd 1px,transparent 2px) 0 0 / 12px 6px}
+.journalKicker{display:inline-block;font-size:12px;color:#a34057;font-weight:750;margin-bottom:14px}
+.paperIntro h2{font-size:29px;margin:0 0 25px;letter-spacing:-.04em}
+.journalPaper p{font-size:16px;line-height:2;word-break:normal;overflow-wrap:break-word;margin:0 0 22px}
+.paperIntro p:last-child{background:#fff0eb;border-left:3px solid #c06475;padding:19px 22px;margin:26px 0 0}
+.journalSection{margin-top:54px;scroll-margin-top:90px}
+.journalHeading{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid #e9c9cb;padding-bottom:13px;margin-bottom:24px}
+.journalNumber{font-size:14px;color:#a34e63;font-weight:800;font-variant-numeric:tabular-nums}
+.journalHeading h2{font-size:25px;letter-spacing:-.035em;margin:0;color:#8c2139}
+.playSample{position:relative;min-width:0;width:min(100%,512px);margin:32px auto;padding:12px 12px 10px;background:#fffaf0;border:1px solid #d4a0a8;box-shadow:4px 5px 0 #ead1d0;border-radius:4px}
+.playSample:before{content:'';position:absolute;z-index:1;top:-10px;left:calc(50% - 37px);width:74px;height:22px;background:repeating-linear-gradient(45deg,#ead4bcaa,#ead4bcaa 4px,#f2e4d4bb 4px,#f2e4d4bb 8px);border-inline:1px solid #e1c9b4aa;transform:rotate(-3deg);pointer-events:none}
+.playSample img{display:block;width:100%;height:auto;aspect-ratio:8/7;image-rendering:pixelated;background:#282828;border:1px solid #d5b2ac}
+.playSample figcaption{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 2px 0;font-size:12px;line-height:1.65;color:#805363}
+.sampleCaption b{display:block;font-size:10px;letter-spacing:.12em;color:#a3455b;margin-bottom:1px}
+.motionToggle{flex:0 0 auto;border:1px solid #c58d9a;border-radius:4px;background:#fffdf9;color:#7a2b40;font-size:11px;min-height:38px;padding:7px 10px}
+.motionToggle:hover{background:#ffe9e9}
+.journalHero .playSample{margin:10px 0;transform:rotate(1deg)}
+.journalEnd{margin-top:46px;border-top:3px double #dca9b2;text-align:center;padding-top:28px}
+.journalEnd>span{color:#b32b43;font-size:20px}
+.journalEnd p{font-size:14px;margin:9px 0 18px}
+.journalEnd .actions{justify-content:center;gap:10px;flex-wrap:wrap}
+.journalEnd .backTop{font-size:12px}
+.worklogPage footer{margin-top:0}
+@media(min-width:1200px){.journalPaper{padding-inline:72px}}
+@media(max-width:960px){.journalHeroGrid{gap:32px;grid-template-columns:minmax(0,1fr) minmax(0,370px)}.journalLayout{grid-template-columns:160px minmax(0,1fr);gap:22px}.journalPaper{padding:40px 30px 30px}.partyNote{display:none}}
+@media(max-width:760px){.journalHeroGrid{grid-template-columns:1fr;gap:28px}.journalHero .playSample{width:min(100%,410px);justify-self:center}.journalLayout{grid-template-columns:1fr;gap:22px;padding-top:18px}.journalContents{position:static;padding:12px 4px;max-height:none;overflow:visible}.journalContents nav{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:14px}.journalContents nav a{font-size:12px;padding:9px 2px}.contentsLabel{margin-bottom:4px;padding-bottom:8px}.contentsPatch{display:none}.journalPaper{padding:36px 26px 26px}.journalHero h1{font-size:42px}.partyNote{display:inline}.journalParty{margin-top:22px}}
+@media(max-width:450px){.journalHero{padding:30px 0}.journalHero h1{font-size:36px}.journalHero h1 .heroSub{font-size:.57em}.journalHeroGrid{gap:20px}.journalPaper{padding:32px 19px 24px}.paperIntro h2{font-size:23px}.journalPaper p{font-size:15px;line-height:1.95;margin-bottom:20px}.paperIntro p:last-child{padding:15px}.journalSection{margin-top:38px}.journalHeading{gap:10px;margin-bottom:20px}.journalHeading h2{font-size:21px}.playSample{padding:8px 8px 7px;margin-block:25px}.playSample figcaption{gap:8px;font-size:11px}.motionToggle{font-size:10px;padding-inline:7px}.journalEnd .btn{font-size:13px;padding:10px 12px}.partyNote{font-size:11px;padding:6px 9px}.journalParty{gap:12px}.journalContents nav a{gap:8px}}
+@media print{.journalContents,.motionToggle,.journalEnd .actions{display:none}.journalLayout{display:block}.journalPaper{border:0;box-shadow:none;padding:0}.playSample{break-inside:avoid;box-shadow:none}.journalHero .playSample{transform:none}.journalHeading{break-after:avoid}}

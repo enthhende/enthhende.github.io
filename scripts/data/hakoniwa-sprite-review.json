@@ -1,0 +1,2177 @@
+{
+  "format": "hakoniwa-sprite-review",
+  "version": 1,
+  "catalogId": "4f504b843cae7e37a4264a725d5fd02f43ef79183e23e42ed0208cd38b7245d9",
+  "exportedAt": "2026-11-15T06:55:30.464Z",
+  "entries": [
+    {
+      "name": "풀싹",
+      "note": "도토리달의 새싹",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:38:57.297Z",
+      "id": "dot-d72bd0592499f6f7",
+      "sha256": "d72bd0592499f6f7971c9cc48d946ed6fe55f41842905e24a2bc2a5f9def1883",
+      "image": "assets/pixels/review-2039e4bb46f26d05.png",
+      "candidates": [
+        {
+          "itemId": "item-0001",
+          "name": "풀싹",
+          "category": "작물·식물",
+          "nativeId": 11,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "어린 풀",
+      "note": "도토리달의 새싹2단계 (어린풀)",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:39:03.503Z",
+      "id": "dot-c945713bf40c9b7c",
+      "sha256": "c945713bf40c9b7c54de675719b1ee83ff4251aa57302255a026b84a2ade775a",
+      "image": "assets/pixels/review-13143debe7e954f2.png",
+      "candidates": [
+        {
+          "itemId": "item-0002",
+          "name": "어린 풀",
+          "category": "작물·식물",
+          "nativeId": 12,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "풀(1단계)",
+      "note": "도토리달의 풀 1단계",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:39:24.797Z",
+      "id": "dot-2caa9219f18c100b",
+      "sha256": "2caa9219f18c100b2c30a825d0c018db9ff9af7c029680dd3995c51b4b2ef312",
+      "image": "assets/pixels/review-a2a9140c74df564f.png",
+      "candidates": [
+        {
+          "itemId": "item-0003",
+          "name": "풀",
+          "category": "작물·식물",
+          "nativeId": 15,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "화초 ",
+      "note": "도토리달의 풀 2단계(꽃)",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:39:41.310Z",
+      "id": "dot-95e0394d76ea8be8",
+      "sha256": "95e0394d76ea8be8f13c56cebd0e22f4a138aa7c395d734bba7f8a7fd3ccd3db",
+      "image": "assets/pixels/review-e424627eea4ed8a0.png",
+      "candidates": [
+        {
+          "itemId": "item-0004",
+          "name": "화초",
+          "category": "작물·식물",
+          "nativeId": 16,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "베고 남은 풀",
+      "note": "민들레, 포도달에 풀을 낫으로 벤 흔적",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:39:57.154Z",
+      "id": "dot-5036cc6ae0f2b2c9",
+      "sha256": "5036cc6ae0f2b2c9065da79f2c449b93d9026f6f37fe8584906c191eff462e43",
+      "image": "assets/pixels/review-aed25f35780b4235.png",
+      "candidates": [
+        {
+          "itemId": "item-0006",
+          "name": "베고 남은 풀",
+          "category": "작물·식물",
+          "nativeId": 19,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "베고 남은 풀",
+      "note": "도토리 달에 낫으로 풀을 벤 흔적",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:40:06.389Z",
+      "id": "dot-5e8d597815d34a3f",
+      "sha256": "5e8d597815d34a3f9d19496abdce05d0cd972515fa81ed94481807ad97458087",
+      "image": "assets/pixels/review-ea449c0875f2f8b9.png",
+      "candidates": [
+        {
+          "itemId": "item-0006",
+          "name": "베고 남은 풀",
+          "category": "작물·식물",
+          "nativeId": 19,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "순무",
+      "note": "수확 전 상태(양이 먹으면 털실을 낼 수 있다)",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:40:24.409Z",
+      "id": "dot-94b8cedc3ce0a2c6",
+      "sha256": "94b8cedc3ce0a2c6be9a94874bf283a17fadfd4267a90427584fb422b31b63ca",
+      "image": "assets/pixels/review-195b485a588699bc.png",
+      "candidates": [
+        {
+          "itemId": "item-0015",
+          "name": "순무",
+          "category": "작물·식물",
+          "nativeId": 35,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "순무",
+      "note": "수확 후 상태. 이대론 양에게 줄 수 없고,  토마토씨앗이나 감자씨앗과 바꿀수있음 ",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:40:46.236Z",
+      "id": "dot-fe6da4d622959e95",
+      "sha256": "fe6da4d622959e951b1bb731147ce06fe878eea1597e18f388f5b8342b65b076",
+      "image": "assets/pixels/review-64da2077889b9fef.png",
+      "candidates": [
+        {
+          "itemId": "item-0015",
+          "name": "순무",
+          "category": "작물·식물",
+          "nativeId": 1010,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "무",
+      "note": "무 수확 전 상태",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:40:59.850Z",
+      "id": "dot-212e56ecbeb36e54",
+      "sha256": "212e56ecbeb36e54e2e80e5de534f9e67deb74186868f45b1cc60f441e3e6dd8",
+      "image": "assets/pixels/review-9c1746cdd83144f3.png",
+      "candidates": [
+        {
+          "itemId": "item-0022",
+          "name": "무",
+          "category": "작물·식물",
+          "nativeId": 45,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "무",
+      "note": "수확 후 상태",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:41:05.286Z",
+      "id": "dot-68f7706ac98b0634",
+      "sha256": "68f7706ac98b0634709a476bbab685437a323078dc31c9aeb1a013f54d17b3a8",
+      "image": "assets/pixels/review-9fa50755d175fd86.png",
+      "candidates": [
+        {
+          "itemId": "item-0022",
+          "name": "무",
+          "category": "작물·식물",
+          "nativeId": 1070,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "양배추",
+      "note": "수확 후 상태",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:41:14.713Z",
+      "id": "dot-01709405acf2e62a",
+      "sha256": "01709405acf2e62ae930f1ded52733b96295c91eb50ab9dcffc0d5803dab7b54",
+      "image": "assets/pixels/review-8e7c5050cbb6d2a9.png",
+      "candidates": [
+        {
+          "itemId": "item-0028",
+          "name": "양배추",
+          "category": "작물·식물",
+          "nativeId": 1060,
+          "state": 0
+        },
+        {
+          "itemId": "item-0028",
+          "name": "양배추",
+          "category": "작물·식물",
+          "nativeId": 1060,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "토마토",
+      "note": "토마토 수확 전 ",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:41:21.691Z",
+      "id": "dot-2c33fa70d881b1fe",
+      "sha256": "2c33fa70d881b1fe6fb865e1a636ba8c0f2e2c9c7d276926491b45c548a91fd0",
+      "image": "assets/pixels/review-1af581ce76eec495.png",
+      "candidates": [
+        {
+          "itemId": "item-0047",
+          "name": "토마토",
+          "category": "작물·식물",
+          "nativeId": 85,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "토마토",
+      "note": "수확 후, 라마에게 먹이면 털이 난다",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:41:29.789Z",
+      "id": "dot-be13e8eeb7c9b406",
+      "sha256": "be13e8eeb7c9b406e7ad7d9491eb04e71d22776d28618ba7e6b0a9c1c4dcffdf",
+      "image": "assets/pixels/review-e35835697697eb11.png",
+      "candidates": [
+        {
+          "itemId": "item-0047",
+          "name": "토마토",
+          "category": "작물·식물",
+          "nativeId": 1080,
+          "state": 0
+        },
+        {
+          "itemId": "item-0047",
+          "name": "토마토",
+          "category": "작물·식물",
+          "nativeId": 1080,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "포도",
+      "note": "포도 수확 전 상태",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:41:39.163Z",
+      "id": "dot-9351c51db9bb019e",
+      "sha256": "9351c51db9bb019e23ca43828639659b49107b3f6f7cf5fd3af31aa0cf02543a",
+      "image": "assets/pixels/review-26f8302ae7163ace.png",
+      "candidates": [
+        {
+          "itemId": "item-0053",
+          "name": "포도",
+          "category": "작물·식물",
+          "nativeId": 95,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "베리",
+      "note": "베리 수확 전 상태",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:41:45.152Z",
+      "id": "dot-2f1c60fb58884987",
+      "sha256": "2f1c60fb58884987b878501f2b9a61391ce2f1ce1b9a59008f1c7e3dd73ec736",
+      "image": "assets/pixels/review-7e64fcc5c1d21354.png",
+      "candidates": [
+        {
+          "itemId": "item-0063",
+          "name": "베리",
+          "category": "작물·식물",
+          "nativeId": 115,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "베리",
+      "note": "수확 후",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:41:50.186Z",
+      "id": "dot-7fff0d7b4f1089ce",
+      "sha256": "7fff0d7b4f1089ce77eaf941f3baaa8ea0adc6632b5a78f6cffbadfb0bf491c5",
+      "image": "assets/pixels/review-a08b44539c1d770d.png",
+      "candidates": [
+        {
+          "itemId": "item-0063",
+          "name": "베리",
+          "category": "작물·식물",
+          "nativeId": 1100,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "침엽수",
+      "note": "풀없는 달에 침엽수",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:42:00.271Z",
+      "id": "dot-581fd7308cdf2e26",
+      "sha256": "581fd7308cdf2e26911b39134f631f089231a77b4f1a430c9348b057510e33ce",
+      "image": "assets/pixels/review-90b0be650e2ccca4.png",
+      "candidates": [
+        {
+          "itemId": "item-0083",
+          "name": "어린 침엽수",
+          "category": "작물·식물",
+          "nativeId": 161,
+          "state": 3
+        },
+        {
+          "itemId": "item-0084",
+          "name": "벌목용 침엽수",
+          "category": "작물·식물",
+          "nativeId": 162,
+          "state": 3
+        },
+        {
+          "itemId": "item-0085",
+          "name": "침엽수",
+          "category": "작물·식물",
+          "nativeId": 163,
+          "state": 3
+        }
+      ]
+    },
+    {
+      "name": "침엽수",
+      "note": "민들레달과 포도달의 침엽수",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:42:49.127Z",
+      "id": "dot-7300e4266270fdf6",
+      "sha256": "7300e4266270fdf6473b8d0c13e6a611843616f98907ae7c30c6b72e09008c88",
+      "image": "assets/pixels/review-3d7c50120a95c57b.png",
+      "candidates": [
+        {
+          "itemId": "item-0083",
+          "name": "어린 침엽수",
+          "category": "작물·식물",
+          "nativeId": 161,
+          "state": 1
+        },
+        {
+          "itemId": "item-0084",
+          "name": "벌목용 침엽수",
+          "category": "작물·식물",
+          "nativeId": 162,
+          "state": 1
+        },
+        {
+          "itemId": "item-0085",
+          "name": "침엽수",
+          "category": "작물·식물",
+          "nativeId": 163,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "침엽수",
+      "note": "도토리달의 침엽수",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:42:16.277Z",
+      "id": "dot-8e3b4c50b97f6132",
+      "sha256": "8e3b4c50b97f61328c9a61b3d287efe6b4730789eb7afe47c2435643f0d3c753",
+      "image": "assets/pixels/review-0cef3a7cf58fe90c.png",
+      "candidates": [
+        {
+          "itemId": "item-0083",
+          "name": "어린 침엽수",
+          "category": "작물·식물",
+          "nativeId": 161,
+          "state": 2
+        },
+        {
+          "itemId": "item-0084",
+          "name": "벌목용 침엽수",
+          "category": "작물·식물",
+          "nativeId": 162,
+          "state": 2
+        },
+        {
+          "itemId": "item-0085",
+          "name": "침엽수",
+          "category": "작물·식물",
+          "nativeId": 163,
+          "state": 2
+        }
+      ]
+    },
+    {
+      "name": "침엽수",
+      "note": "어린 침엽수, 벌목용 침엽수",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:42:39.631Z",
+      "id": "dot-91a4edc953742a7e",
+      "sha256": "91a4edc953742a7edb8e49f2514e3d8bd2c2e24b0616cf76392c35148d6a40ba",
+      "image": "assets/pixels/review-a2a7c2d21dd8e96e.png",
+      "candidates": [
+        {
+          "itemId": "item-0083",
+          "name": "어린 침엽수",
+          "category": "작물·식물",
+          "nativeId": 161,
+          "state": 0
+        },
+        {
+          "itemId": "item-0084",
+          "name": "벌목용 침엽수",
+          "category": "작물·식물",
+          "nativeId": 162,
+          "state": 0
+        },
+        {
+          "itemId": "item-0085",
+          "name": "침엽수",
+          "category": "작물·식물",
+          "nativeId": 163,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "활엽수",
+      "note": "민들레달과 포도달의 활엽수",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:42:57.961Z",
+      "id": "dot-1bab2977a16e23fe",
+      "sha256": "1bab2977a16e23feb213ab7b646cb0a93cc8e49ddda5c010ef0847f702915e1c",
+      "image": "assets/pixels/review-bbd8929b1468f372.png",
+      "candidates": [
+        {
+          "itemId": "item-0087",
+          "name": "어린 활엽수",
+          "category": "작물·식물",
+          "nativeId": 171,
+          "state": 1
+        },
+        {
+          "itemId": "item-0088",
+          "name": "벌목용 활엽수",
+          "category": "작물·식물",
+          "nativeId": 172,
+          "state": 1
+        },
+        {
+          "itemId": "item-0089",
+          "name": "활엽수",
+          "category": "작물·식물",
+          "nativeId": 173,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "활엽수",
+      "note": "풀없는달의 활엽수",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:43:06.481Z",
+      "id": "dot-3eaf681e7803abd2",
+      "sha256": "3eaf681e7803abd2583f83ef8d12509ddec79c0c8da080a79ead820da3780626",
+      "image": "assets/pixels/review-7bd10c5687ed2607.png",
+      "candidates": [
+        {
+          "itemId": "item-0087",
+          "name": "어린 활엽수",
+          "category": "작물·식물",
+          "nativeId": 171,
+          "state": 3
+        },
+        {
+          "itemId": "item-0088",
+          "name": "벌목용 활엽수",
+          "category": "작물·식물",
+          "nativeId": 172,
+          "state": 3
+        },
+        {
+          "itemId": "item-0089",
+          "name": "활엽수",
+          "category": "작물·식물",
+          "nativeId": 173,
+          "state": 3
+        }
+      ]
+    },
+    {
+      "name": "활엽수",
+      "note": "도토리달의 활엽수",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:43:14.043Z",
+      "id": "dot-7e0b6f238e0b7256",
+      "sha256": "7e0b6f238e0b7256ed8f8435bb0b67c1d7e2449ee626cbc89e09319b6ac563ef",
+      "image": "assets/pixels/review-0369e0c173bb7dc1.png",
+      "candidates": [
+        {
+          "itemId": "item-0087",
+          "name": "어린 활엽수",
+          "category": "작물·식물",
+          "nativeId": 171,
+          "state": 2
+        },
+        {
+          "itemId": "item-0088",
+          "name": "벌목용 활엽수",
+          "category": "작물·식물",
+          "nativeId": 172,
+          "state": 2
+        },
+        {
+          "itemId": "item-0089",
+          "name": "활엽수",
+          "category": "작물·식물",
+          "nativeId": 173,
+          "state": 2
+        }
+      ]
+    },
+    {
+      "name": "호박",
+      "note": "수확후, 알파카에게 먹이면 털이 난다",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:43:40.992Z",
+      "id": "dot-7c1c629c3ff1fc04",
+      "sha256": "7c1c629c3ff1fc042f7310e5ac51aaa468f0d7ccd2171273ab1eb2ca351d0cf1",
+      "image": "assets/pixels/review-eb02362f74e4e6ba.png",
+      "candidates": [
+        {
+          "itemId": "item-0095",
+          "name": "호박",
+          "category": "작물·식물",
+          "nativeId": 1110,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "호박",
+      "note": "호박 수확 전단계",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:43:49.020Z",
+      "id": "dot-b5d60647f05fd9ca",
+      "sha256": "b5d60647f05fd9ca7183255514733681264d2731e3c74df440d0c7531f973656",
+      "image": "assets/pixels/review-7511d1d0d35b4e03.png",
+      "candidates": [
+        {
+          "itemId": "item-0095",
+          "name": "호박",
+          "category": "작물·식물",
+          "nativeId": 185,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "가지",
+      "note": "가지 수확전 단계",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:43:56.193Z",
+      "id": "dot-2510e7a1a6e12095",
+      "sha256": "2510e7a1a6e12095f8b2cfd445fe801a817733d7a6ee20e4394b5cb2124eb316",
+      "image": "assets/pixels/review-19018bbf894a3882.png",
+      "candidates": [
+        {
+          "itemId": "item-0100",
+          "name": "가지",
+          "category": "작물·식물",
+          "nativeId": 195,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "가지",
+      "note": "수확 후",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:43:59.624Z",
+      "id": "dot-68e8399cb3aebb25",
+      "sha256": "68e8399cb3aebb25f929f2e59be9acc555468a13b794a53afceecde54a41eee0",
+      "image": "assets/pixels/review-58dd9c951222062f.png",
+      "candidates": [
+        {
+          "itemId": "item-0100",
+          "name": "가지",
+          "category": "작물·식물",
+          "nativeId": 1120,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "당근",
+      "note": "수확 후",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:44:02.924Z",
+      "id": "dot-296cd5f5164e34f8",
+      "sha256": "296cd5f5164e34f8052df374c06daed6583f1c2bfade50abb5e312d4a6c6f04b",
+      "image": "assets/pixels/review-bcc4488817a44005.png",
+      "candidates": [
+        {
+          "itemId": "item-0104",
+          "name": "당근",
+          "category": "작물·식물",
+          "nativeId": 1130,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "당근",
+      "note": "수확 전",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:44:07.665Z",
+      "id": "dot-3c843735239e65e1",
+      "sha256": "3c843735239e65e1c9d6a0cc316f419001171249e5a201a869b60b8858776f39",
+      "image": "assets/pixels/review-662178fa9fb8c91c.png",
+      "candidates": [
+        {
+          "itemId": "item-0104",
+          "name": "당근",
+          "category": "작물·식물",
+          "nativeId": 205,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "콩",
+      "note": "수확 후",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:44:11.845Z",
+      "id": "dot-8a7de50b3523d90a",
+      "sha256": "8a7de50b3523d90aadb7089e6c2885b212d28c0dae4f88e2f1669bef1569a49b",
+      "image": "assets/pixels/review-5b2384f0f034a4bd.png",
+      "candidates": [
+        {
+          "itemId": "item-0109",
+          "name": "콩",
+          "category": "작물·식물",
+          "nativeId": 1140,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "콩",
+      "note": "수확 전",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:44:16.691Z",
+      "id": "dot-d6b4d95896ba4099",
+      "sha256": "d6b4d95896ba40996a40f40fca7a34f30196cbd772dcee350e8333d8e2654d78",
+      "image": "assets/pixels/review-ade7043c95012818.png",
+      "candidates": [
+        {
+          "itemId": "item-0109",
+          "name": "콩",
+          "category": "작물·식물",
+          "nativeId": 215,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "새끼 마멋",
+      "note": "어미와 함께 붙어있어야 함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:44:30.901Z",
+      "id": "dot-c17088222d32bb53",
+      "sha256": "c17088222d32bb53d8486321081aa993e4ef81077f374eecd03f20691db4a4af",
+      "image": "assets/pixels/review-9a6d816bc3364bc1.png",
+      "candidates": [
+        {
+          "itemId": "item-0115",
+          "name": "새끼 마멋",
+          "category": "가축·동물 상태",
+          "nativeId": 300,
+          "state": 0
+        },
+        {
+          "itemId": "item-0115",
+          "name": "새끼 마멋",
+          "category": "가축·동물 상태",
+          "nativeId": 300,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "새끼 토끼",
+      "note": "어미와 함께 붙어있어야 함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:44:47.740Z",
+      "id": "dot-138e267e0ef470a5",
+      "sha256": "138e267e0ef470a56d06f4bd9848cc3a3f1f6e9c3c3acf6f4f862d09559d0893",
+      "image": "assets/pixels/review-4ce507a4970fb81b.png",
+      "candidates": [
+        {
+          "itemId": "item-0123",
+          "name": "새끼 토끼",
+          "category": "가축·동물 상태",
+          "nativeId": 310,
+          "state": 0
+        },
+        {
+          "itemId": "item-0123",
+          "name": "새끼 토끼",
+          "category": "가축·동물 상태",
+          "nativeId": 310,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "병아리",
+      "note": "어미와 함께 붙어있어야 함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:44:48.235Z",
+      "id": "dot-0fbf7481f9c8eec3",
+      "sha256": "0fbf7481f9c8eec3fc6a98b28e3761085d1f2fdee49a2731f4b87625a4d72c26",
+      "image": "assets/pixels/review-645e03cfda71ad83.png",
+      "candidates": [
+        {
+          "itemId": "item-0134",
+          "name": "병아리",
+          "category": "가축·동물 상태",
+          "nativeId": 320,
+          "state": 0
+        },
+        {
+          "itemId": "item-0134",
+          "name": "병아리",
+          "category": "가축·동물 상태",
+          "nativeId": 320,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "닭",
+      "note": "어린 닭 · 수탉 · 암탉 · 임신한 닭 · 늙은 닭 같이 쓰임",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:45:11.193Z",
+      "id": "dot-f3009038a63da74c",
+      "sha256": "f3009038a63da74c426a9ccff6946b21e415e4826112a3fba4aaaef68a72e9e2",
+      "image": "assets/pixels/review-e3852991aaa33869.png",
+      "candidates": [
+        {
+          "itemId": "item-0135",
+          "name": "어린 닭",
+          "category": "가축·동물 상태",
+          "nativeId": 321,
+          "state": 0
+        },
+        {
+          "itemId": "item-0135",
+          "name": "어린 닭",
+          "category": "가축·동물 상태",
+          "nativeId": 321,
+          "state": 1
+        },
+        {
+          "itemId": "item-0136",
+          "name": "수탉",
+          "category": "가축·동물 상태",
+          "nativeId": 324,
+          "state": 0
+        },
+        {
+          "itemId": "item-0136",
+          "name": "수탉",
+          "category": "가축·동물 상태",
+          "nativeId": 324,
+          "state": 1
+        },
+        {
+          "itemId": "item-0137",
+          "name": "암탉",
+          "category": "가축·동물 상태",
+          "nativeId": 325,
+          "state": 0
+        },
+        {
+          "itemId": "item-0137",
+          "name": "암탉",
+          "category": "가축·동물 상태",
+          "nativeId": 325,
+          "state": 1
+        },
+        {
+          "itemId": "item-0138",
+          "name": "임신한 닭",
+          "category": "가축·동물 상태",
+          "nativeId": 325,
+          "state": 2
+        },
+        {
+          "itemId": "item-0139",
+          "name": "늙은 닭",
+          "category": "가축·동물 상태",
+          "nativeId": 326,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "새끼 오리",
+      "note": "새끼 오리 · 새끼 거위",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:45:25.708Z",
+      "id": "dot-f84ff03c89bf3144",
+      "sha256": "f84ff03c89bf3144af60a2f288c3541bb088d31d258704afa084716dd6777dd1",
+      "image": "assets/pixels/review-764777d788b442f7.png",
+      "candidates": [
+        {
+          "itemId": "item-0141",
+          "name": "새끼 오리",
+          "category": "가축·동물 상태",
+          "nativeId": 330,
+          "state": 0
+        },
+        {
+          "itemId": "item-0141",
+          "name": "새끼 오리",
+          "category": "가축·동물 상태",
+          "nativeId": 330,
+          "state": 1
+        },
+        {
+          "itemId": "item-0152",
+          "name": "새끼 거위",
+          "category": "가축·동물 상태",
+          "nativeId": 340,
+          "state": 0
+        },
+        {
+          "itemId": "item-0152",
+          "name": "새끼 거위",
+          "category": "가축·동물 상태",
+          "nativeId": 340,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "오리",
+      "note": "어린 오리 · 수오리 · 깃털 난 수오리 · 깃털 없는 수오리 · 늙은 오리",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:45:32.098Z",
+      "id": "dot-b5d8923ebb1e69fd",
+      "sha256": "b5d8923ebb1e69fd9fa8f5b996c28732501f60565b4dc6c7747782e576cfc608",
+      "image": "assets/pixels/review-83c4871ed92f0b5e.png",
+      "candidates": [
+        {
+          "itemId": "item-0142",
+          "name": "어린 오리",
+          "category": "가축·동물 상태",
+          "nativeId": 331,
+          "state": 0
+        },
+        {
+          "itemId": "item-0142",
+          "name": "어린 오리",
+          "category": "가축·동물 상태",
+          "nativeId": 331,
+          "state": 1
+        },
+        {
+          "itemId": "item-0143",
+          "name": "수오리",
+          "category": "가축·동물 상태",
+          "nativeId": 334,
+          "state": 0
+        },
+        {
+          "itemId": "item-0143",
+          "name": "수오리",
+          "category": "가축·동물 상태",
+          "nativeId": 334,
+          "state": 1
+        },
+        {
+          "itemId": "item-0144",
+          "name": "깃털 난 수오리",
+          "category": "가축·동물 상태",
+          "nativeId": 334,
+          "state": 2
+        },
+        {
+          "itemId": "item-0145",
+          "name": "깃털 없는 수오리",
+          "category": "가축·동물 상태",
+          "nativeId": 334,
+          "state": 3
+        },
+        {
+          "itemId": "item-0150",
+          "name": "늙은 오리",
+          "category": "가축·동물 상태",
+          "nativeId": 336,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "오리",
+      "note": "오리 이로치",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:45:46.302Z",
+      "id": "dot-5dd9cfd19c56005c",
+      "sha256": "5dd9cfd19c56005c54d479cbca57d28e2d4a024dfbaf576194c69a379bd20840",
+      "image": "assets/pixels/review-c12f26733a8a89d0.png",
+      "candidates": [
+        {
+          "itemId": "item-0146",
+          "name": "암오리",
+          "category": "가축·동물 상태",
+          "nativeId": 335,
+          "state": 0
+        },
+        {
+          "itemId": "item-0146",
+          "name": "암오리",
+          "category": "가축·동물 상태",
+          "nativeId": 335,
+          "state": 1
+        },
+        {
+          "itemId": "item-0147",
+          "name": "깃털 난 암오리",
+          "category": "가축·동물 상태",
+          "nativeId": 335,
+          "state": 2
+        },
+        {
+          "itemId": "item-0148",
+          "name": "깃털 없는 암오리",
+          "category": "가축·동물 상태",
+          "nativeId": 335,
+          "state": 3
+        },
+        {
+          "itemId": "item-0149",
+          "name": "임신한 오리",
+          "category": "가축·동물 상태",
+          "nativeId": 335,
+          "state": 4
+        }
+      ]
+    },
+    {
+      "name": "거위",
+      "note": "어린 거위 · 수거위 · 살찐 수거위 · 암거위 · 임신한 거위 · 늙은 거위",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:45:54.131Z",
+      "id": "dot-0aa1b05b9a20196e",
+      "sha256": "0aa1b05b9a20196e0dc6501bf8b9d579331278e771024ca24394d93578dc83e8",
+      "image": "assets/pixels/review-55e2e08a019c3fe4.png",
+      "candidates": [
+        {
+          "itemId": "item-0153",
+          "name": "어린 거위",
+          "category": "가축·동물 상태",
+          "nativeId": 341,
+          "state": 0
+        },
+        {
+          "itemId": "item-0153",
+          "name": "어린 거위",
+          "category": "가축·동물 상태",
+          "nativeId": 341,
+          "state": 1
+        },
+        {
+          "itemId": "item-0154",
+          "name": "수거위",
+          "category": "가축·동물 상태",
+          "nativeId": 344,
+          "state": 0
+        },
+        {
+          "itemId": "item-0154",
+          "name": "수거위",
+          "category": "가축·동물 상태",
+          "nativeId": 344,
+          "state": 1
+        },
+        {
+          "itemId": "item-0155",
+          "name": "살찐 수거위",
+          "category": "가축·동물 상태",
+          "nativeId": 344,
+          "state": 2
+        },
+        {
+          "itemId": "item-0156",
+          "name": "암거위",
+          "category": "가축·동물 상태",
+          "nativeId": 345,
+          "state": 0
+        },
+        {
+          "itemId": "item-0156",
+          "name": "암거위",
+          "category": "가축·동물 상태",
+          "nativeId": 345,
+          "state": 1
+        },
+        {
+          "itemId": "item-0157",
+          "name": "임신한 거위",
+          "category": "가축·동물 상태",
+          "nativeId": 345,
+          "state": 2
+        },
+        {
+          "itemId": "item-0158",
+          "name": "늙은 거위",
+          "category": "가축·동물 상태",
+          "nativeId": 346,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "새끼 염소",
+      "note": "어미와 붙어있어야함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:46:08.055Z",
+      "id": "dot-c667336d66f38d91",
+      "sha256": "c667336d66f38d91bc08af9556dbb25f4b16e8138be835372b2b658572360fab",
+      "image": "assets/pixels/review-12a33dbaadd5528e.png",
+      "candidates": [
+        {
+          "itemId": "item-0160",
+          "name": "새끼 염소",
+          "category": "가축·동물 상태",
+          "nativeId": 350,
+          "state": 0
+        },
+        {
+          "itemId": "item-0160",
+          "name": "새끼 염소",
+          "category": "가축·동물 상태",
+          "nativeId": 350,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "염소",
+      "note": "어린 염소 · 수염소 · 암염소 · 임신한 염소 · 수유 중인 염소 · 젖이 차는 중인 염소 · 늙은 염소",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:46:14.274Z",
+      "id": "dot-b75ce4eabdcc1958",
+      "sha256": "b75ce4eabdcc19585f78b74e899e2232eab5290413aa2161e06501ee2da58d03",
+      "image": "assets/pixels/review-35bec072844af429.png",
+      "candidates": [
+        {
+          "itemId": "item-0161",
+          "name": "어린 염소",
+          "category": "가축·동물 상태",
+          "nativeId": 351,
+          "state": 0
+        },
+        {
+          "itemId": "item-0161",
+          "name": "어린 염소",
+          "category": "가축·동물 상태",
+          "nativeId": 351,
+          "state": 1
+        },
+        {
+          "itemId": "item-0162",
+          "name": "수염소",
+          "category": "가축·동물 상태",
+          "nativeId": 354,
+          "state": 0
+        },
+        {
+          "itemId": "item-0162",
+          "name": "수염소",
+          "category": "가축·동물 상태",
+          "nativeId": 354,
+          "state": 1
+        },
+        {
+          "itemId": "item-0163",
+          "name": "암염소",
+          "category": "가축·동물 상태",
+          "nativeId": 355,
+          "state": 0
+        },
+        {
+          "itemId": "item-0163",
+          "name": "암염소",
+          "category": "가축·동물 상태",
+          "nativeId": 355,
+          "state": 1
+        },
+        {
+          "itemId": "item-0164",
+          "name": "임신한 염소",
+          "category": "가축·동물 상태",
+          "nativeId": 355,
+          "state": 2
+        },
+        {
+          "itemId": "item-0165",
+          "name": "수유 중인 염소",
+          "category": "가축·동물 상태",
+          "nativeId": 355,
+          "state": 3
+        },
+        {
+          "itemId": "item-0166",
+          "name": "젖이 차는 중인 염소",
+          "category": "가축·동물 상태",
+          "nativeId": 355,
+          "state": 4
+        },
+        {
+          "itemId": "item-0167",
+          "name": "늙은 염소",
+          "category": "가축·동물 상태",
+          "nativeId": 356,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "새끼 멧돼지",
+      "note": "어미와 붙어있어야함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:46:22.858Z",
+      "id": "dot-fb2382d0c7f564bb",
+      "sha256": "fb2382d0c7f564bb734cbe9193c303464d7683028977ee5014ed7d58b438f7ab",
+      "image": "assets/pixels/review-c773b62948276b5d.png",
+      "candidates": [
+        {
+          "itemId": "item-0168",
+          "name": "새끼 멧돼지",
+          "category": "가축·동물 상태",
+          "nativeId": 360,
+          "state": 0
+        },
+        {
+          "itemId": "item-0168",
+          "name": "새끼 멧돼지",
+          "category": "가축·동물 상태",
+          "nativeId": 360,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "새끼 양",
+      "note": "어미와 붙어있어야함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:46:32.276Z",
+      "id": "dot-dfff509c87771e85",
+      "sha256": "dfff509c87771e853867d5bca0d3643784dfd484f63f3881efc6f6f715625527",
+      "image": "assets/pixels/review-63389a520cffbdc7.png",
+      "candidates": [
+        {
+          "itemId": "item-0175",
+          "name": "새끼 양",
+          "category": "가축·동물 상태",
+          "nativeId": 370,
+          "state": 0
+        },
+        {
+          "itemId": "item-0175",
+          "name": "새끼 양",
+          "category": "가축·동물 상태",
+          "nativeId": 370,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "양",
+      "note": "어린 양 · 숫양 · 암양 · 임신한 양 · 수유 중인 양 · 늙은 양\n\n",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:47:04.220Z",
+      "id": "dot-f8207e263077f132",
+      "sha256": "f8207e263077f1324952a26d76b9c0f758184844f78e01ce7223b60eeb4272d4",
+      "image": "assets/pixels/review-66821c91b57ed4f8.png",
+      "candidates": [
+        {
+          "itemId": "item-0176",
+          "name": "어린 양",
+          "category": "가축·동물 상태",
+          "nativeId": 371,
+          "state": 0
+        },
+        {
+          "itemId": "item-0176",
+          "name": "어린 양",
+          "category": "가축·동물 상태",
+          "nativeId": 371,
+          "state": 1
+        },
+        {
+          "itemId": "item-0177",
+          "name": "숫양",
+          "category": "가축·동물 상태",
+          "nativeId": 374,
+          "state": 0
+        },
+        {
+          "itemId": "item-0177",
+          "name": "숫양",
+          "category": "가축·동물 상태",
+          "nativeId": 374,
+          "state": 1
+        },
+        {
+          "itemId": "item-0180",
+          "name": "암양",
+          "category": "가축·동물 상태",
+          "nativeId": 375,
+          "state": 0
+        },
+        {
+          "itemId": "item-0180",
+          "name": "암양",
+          "category": "가축·동물 상태",
+          "nativeId": 375,
+          "state": 1
+        },
+        {
+          "itemId": "item-0183",
+          "name": "임신한 양",
+          "category": "가축·동물 상태",
+          "nativeId": 375,
+          "state": 4
+        },
+        {
+          "itemId": "item-0184",
+          "name": "수유 중인 양",
+          "category": "가축·동물 상태",
+          "nativeId": 375,
+          "state": 5
+        },
+        {
+          "itemId": "item-0185",
+          "name": "늙은 양",
+          "category": "가축·동물 상태",
+          "nativeId": 376,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "털 깎인 숫양 · 털 깎인 암양",
+      "note": "털깎은양",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:46:58.585Z",
+      "id": "dot-39dcb0a6444cedb3",
+      "sha256": "39dcb0a6444cedb3cee1b013a2b886c948416d8628139ab1a847e443c8b3b02c",
+      "image": "assets/pixels/review-83a6ea5a8ef2f5e8.png",
+      "candidates": [
+        {
+          "itemId": "item-0179",
+          "name": "털 깎인 숫양",
+          "category": "가축·동물 상태",
+          "nativeId": 374,
+          "state": 3
+        },
+        {
+          "itemId": "item-0182",
+          "name": "털 깎인 암양",
+          "category": "가축·동물 상태",
+          "nativeId": 375,
+          "state": 3
+        }
+      ]
+    },
+    {
+      "name": "새끼 라마",
+      "note": "어미와 붙어있어야함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:47:18.226Z",
+      "id": "dot-5bd46cbcbfddb6f3",
+      "sha256": "5bd46cbcbfddb6f3a3ee4f09262cfe4092c8226316eea497b4e8ffc4f4e80ea5",
+      "image": "assets/pixels/review-cfb70171701cd236.png",
+      "candidates": [
+        {
+          "itemId": "item-0186",
+          "name": "새끼 라마",
+          "category": "가축·동물 상태",
+          "nativeId": 380,
+          "state": 0
+        },
+        {
+          "itemId": "item-0186",
+          "name": "새끼 라마",
+          "category": "가축·동물 상태",
+          "nativeId": 380,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "새끼 야크",
+      "note": "어미와 붙어있어야함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:47:26.954Z",
+      "id": "dot-2a1a292f8e05a528",
+      "sha256": "2a1a292f8e05a528fe248c9c3428874a45086b407210010a9168ff5909a99825",
+      "image": "assets/pixels/review-4b1746183afa5e4b.png",
+      "candidates": [
+        {
+          "itemId": "item-0197",
+          "name": "새끼 야크",
+          "category": "가축·동물 상태",
+          "nativeId": 390,
+          "state": 0
+        },
+        {
+          "itemId": "item-0197",
+          "name": "새끼 야크",
+          "category": "가축·동물 상태",
+          "nativeId": 390,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "새끼 당나귀",
+      "note": "어미와 붙어있어야함",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:47:33.256Z",
+      "id": "dot-d0f57bae7bfbb37c",
+      "sha256": "d0f57bae7bfbb37cb3839457cbb2ae0108f346476699e54d7c40abbed295252c",
+      "image": "assets/pixels/review-e586ea89467f45d7.png",
+      "candidates": [
+        {
+          "itemId": "item-0209",
+          "name": "새끼 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 400,
+          "state": 0
+        },
+        {
+          "itemId": "item-0209",
+          "name": "새끼 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 400,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "어린 당나귀 · 수컷 당나귀 · 암컷 당나귀 · 임신한 당나귀 · 수유 중인 당나귀 · 늙은 당나귀",
+      "note": "",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:47:44.648Z",
+      "id": "dot-f59681d663916b80",
+      "sha256": "f59681d663916b80784e7979648d7e08a765c82165ede88736181678d96bc7de",
+      "image": "assets/pixels/review-ed0b4bb360a2f9fa.png",
+      "candidates": [
+        {
+          "itemId": "item-0210",
+          "name": "어린 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 401,
+          "state": 0
+        },
+        {
+          "itemId": "item-0210",
+          "name": "어린 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 401,
+          "state": 1
+        },
+        {
+          "itemId": "item-0211",
+          "name": "수컷 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 404,
+          "state": 0
+        },
+        {
+          "itemId": "item-0211",
+          "name": "수컷 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 404,
+          "state": 1
+        },
+        {
+          "itemId": "item-0212",
+          "name": "암컷 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 405,
+          "state": 0
+        },
+        {
+          "itemId": "item-0212",
+          "name": "암컷 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 405,
+          "state": 1
+        },
+        {
+          "itemId": "item-0213",
+          "name": "임신한 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 405,
+          "state": 2
+        },
+        {
+          "itemId": "item-0214",
+          "name": "수유 중인 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 405,
+          "state": 3
+        },
+        {
+          "itemId": "item-0215",
+          "name": "늙은 당나귀",
+          "category": "가축·동물 상태",
+          "nativeId": 406,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "새끼 라쿤",
+      "note": "",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:47:50.466Z",
+      "id": "dot-a479d4d06c0f41e8",
+      "sha256": "a479d4d06c0f41e83b80834511f29e6f55d5582ecf2000198a23feeacb8d5adc",
+      "image": "assets/pixels/review-7a6e3316ae3ecb20.png",
+      "candidates": [
+        {
+          "itemId": "item-0216",
+          "name": "새끼 라쿤",
+          "category": "가축·동물 상태",
+          "nativeId": 410,
+          "state": 0
+        },
+        {
+          "itemId": "item-0216",
+          "name": "새끼 라쿤",
+          "category": "가축·동물 상태",
+          "nativeId": 410,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "시바",
+      "note": "수컷 시바견 · 암컷 시바견 · 임신한 시바견 · 수유 중인 시바견 · 늙은 시바견",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:49:18.420Z",
+      "id": "dot-83b6b8ea9a844802",
+      "sha256": "83b6b8ea9a844802e6f0be49d9abeed37bdc9aea9c7f7382a7ea4aee3574cc03",
+      "image": "assets/pixels/review-8f0a68cc2361e351.png",
+      "candidates": [
+        {
+          "itemId": "item-0327",
+          "name": "어린 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 651,
+          "state": 0
+        },
+        {
+          "itemId": "item-0327",
+          "name": "어린 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 651,
+          "state": 1
+        },
+        {
+          "itemId": "item-0328",
+          "name": "수컷 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 654,
+          "state": 0
+        },
+        {
+          "itemId": "item-0328",
+          "name": "수컷 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 654,
+          "state": 1
+        },
+        {
+          "itemId": "item-0328",
+          "name": "수컷 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 654,
+          "state": 2
+        },
+        {
+          "itemId": "item-0329",
+          "name": "암컷 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 655,
+          "state": 0
+        },
+        {
+          "itemId": "item-0329",
+          "name": "암컷 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 655,
+          "state": 1
+        },
+        {
+          "itemId": "item-0329",
+          "name": "암컷 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 655,
+          "state": 2
+        },
+        {
+          "itemId": "item-0330",
+          "name": "임신한 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 655,
+          "state": 3
+        },
+        {
+          "itemId": "item-0331",
+          "name": "수유 중인 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 655,
+          "state": 4
+        },
+        {
+          "itemId": "item-0332",
+          "name": "늙은 시바견",
+          "category": "개·반려동물 상태",
+          "nativeId": 656,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "마스티프",
+      "note": " 수컷 마스티프 · 암컷 마스티프 · 임신한 마스티프 · 수유 중인 마스티프 · 늙은 마스티프",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:49:02.396Z",
+      "id": "dot-3442b659f45b7b74",
+      "sha256": "3442b659f45b7b7426478bf42f5afdc6ae33a385570147980475f4ead1af498a",
+      "image": "assets/pixels/review-8b0d4781485bdfbc.png",
+      "candidates": [
+        {
+          "itemId": "item-0334",
+          "name": "어린 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 661,
+          "state": 0
+        },
+        {
+          "itemId": "item-0334",
+          "name": "어린 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 661,
+          "state": 1
+        },
+        {
+          "itemId": "item-0335",
+          "name": "수컷 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 664,
+          "state": 0
+        },
+        {
+          "itemId": "item-0335",
+          "name": "수컷 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 664,
+          "state": 1
+        },
+        {
+          "itemId": "item-0336",
+          "name": "암컷 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 665,
+          "state": 0
+        },
+        {
+          "itemId": "item-0336",
+          "name": "암컷 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 665,
+          "state": 1
+        },
+        {
+          "itemId": "item-0337",
+          "name": "임신한 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 665,
+          "state": 2
+        },
+        {
+          "itemId": "item-0338",
+          "name": "수유 중인 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 665,
+          "state": 3
+        },
+        {
+          "itemId": "item-0339",
+          "name": "늙은 마스티프",
+          "category": "개·반려동물 상태",
+          "nativeId": 666,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "새끼 코기",
+      "note": "",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:48:55.767Z",
+      "id": "dot-5f80a2676da44c8d",
+      "sha256": "5f80a2676da44c8dce2d8974e1c93a47697ce468356bbfcf8de31ad6f02deadd",
+      "image": "assets/pixels/review-82969294f941c485.png",
+      "candidates": [
+        {
+          "itemId": "item-0340",
+          "name": "새끼 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 670,
+          "state": 0
+        },
+        {
+          "itemId": "item-0340",
+          "name": "새끼 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 670,
+          "state": 1
+        }
+      ]
+    },
+    {
+      "name": "코기",
+      "note": "수컷 코기 · 암컷 코기 · 임신한 코기 · 수유 중인 코기 · 늙은 코기",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:48:53.767Z",
+      "id": "dot-654dbe3d7b1b64c2",
+      "sha256": "654dbe3d7b1b64c24a75d651591b0ba46aba35b1094b16e74beffeb0ff8069e1",
+      "image": "assets/pixels/review-68c81ef184b8d01b.png",
+      "candidates": [
+        {
+          "itemId": "item-0341",
+          "name": "어린 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 671,
+          "state": 0
+        },
+        {
+          "itemId": "item-0341",
+          "name": "어린 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 671,
+          "state": 1
+        },
+        {
+          "itemId": "item-0342",
+          "name": "수컷 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 674,
+          "state": 0
+        },
+        {
+          "itemId": "item-0342",
+          "name": "수컷 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 674,
+          "state": 1
+        },
+        {
+          "itemId": "item-0342",
+          "name": "수컷 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 674,
+          "state": 2
+        },
+        {
+          "itemId": "item-0343",
+          "name": "암컷 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 675,
+          "state": 0
+        },
+        {
+          "itemId": "item-0343",
+          "name": "암컷 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 675,
+          "state": 1
+        },
+        {
+          "itemId": "item-0343",
+          "name": "암컷 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 675,
+          "state": 2
+        },
+        {
+          "itemId": "item-0344",
+          "name": "임신한 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 675,
+          "state": 3
+        },
+        {
+          "itemId": "item-0345",
+          "name": "수유 중인 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 675,
+          "state": 4
+        },
+        {
+          "itemId": "item-0346",
+          "name": "늙은 코기",
+          "category": "개·반려동물 상태",
+          "nativeId": 676,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "셸티",
+      "note": "수컷 셸티 · 암컷 셸티 · 임신한 셸티 · 수유 중인 셸티 · 늙은 셸티",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:49:10.448Z",
+      "id": "dot-490303dbbdd568ef",
+      "sha256": "490303dbbdd568efcf4411675730fe1e2a1a1c4870467b0494f3b6b704567ad9",
+      "image": "assets/pixels/review-127de1979ada059a.png",
+      "candidates": [
+        {
+          "itemId": "item-0348",
+          "name": "어린 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 681,
+          "state": 0
+        },
+        {
+          "itemId": "item-0348",
+          "name": "어린 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 681,
+          "state": 1
+        },
+        {
+          "itemId": "item-0349",
+          "name": "수컷 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 684,
+          "state": 0
+        },
+        {
+          "itemId": "item-0349",
+          "name": "수컷 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 684,
+          "state": 1
+        },
+        {
+          "itemId": "item-0349",
+          "name": "수컷 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 684,
+          "state": 2
+        },
+        {
+          "itemId": "item-0350",
+          "name": "암컷 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 685,
+          "state": 0
+        },
+        {
+          "itemId": "item-0350",
+          "name": "암컷 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 685,
+          "state": 1
+        },
+        {
+          "itemId": "item-0350",
+          "name": "암컷 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 685,
+          "state": 2
+        },
+        {
+          "itemId": "item-0351",
+          "name": "임신한 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 685,
+          "state": 3
+        },
+        {
+          "itemId": "item-0352",
+          "name": "수유 중인 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 685,
+          "state": 4
+        },
+        {
+          "itemId": "item-0353",
+          "name": "늙은 셸티",
+          "category": "개·반려동물 상태",
+          "nativeId": 686,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "셰퍼드",
+      "note": "수컷 셰퍼드 · 암컷 셰퍼드 · 임신한 셰퍼드 · 수유 중인 셰퍼드 · 늙은 셰퍼드",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:49:29.350Z",
+      "id": "dot-79b1c4105ecd3060",
+      "sha256": "79b1c4105ecd30601c9ea27485b5816d243902ff4e1a46090ccf6516a60c33db",
+      "image": "assets/pixels/review-544e79ea3b3437f2.png",
+      "candidates": [
+        {
+          "itemId": "item-0355",
+          "name": "어린 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 691,
+          "state": 0
+        },
+        {
+          "itemId": "item-0355",
+          "name": "어린 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 691,
+          "state": 1
+        },
+        {
+          "itemId": "item-0356",
+          "name": "수컷 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 694,
+          "state": 0
+        },
+        {
+          "itemId": "item-0356",
+          "name": "수컷 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 694,
+          "state": 1
+        },
+        {
+          "itemId": "item-0356",
+          "name": "수컷 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 694,
+          "state": 2
+        },
+        {
+          "itemId": "item-0357",
+          "name": "암컷 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 695,
+          "state": 0
+        },
+        {
+          "itemId": "item-0357",
+          "name": "암컷 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 695,
+          "state": 1
+        },
+        {
+          "itemId": "item-0357",
+          "name": "암컷 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 695,
+          "state": 2
+        },
+        {
+          "itemId": "item-0358",
+          "name": "임신한 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 695,
+          "state": 3
+        },
+        {
+          "itemId": "item-0359",
+          "name": "수유 중인 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 695,
+          "state": 4
+        },
+        {
+          "itemId": "item-0360",
+          "name": "늙은 셰퍼드",
+          "category": "개·반려동물 상태",
+          "nativeId": 696,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "포인터",
+      "note": "수컷 포인터 · 암컷 포인터 · 임신한 포인터 · 수유 중인 포인터 · 늙은 포인터",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:49:37.435Z",
+      "id": "dot-1b7fda1a80d57d40",
+      "sha256": "1b7fda1a80d57d402043eafe4bb47c6f8c153f2cb9d64846c54e03339f1f1196",
+      "image": "assets/pixels/review-eb22459bd38a5ceb.png",
+      "candidates": [
+        {
+          "itemId": "item-0362",
+          "name": "어린 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 701,
+          "state": 0
+        },
+        {
+          "itemId": "item-0362",
+          "name": "어린 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 701,
+          "state": 1
+        },
+        {
+          "itemId": "item-0363",
+          "name": "수컷 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 704,
+          "state": 0
+        },
+        {
+          "itemId": "item-0363",
+          "name": "수컷 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 704,
+          "state": 1
+        },
+        {
+          "itemId": "item-0363",
+          "name": "수컷 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 704,
+          "state": 2
+        },
+        {
+          "itemId": "item-0364",
+          "name": "암컷 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 705,
+          "state": 0
+        },
+        {
+          "itemId": "item-0364",
+          "name": "암컷 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 705,
+          "state": 1
+        },
+        {
+          "itemId": "item-0364",
+          "name": "암컷 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 705,
+          "state": 2
+        },
+        {
+          "itemId": "item-0365",
+          "name": "임신한 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 705,
+          "state": 3
+        },
+        {
+          "itemId": "item-0366",
+          "name": "수유 중인 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 705,
+          "state": 4
+        },
+        {
+          "itemId": "item-0367",
+          "name": "늙은 포인터",
+          "category": "개·반려동물 상태",
+          "nativeId": 706,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "푸아트뱅",
+      "note": "수컷 푸아트뱅 · 암컷 푸아트뱅 · 임신한 푸아트뱅 · 수유 중인 푸아트뱅 · 늙은 푸아트뱅",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:49:46.848Z",
+      "id": "dot-1231b5304440a24c",
+      "sha256": "1231b5304440a24c1fe602a005f699ca4f4c14531d58471117fd228aca2eabd0",
+      "image": "assets/pixels/review-0d47d21c325cb0db.png",
+      "candidates": [
+        {
+          "itemId": "item-0369",
+          "name": "어린 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 711,
+          "state": 0
+        },
+        {
+          "itemId": "item-0369",
+          "name": "어린 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 711,
+          "state": 1
+        },
+        {
+          "itemId": "item-0370",
+          "name": "수컷 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 714,
+          "state": 0
+        },
+        {
+          "itemId": "item-0370",
+          "name": "수컷 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 714,
+          "state": 1
+        },
+        {
+          "itemId": "item-0371",
+          "name": "암컷 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 715,
+          "state": 0
+        },
+        {
+          "itemId": "item-0371",
+          "name": "암컷 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 715,
+          "state": 1
+        },
+        {
+          "itemId": "item-0372",
+          "name": "임신한 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 715,
+          "state": 2
+        },
+        {
+          "itemId": "item-0373",
+          "name": "수유 중인 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 715,
+          "state": 3
+        },
+        {
+          "itemId": "item-0374",
+          "name": "늙은 푸아트뱅",
+          "category": "개·반려동물 상태",
+          "nativeId": 716,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "양 동상",
+      "note": "",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:50:43.967Z",
+      "id": "dot-7fc0de20c986faa8",
+      "sha256": "7fc0de20c986faa8b39a1d9d378e0b50aa79732615e7de3ebf4c6ec5d1ac414d",
+      "image": "assets/pixels/review-7971623bbcd3e472.png",
+      "candidates": [
+        {
+          "itemId": "item-0529",
+          "name": "동상",
+          "category": "도구·가구·장식",
+          "nativeId": 3260,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "쇼콜라상 · 쿠키상",
+      "note": "",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:51:29.329Z",
+      "id": "dot-7c423c6b8c6c8129",
+      "sha256": "7c423c6b8c6c8129649a96c21063cb26f301eecbd7617ec90cf35f397262d6e8",
+      "image": "assets/pixels/review-19f8ca33b2518e7e.png",
+      "candidates": [
+        {
+          "itemId": "item-0561",
+          "name": "쇼콜라상",
+          "category": "사냥 상·기념상",
+          "nativeId": 4000,
+          "state": 0
+        },
+        {
+          "itemId": "item-0578",
+          "name": "쿠키상",
+          "category": "사냥 상·기념상",
+          "nativeId": 4170,
+          "state": 0
+        },
+        {
+          "itemId": "item-0580",
+          "name": "이카루상",
+          "category": "사냥 상·기념상",
+          "nativeId": 4190,
+          "state": 0
+        },
+        {
+          "itemId": "item-0595",
+          "name": "회수 이카루상",
+          "category": "사냥 상·기념상",
+          "nativeId": 4340,
+          "state": 0
+        }
+      ]
+    },
+    {
+      "name": "마른 풀",
+      "note": "마른 풀",
+      "status": "named",
+      "updatedAt": "2026-11-15T06:52:22.080Z",
+      "id": "dot-6707add213728ebe",
+      "sha256": "6707add213728ebe26ef5e8051d0dd989911c2b380e306004ef80682a374694e",
+      "image": "assets/pixels/review-6bb365348c5149a2.png",
+      "candidates": [
+        {
+          "itemId": "item-0005",
+          "name": "마른 풀",
+          "category": "작물·식물",
+          "nativeId": 18,
+          "state": 0
+        },
+        {
+          "itemId": "item-0018",
+          "name": "휴면 순무",
+          "category": "작물·식물",
+          "nativeId": 38,
+          "state": 0
+        },
+        {
+          "itemId": "item-0024",
+          "name": "휴면 무",
+          "category": "작물·식물",
+          "nativeId": 48,
+          "state": 0
+        },
+        {
+          "itemId": "item-0030",
+          "name": "휴면 양배추",
+          "category": "작물·식물",
+          "nativeId": 58,
+          "state": 0
+        }
+      ]
+    }
+  ]
+}

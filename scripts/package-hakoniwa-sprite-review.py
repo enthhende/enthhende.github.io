@@ -17,7 +17,7 @@ for entry in catalog['entries']:
 html = (review / 'index.html').read_text()
 html = html.replace('<link rel="stylesheet" href="review.css">', '<style>\n' + (review / 'review.css').read_text() + '\n</style>')
 # Preserve defer ordering: execute the embedded catalog and UI after the body.
-html = html.replace('<script src="catalog.js" defer></script>', '').replace('<script src="review.js" defer></script>', '')
+html = html.replace(' <script src="catalog.js" defer></script>', '').replace(' <script src="review.js" defer></script>', '')
 js = 'window.SPRITE_CATALOG = ' + json.dumps(catalog, ensure_ascii=False) + ';\n' + (review / 'review.js').read_text()
 html = html.replace('</body>', '<script>\n' + js.replace('</script', '<\\/script') + '\n</script>\n</body>')
 dest = root / 'downloads/hakoniwa-sprite-review.html'

@@ -1,0 +1,132 @@
+{
+  "task_id": "HOME-CATALOG-QA-20261117",
+  "preview": "http://127.0.0.1:8880/?qa=catalog",
+  "source_hashes": {
+    "index.html": "62d79829c296a205673cf33ebf556b917cfaf5bb192f7ded776d85057b796979",
+    "assets/css/home.css": "50311266437236be10630747d9cc02596c9769c3392a69645fcf5064e5ffe26e",
+    "assets/js/home-catalog.js": "2d3bf40a6e302768243e5c65adaa0430b085f502bc08e6586d2967597531713c"
+  },
+  "hashes_match_assignment": true,
+  "browser": "ego-browser dedicated task space 7, finished keep:[]",
+  "viewport_method": "CDP mobile:true emulation; actual CSS innerWidth measured",
+  "dimensions": {
+    "desktop": [
+      1280,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "edge": [
+      320,
+      844
+    ],
+    "scroll_client": {
+      "1280": [
+        1280,
+        1280
+      ],
+      "390": [
+        390,
+        390
+      ],
+      "320": [
+        320,
+        320
+      ]
+    }
+  },
+  "default": {
+    "result": "PASS",
+    "view": "list",
+    "records": 4,
+    "images_loaded": 4,
+    "hakoniwa_logo": "games/hakoniwa/guide/assets/title-ko.png",
+    "platforms": {
+      "chacha": [
+        "SFC"
+      ],
+      "homestar": [
+        "PSP"
+      ],
+      "moon": [
+        "PS1",
+        "Switch",
+        "PC · Steam"
+      ],
+      "hakoniwa": [
+        "Switch"
+      ]
+    }
+  },
+  "platform_cases": {
+    "sfc": [
+      "chacha"
+    ],
+    "psp": [
+      "homestar"
+    ],
+    "ps1": [
+      "moon"
+    ],
+    "switch": [
+      "moon",
+      "hakoniwa"
+    ],
+    "pc": [
+      "moon"
+    ],
+    "all": [
+      "chacha",
+      "homestar",
+      "moon",
+      "hakoniwa"
+    ]
+  },
+  "search_cases": {
+    "MOON": [
+      "moon"
+    ],
+    "문": [
+      "moon"
+    ],
+    "모형정원양마을": [
+      "hakoniwa"
+    ],
+    "zzzznonexistent": [],
+    "empty_message": "조건에 맞는 게임이 없습니다."
+  },
+  "interactions": {
+    "method": "keyboard focus and Enter; text input via page.fill; no DOM click",
+    "reset": "Cleared nonexistent query, returned four and focused search; platform was already all, so reset from a non-all platform not independently tested.",
+    "intersection": "Switch + moon yielded moon; switching view preserved query/filter/result; clearing query returned two Switch games.",
+    "persistence": "cards persisted reload; list persisted reload; moon title keyboard navigation then sitebar home retained list.",
+    "bookmark": "SFC filter followed by Hakoniwa bookmark reset to all, exposed four, hash #game-hakoniwa, row visible after scroll reached page bottom.",
+    "accessibility": "Selected filter/view aria-pressed coherent across observed cases; hidden records have hidden attribute and zero client rects; four single DOM records.",
+    "errors": "No window error/unhandled rejection on instrumented final reload; no broken images."
+  },
+  "cleanup": {
+    "original_view": null,
+    "restored_view": null,
+    "verified_after_reload": true,
+    "final_ui": "list, all platforms, blank search",
+    "scope": "Only enthhende-home-view on localhost:8880 changed; no storage reset."
+  },
+  "screenshots": [
+    "/tmp/catalog-list-desktop.png",
+    "/tmp/catalog-list-mobile.png",
+    "/tmp/catalog-cards-desktop.png",
+    "/tmp/catalog-cards-mobile.png",
+    "/tmp/catalog-list-320.png",
+    "/tmp/catalog-cards-320.png"
+  ],
+  "issues": [
+    "At 320px card view, Hakoniwa title wraps its final syllable to a second line; no clipping or page overflow observed."
+  ],
+  "limits": [
+    "Reset from a non-all platform was not directly exercised; reset from an empty search was tested with all selected.",
+    "Pointer activation not retested; keyboard controls and text input were used.",
+    "Console error check covers captured window errors and unhandled rejections on final reload, not exhaustive console/network monitoring."
+  ]
+}

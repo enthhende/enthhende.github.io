@@ -6,7 +6,7 @@
   <meta name="description" content="엔스헨데가 직접 만든 게임 한글패치와 한국어 공략을 게임별로 정리한 아카이브입니다.">
   <title>엔스헨데 한글패치 & 공략</title>
   <link rel="stylesheet" href="assets/css/common.css">
-  <link rel="stylesheet" href="assets/css/home.css?v=20261117-corners">
+  <link rel="stylesheet" href="assets/css/home.css?v=20261117-catalog">
 </head>
 <body class="home-page">
   <nav class="topnav" aria-label="주요 메뉴">
@@ -40,12 +40,31 @@
   <main class="wrap">
     <section id="games" class="section">
       <h2><span aria-hidden="true">📚</span> 게임별 코너</h2>
-      <p class="sectionLead">원하는 게임을 선택하세요. 공개된 공략과 한글패치 배포 현황을 게임별로 확인할 수 있습니다.</p>
+      <p class="sectionLead">기종과 제목으로 게임을 찾아보세요. 게임 코너에서 한글패치와 공략을 함께 확인할 수 있습니다.</p>
 
-      <div class="gameGrid">
-        <article class="card gameCard game-chacha" id="game-chacha">
+      <div class="catalog-tools" hidden>
+        <div class="catalog-toolbar">
+          <label class="catalog-search">게임 제목 검색<input id="gameSearch" type="search" placeholder="제목으로 찾기: 차차, moon…" autocomplete="off" aria-controls="gameCatalog"></label>
+          <div class="catalog-view" role="group" aria-label="보기 방식">
+            <button type="button" data-view-switch="list" aria-pressed="true"><span aria-hidden="true">☷</span> 목록 보기</button>
+            <button type="button" data-view-switch="cards" aria-pressed="false"><span aria-hidden="true">▦</span> 카드 보기</button>
+          </div>
+        </div>
+        <div class="catalog-filter-line"><div class="catalog-filters" role="group" aria-label="기종 필터">
+          <button type="button" data-platform="all" aria-pressed="true">전체</button>
+          <button type="button" data-platform="sfc" aria-pressed="false">SFC</button>
+          <button type="button" data-platform="psp" aria-pressed="false">PSP</button>
+          <button type="button" data-platform="ps1" aria-pressed="false">PS1</button>
+          <button type="button" data-platform="switch" aria-pressed="false">Switch</button>
+          <button type="button" data-platform="pc" aria-pressed="false">PC</button>
+        </div><span id="gameResultCount" class="catalog-count" role="status" aria-live="polite" aria-atomic="true">4개 게임</span></div>
+      </div>
+      <div class="catalog-columns" aria-hidden="true"><span>타이틀</span><span>기종</span><span>제공 내용</span><span>바로가기</span></div>
+      <div class="gameGrid" id="gameCatalog" data-view="list">
+        <article class="card gameCard game-chacha" id="game-chacha" data-platforms="sfc" data-title="빨간망토 차차 chacha 아카즈킨 차차">
           <div class="game-heading"><a class="game-cover" href="games/chacha/" aria-label="빨간망토 차차 코너 열기"><img src="games/chacha/assets/title-r9-native.png" width="256" height="224" alt="빨간망토 차차 한글판 타이틀 화면"><span class="cover-sticker" aria-hidden="true">🍓</span></a><div><span class="badge live">공개 중</span>
-            <h3>빨간망토 차차</h3></div></div>
+            <h3><a href="games/chacha/">빨간망토 차차</a></h3></div></div>
+          <div class="game-platforms" aria-label="게임 기종"><span>SFC</span></div>
           <div class="game-copy">
             <p>MBC 더빙판의 호칭과 말투를 바탕으로 옮긴 슈퍼패미컴 모험 게임입니다. 1~8화 공략, 퀴즈 풀이와 하트 수집 수첩을 함께 준비했습니다.</p>
             <div class="gameLinks" aria-label="빨간망토 차차 코너 제공 메뉴">
@@ -55,9 +74,10 @@
           <div class="actions"><a class="btn primary" href="games/chacha/">게임 코너 열기 →</a><div class="home-shortcuts"><a href="games/chacha/patch/">한글패치</a><a href="games/chacha/guide/">공략</a></div></div>
         </article>
 
-        <article class="card gameCard game-homestar" id="game-homestar">
+        <article class="card gameCard game-homestar" id="game-homestar" data-platforms="psp" data-title="홈스타 포터블 homestar portable">
           <div class="game-heading"><a class="game-cover" href="games/homestar/" aria-label="홈스타 포터블 코너 열기"><img src="games/homestar/assets/screens/01-title.png" width="480" height="272" alt="홈스타 포터블 한글판 타이틀 화면"><span class="cover-sticker" aria-hidden="true">🌌</span></a><div><span class="badge live">공개 중</span>
-            <h3>홈스타 포터블</h3></div></div>
+            <h3><a href="games/homestar/">홈스타 포터블</a></h3></div></div>
+          <div class="game-platforms" aria-label="게임 기종"><span>PSP</span></div>
           <div class="game-copy">
             <p>날짜와 장소를 정해 밤하늘을 보고, 천체 사전과 판타지 시어터를 한국어로 만나는 PSP 천문 소프트웨어입니다.</p>
             <div class="gameLinks" aria-label="홈스타 포터블 코너 제공 메뉴">
@@ -67,9 +87,10 @@
           <div class="actions"><a class="btn primary" href="games/homestar/">게임 코너 열기 →</a><div class="home-shortcuts"><a href="games/homestar/patch/">한글패치</a><a href="games/homestar/guide/">사용 설명서</a></div></div>
         </article>
 
-        <article class="card gameCard game-moon" id="game-moon">
+        <article class="card gameCard game-moon" id="game-moon" data-platforms="ps1 switch pc" data-title="moon 문">
           <div class="game-heading"><a class="game-cover" href="games/moon/" aria-label="moon 코너 열기"><img src="assets/images/game-titles/moon-title.png" width="350" height="240" alt="moon 타이틀 화면" loading="lazy"><span class="cover-sticker" aria-hidden="true">🌙</span></a><div><span class="badge live">공개 중</span>
-            <h3>moon</h3></div></div>
+            <h3><a href="games/moon/">moon</a></h3></div></div>
+          <div class="game-platforms" aria-label="게임 기종"><span>PS1</span><span>Switch</span><span>PC · Steam</span></div>
           <div class="game-copy">
             <p>한글패치와 함께 사용할 수 있는 한국어 공략을 정리하고 있습니다. 러브 이벤트, 애니멀, MD, 요일별 일정, 지역별 상세, 기판 정보와 진행 체크를 포함합니다.</p>
             <div class="gameLinks" aria-label="moon 코너 제공 메뉴">
@@ -82,9 +103,10 @@
           <div class="actions"><a class="btn primary" href="games/moon/">게임 코너 열기 →</a><div class="home-shortcuts"><a href="games/moon/patch/">한글패치</a><a href="games/moon/guide/">공략</a></div></div>
         </article>
 
-        <article class="card gameCard game-hakoniwa" id="game-hakoniwa">
+        <article class="card gameCard game-hakoniwa" id="game-hakoniwa" data-platforms="switch" data-title="모형정원 양마을 모형정원목장 양마을 hakoniwa hitsujimura">
           <div class="game-heading"><a class="game-cover" href="games/hakoniwa/" aria-label="모형정원 양마을 코너 열기"><img src="games/hakoniwa/guide/assets/title-ko.png" width="728" height="331" alt="모형정원 양마을 한글 타이틀" loading="lazy"><span class="cover-sticker" aria-hidden="true">🐑</span></a><div><span class="badge live">공개 중</span>
-            <h3>모형정원 양마을</h3></div></div>
+            <h3><a href="games/hakoniwa/">모형정원 양마을</a></h3></div></div>
+          <div class="game-platforms" aria-label="게임 기종"><span>Switch</span></div>
           <div class="game-copy">
             <p>초보자 가이드부터 계절별 할 일, 작물·가축, 사냥, 시장과 교환 루트, 아이템 DB까지 플레이 중 찾아볼 수 있는 한국어 공략입니다.</p>
             <div class="gameLinks" aria-label="모형정원 양마을 코너 제공 메뉴">
@@ -96,6 +118,7 @@
           <div class="actions"><a class="btn primary" href="games/hakoniwa/">게임 코너 열기 →</a><div class="home-shortcuts"><a href="games/hakoniwa/patch/">한글패치</a><a href="games/hakoniwa/guide/">공략</a></div></div>
         </article>
       </div>
+      <div class="catalog-empty" id="gameEmpty" hidden><span aria-hidden="true">🌱</span><p>조건에 맞는 게임이 없습니다.</p><button type="button" id="resetGameFilters">검색·기종 초기화</button></div>
     </section>
   </main>
 
@@ -105,5 +128,6 @@
       <div class="tiny">즐거운 플레이 되세요 <span aria-hidden="true">🌼</span></div>
     </div>
   </footer>
+<script src="assets/js/home-catalog.js?v=20261117-catalog" defer></script>
 </body>
 </html>

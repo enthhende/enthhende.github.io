@@ -1,0 +1,82 @@
+{
+  "task_id": "HOME-CATALOG-QA-20261117",
+  "revision": "title-wrap-final",
+  "prior_report": "scripts/reports/home-catalog-initial-20261117.json",
+  "hashes": {
+    "index.html": "62d79829c296a205673cf33ebf556b917cfaf5bb192f7ded776d85057b796979",
+    "assets/css/home.css": "2ba0ca9e72181a165bce79bb59e0a7a6256896738750cdaeaec79c3f3fa4ab76",
+    "assets/js/home-catalog.js": "2d3bf40a6e302768243e5c65adaa0430b085f502bc08e6586d2967597531713c"
+  },
+  "hashes_match_assignment": true,
+  "preview": "http://127.0.0.1:8880/?qa=title-wrap-final",
+  "browser": "ego-browser task space 8, finished keep:[]",
+  "viewport_method": "CDP mobile:true; measured CSS innerWidth",
+  "checks": {
+    "cards_320_390": "PASS: no horizontal overflow; 320 Hakoniwa wraps at word boundary 모형정원 / 양마을, 390 on one line; all four headings visually fit.",
+    "list_1280_320": "PASS: no horizontal overflow or heading clipping; all four title links inspected.",
+    "sfc_nonexistent_reset": {
+      "before": {
+        "sfc_pressed": true,
+        "query": "zzzznonexistent",
+        "count": "0개 게임 / 전체 4개",
+        "reset_visible": true
+      },
+      "after": {
+        "visible": [
+          "game-chacha",
+          "game-homestar",
+          "game-moon",
+          "game-hakoniwa"
+        ],
+        "count": "4개 게임",
+        "all_pressed": true,
+        "sfc_pressed": false,
+        "query": "",
+        "focused_id": "gameSearch"
+      },
+      "method": "keyboard focus and Enter; search via fill"
+    }
+  },
+  "dimensions": {
+    "320": [
+      320,
+      320
+    ],
+    "390": [
+      390,
+      390
+    ],
+    "1280": [
+      1280,
+      1280
+    ]
+  },
+  "cleanup": {
+    "original": null,
+    "restored": null,
+    "verified_after_reload": true,
+    "ui": "list, all, empty search"
+  },
+  "screenshots": [
+    "/tmp/catalog-cards-320-final.png",
+    "/tmp/catalog-cards-390-final.png",
+    "/tmp/catalog-list-1280-final.png",
+    "/tmp/catalog-list-320-final.png"
+  ],
+  "limits": [
+    "Bounded follow-up only; prior function checks in referenced report."
+  ],
+  "owner_static_checks": [
+    "node --check assets/js/home-catalog.js passed",
+    "git diff --check passed",
+    "All local homepage links/assets exist",
+    "Four single DOM game records, unique IDs, two view buttons and six platform filters; metadata agrees with existing game pages",
+    "Owner inspected list desktop/mobile and final320px card screenshots"
+  ],
+  "runtime_model_evidence": {
+    "thread": "01a1e4ce-53b1-7e70-8e8e-5067906f1c1f",
+    "model": "gpt-6.1-terra",
+    "effort": "medium",
+    "source": "Parent inspected rollout turn_context; visible cmux workspace:1000050021"
+  }
+}

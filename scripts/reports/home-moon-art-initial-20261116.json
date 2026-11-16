@@ -1,0 +1,67 @@
+{
+  "task_id": "HOME-MOON-EXPAND-QA-20261116",
+  "source_hashes": {
+    "index.html": "18347be7d974477d4dee8108408ef89dec73fd62a9a9e8521e9cb95158acdaeb",
+    "assets/css/home.css": "89cd33cc5d164b2627c66d7b6fef13ada47e8bb1111228c1df4cc0c55b301c4f",
+    "games/moon/guide/index.html": "d63b3bdd0854f4986664f707beca5bba84e1dedd5068c29ab2be8c8da3b5bde7",
+    "games/moon/guide/moon-style.css": "dd6dbe8e56f5c827f991ab3fa3c1d71479e95fda455cf5af6b835149e2d7b55b",
+    "games/moon/guide/moon-art.js": "f3b62490b89e446e94c342731a0532428ef2038c5a658e6baf6f71aaefd28a8e",
+    "assets/js/moon-guide.js": "3bbfe0a4d41b5407c7e60a25c768a962e4fb890239aae9feab97d3009d9833a3",
+    "downloads/moon-guide-offline-v1.1.16.zip": "af184e90ac82d04aa7bd58f0eceddaad085d0e7f710938d90bbe2e5010eab860"
+  },
+  "hashes_match_assignment": true,
+  "browser": "ego-browser dedicated task space 3, finished keep:[]",
+  "viewport_dimensions": {
+    "desktop": [
+      1280,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "method": "CDP Emulation.setDeviceMetricsOverride mobile:true; actual innerWidth/innerHeight measured",
+    "home_desktop_scroll_client": [
+      1280,
+      1280
+    ],
+    "home_mobile_scroll_client": [
+      390,
+      390
+    ],
+    "moon_desktop_scroll_client": [
+      1280,
+      1280
+    ],
+    "moon_mobile_scroll_client": [
+      390,
+      390
+    ]
+  },
+  "checks": {
+    "home": "FAIL: exact preview / serves older homepage: only common.css, zero img elements, badges 한국어 패치 1.0.0 twice and 공략 공개 중, version text v0.19.0. Current assigned source hashes match but served homepage is not current source. Design and four title images cannot be validated.",
+    "home_internal_links": "PASS: ten internal HTML links HEAD 200; moon guide homepage link activated by keyboard and navigated to /.",
+    "keyboard_focus": "PASS: guide homepage link has 3px solid outline when keyboard focused.",
+    "moon_art": "PASS: 34 image elements loaded, including four cast sprites, logo, UI, seven legend and seven tab icons, item icons. Mobile hero visually complete; calendar shows icons and text readable. Detailed whole-page clipping review limited.",
+    "moon_no_beta": "PASS",
+    "moon_spoilers_story": "PASS: 137 hidden and default stage 1; one early hint revealed and hidden via DOM click handler.",
+    "moon_search": "PASS: search 프레드 changed 50/50 to 1/50, clearing restored 50/50.",
+    "moon_day_filter": "PASS: 태양의 날 tab and sun icon; rendered schedule rows 11 to 4.",
+    "moon_progress": "PASS: first progress checkbox toggled and restored false; false verified after reload. No storage reset.",
+    "network_js": "PASS limited: no broken image elements or captured window error/unhandled rejection after instrumented reload; no comprehensive network failure event log collected.",
+    "offline": "PASS: extracted /tmp/moon-expanded-offline-qa/moon-guide-v1.1.16/index.html loaded via file:, 34 images loaded, both JS scripts local, zero HTTP resource entries, early hint handler worked."
+  },
+  "issues": [
+    "Exact preview homepage serves stale content inconsistent with assigned source; requires server root/cache diagnosis by owner.",
+    "Ego page.click and CDP mouse dispatch did not activate controls under emulated viewport; DOM element.click triggered actual installed event handlers. Keyboard Enter navigation worked. Pointer behavior therefore unverified.",
+    "Full-page visual inspection and all network errors not exhaustively verified. Desktop emulation uses mobile:true to achieve requested CSS dimensions."
+  ],
+  "screenshots": [
+    "/tmp/home-refresh-desktop.png",
+    "/tmp/home-refresh-mobile.png",
+    "/tmp/moon-expand-desktop.png",
+    "/tmp/moon-expand-mobile.png",
+    "/tmp/moon-expand-calendar.png"
+  ],
+  "offline_path": "/tmp/moon-expanded-offline-qa/moon-guide-v1.1.16/index.html"
+}

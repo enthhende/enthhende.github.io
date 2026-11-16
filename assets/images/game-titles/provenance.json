@@ -1,0 +1,26 @@
+[
+  {
+    "game": "moon",
+    "file": "assets/images/game-titles/moon-title.png",
+    "source": "Kpatch/MoonRemixRPGKpatch/work/v1_1_name_feedback_o29_runtime_evidence_2026-08-13/00_push_start.png",
+    "sourceSha256": "df4f0d2f2c0e0997a79455af860bd471a557d88be4d014876769d9e05438eaa0",
+    "sha256": "f71d3e31766b9557c2baf6e99bd3e84b178f0fd51c9c6fd9a023290a7fb02b81",
+    "scope": "Complete title scene, no story/event gameplay",
+    "resize": [
+      350,
+      240
+    ]
+  },
+  {
+    "game": "hakoniwa",
+    "file": "assets/images/game-titles/hakoniwa-title.webp",
+    "source": "NSWKpatch/titles/Hakoniwa-Ranch-Sheep-Village-Switch/_work/010059C017346000/50_test/eden/point-bonus-diag-a03/title.png",
+    "sourceSha256": "26fb7cee5ed6143a3b32a01defbd97d8665f17a73e461a43f2f573b401b9d46a",
+    "sha256": "c2dac145a78770d847b4a1971cfad01f322a3f0cdff73d07e49c8440b84a3ec7",
+    "scope": "Complete title scene, no story/event gameplay",
+    "resize": [
+      960,
+      540
+    ]
+  }
+]

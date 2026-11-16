@@ -1,0 +1,73 @@
+/* Pastel bookshelf styling, isolated from the individual game sites. */
+.home-page{--bg:#fcf7ed;--paper:#fffdf8;--ink:#514d43;--muted:#8a8476;--line:#e8dfcd;--accent:#788f68;--soft:#edf2e3;--shadow:0 7px 0 #ded6bf2e;background:var(--bg);background-image:radial-gradient(#c4bca62e .7px,transparent .7px);background-size:8px 8px}
+.home-page .wrap{width:min(1120px,calc(100% - 40px))}
+.home-page .topnav{background:#fffcf4ed;border-bottom:1px solid #e9dfc9;backdrop-filter:blur(12px)}
+.home-nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:85px}
+.home-brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:800;font-size:22px;letter-spacing:-.05em;color:#646f50}
+.brand-flower{display:grid;place-items:center;width:47px;height:47px;font-size:31px;background:#f8eedb;border:1px solid #e6d9bc;border-radius:17px;transform:rotate(-6deg)}
+.home-brand small{display:block;font-size:10px;font-weight:600;color:#83785f;letter-spacing:.08em;margin-top:1px}
+.home-page .nav{gap:9px;padding:0;overflow:visible}
+.home-page .nav a{font-size:12px;padding:8px 14px;color:#727b60}
+.home-page .nav a[aria-current=page]{background:#eaf0df;color:#6e805b;border:1px solid #d7e1c6}
+.home-page .hero{position:relative;overflow:hidden;background:linear-gradient(105deg,#f5efdc 0%,#f4f1e0 44%,#e6eddb 100%);color:var(--ink);border-bottom:1px solid #e2e5ce;padding:48px 0 51px}
+.home-page .hero:before{content:"";position:absolute;width:350px;height:350px;left:-190px;top:70px;border-radius:50%;border:32px solid #e3b9a627;pointer-events:none}
+.home-page .hero:after{content:"";position:absolute;inset:0;opacity:.18;background-image:radial-gradient(#c7bda1 .7px,transparent .7px);background-size:6px 6px;pointer-events:none}
+.home-hero-inner{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:65px;position:relative;z-index:1}
+.home-hero-copy{padding:8px 0}
+.home-page .eyebrow{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:650;letter-spacing:.05em;color:#71794f;background:#fffcf19c;border:1px solid #dedfc5;border-radius:999px;padding:5px 12px}
+.home-page .hero h1{font-size:clamp(35px,4.3vw,53px);line-height:1.23;letter-spacing:-.06em;color:#596849;margin:19px 0 17px;font-weight:800}
+.home-page .hero h1 em{font-style:normal;color:#b38f69}
+.home-page .hero p{font-size:13px;line-height:1.95;color:#77745f;max-width:475px}
+.hero-button{display:inline-flex;align-items:center;gap:22px;text-decoration:none;background:#84966f;color:white;border:1px solid #788b62;border-radius:12px;font-size:12px;font-weight:700;padding:12px 18px;margin-top:23px;box-shadow:0 4px 0 #6e815b21;transition:transform .15s,background .15s}
+.hero-button:hover{background:#74875f;transform:translateY(-2px)}
+.home-postcard{position:relative;background:#fffbef;border:1px solid #dfd7be;border-radius:17px;padding:28px 24px 22px;box-shadow:6px 8px 0 #aab58c24;transform:rotate(3deg);max-width:350px;width:100%;justify-self:end}
+.postcard-tape{position:absolute;left:50%;top:-12px;width:98px;height:25px;transform:translateX(-50%) rotate(-7deg);background:repeating-linear-gradient(45deg,#e3cf9b9c,#e3cf9b9c 5px,#e9d9b39c 5px,#e9d9b39c 8px);clip-path:polygon(2% 0,98% 2%,100% 100%,0 96%)}
+.home-page .postcard-title{font-size:12px;font-weight:700;color:#9d957c;text-align:center;margin:0 0 19px}
+.home-bookmarks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.home-bookmarks a{display:flex;align-items:center;flex-direction:column;gap:5px;background:#f8efe4;border:1px solid #eee0d3;border-radius:13px;padding:13px 6px;text-decoration:none;transition:transform .15s}
+.home-bookmarks a:nth-child(2){background:#edf1f1;border-color:#dce7e5}.home-bookmarks a:nth-child(3){background:#f4f0df;border-color:#e9e1c5}.home-bookmarks a:nth-child(4){background:#edf3e3;border-color:#dfe8ce}
+.home-bookmarks a:hover{transform:rotate(-3deg) translateY(-2px)}
+.home-bookmarks a>span{font-size:35px;line-height:1.4;filter:drop-shadow(0 3px 0 #b5a88b1f)}
+.home-bookmarks b{font-size:10px;color:#82715d;font-weight:600}
+.postcard-spark{position:absolute;bottom:-15px;right:-16px;font-size:35px;color:#c5b479;text-shadow:0 1px 0 #fff4d6;transform:rotate(6deg)}
+.home-page main{padding:39px 0 65px}
+.home-page .section{scroll-margin-top:110px}
+.home-page .section h2{font-size:24px;letter-spacing:-.04em;color:#667155;margin-bottom:9px}
+.home-page .section h2>span{font-size:21px;margin-right:6px}
+.home-page .sectionLead{font-size:13px;line-height:1.85;color:#817864;margin-bottom:26px}
+.home-page .gameGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.home-page .gameCard{padding:0;overflow:hidden;border-radius:22px;border-color:#e8dac9;box-shadow:0 6px 0 #e0d5c630;scroll-margin-top:110px;background:#fffcf8}
+.home-page .game-cover{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;padding:12px 17px;background:#e5f1ee;border-bottom:1px solid #e4dfca;text-decoration:none;overflow:hidden}
+.home-page .game-cover:before{content:"";position:absolute;inset:7px;border:1px solid #ffffff7a;border-radius:13px;pointer-events:none;z-index:1}
+.home-page .game-cover img{display:block;height:100%;width:100%;object-fit:contain;image-rendering:auto;border-radius:4px;transition:transform .25s}
+.home-page .game-chacha .game-cover img,.home-page .game-moon .game-cover img{image-rendering:pixelated}
+.home-page .game-cover:hover img{transform:scale(1.025)}
+.cover-sticker{position:absolute;bottom:12px;right:17px;z-index:2;display:grid;place-items:center;font-size:24px;width:44px;height:44px;border-radius:15px;background:#fff9e3;border:1px solid #e5d7b5;box-shadow:0 3px 0 #b9a88525;transform:rotate(10deg)}
+.home-page .game-copy{padding:24px 25px 0}
+.home-page .gameCard h3{font-size:26px;line-height:1.3;letter-spacing:-.04em;color:#716454;margin:11px 0 10px}
+.home-page .gameCard p{font-size:14px;line-height:1.9;color:#797160}
+.home-page .badge.live{background:#edf2e3;color:#607747;border:1px solid #dae5c9;padding:3px 9px;font-size:10px;font-weight:600}
+.home-page .badge.live:before{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:#a5b888;vertical-align:middle;margin:0 5px 1px 0}
+.home-page .gameLinks{gap:6px;margin-top:17px;font-size:10px;font-weight:500;color:#78785d}
+.home-page .gameLinks span{padding:3px 8px;background:#f6f4e8;border:1px solid #eae5d1;border-radius:6px}
+.home-page .gameLinks span+span:before{display:none}
+.home-page .gameCard .actions{padding:22px 25px 24px;gap:7px}
+.home-page .btn{min-height:37px;font-size:11px;font-weight:600;padding:8px 11px;border-radius:9px;border-color:#e4dfcc;background:#fbfaf1;color:#777158;transition:transform .15s,background .15s}
+.home-page .btn.primary{background:#9ba583;border-color:#919c75;color:white}
+.home-page .btn.secondary{background:#f2f4e9;border-color:#e0e5d0;color:#727b57}
+.home-page .btn:hover{transform:translateY(-2px);background:#e9efdc}
+.home-page .btn.primary:hover{background:#88976b}
+.home-page .guideNote{font-size:10px;color:#80745f;margin:0 25px 20px;padding-top:13px;border-color:#ede6d3}
+.home-page .game-chacha{border-color:#ead4d0}.home-page .game-chacha .game-cover{background:#f2e3dd}.home-page .game-chacha h3{color:#a17773}.home-page .game-chacha .btn.primary{background:#bb9290;border-color:#b38b89}
+.home-page .game-homestar{border-color:#d1dfe3}.home-page .game-homestar .game-cover{background:#d9e6e8}.home-page .game-homestar h3{color:#7d98a1}.home-page .game-homestar .btn.primary{background:#8ba6ad;border-color:#829fa6}
+.home-page .game-moon{border-color:#e2dcc2}.home-page .game-moon .game-cover{background:#233d3c}.home-page .game-moon h3{color:#909466}
+.home-page .game-hakoniwa{border-color:#d8e1c7}.home-page .game-hakoniwa .game-cover{background:#e8efd9}.home-page .game-hakoniwa h3{color:#8d9c6f}
+.home-page footer{background:#edeedc;border-color:#dfe3cc;padding:28px 0;font-size:12px;color:#93977e}
+.home-page footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.home-page footer b{font-size:12px;font-weight:650;color:#858f70}.home-page footer .tiny{font-size:11px;color:#7a8263}
+.home-page :focus-visible{outline:3px solid #a9b993;outline-offset:4px}
+@media(max-width:900px){.home-hero-inner{gap:30px;grid-template-columns:1.1fr .9fr}.home-postcard{padding:24px 16px 17px}.home-page .hero h1{font-size:39px}.home-page .game-copy{padding:20px 20px 0}.home-page .gameCard .actions{padding:20px}.home-page .guideNote{margin-inline:20px}.home-page .gameGrid{gap:18px}.home-page .gameCard h3{font-size:24px}}
+@media(max-width:640px){.home-page .wrap{width:calc(100% - 28px)}.home-nav{min-height:72px;gap:10px}.home-brand{font-size:19px;gap:8px}.brand-flower{width:37px;height:40px;font-size:25px;border-radius:13px}.home-brand small{font-size:8px}.home-page .nav{gap:3px}.home-page .nav a{font-size:10px;padding:7px 8px}.home-page .hero{padding:32px 0 36px}.home-hero-inner{grid-template-columns:1fr;gap:32px}.home-hero-copy{text-align:center}.home-page .eyebrow{font-size:10px}.home-page .hero h1{font-size:39px;margin-block:16px}.home-page .hero p{font-size:12px;max-width:350px;margin:auto}.hero-button{font-size:11px;padding:11px 17px;margin-top:19px}.home-postcard{justify-self:center;max-width:305px;transform:rotate(2deg);padding:23px 21px 17px}.home-page .postcard-title{font-size:11px;margin-bottom:13px}.home-bookmarks{gap:9px}.home-bookmarks a{flex-direction:row;justify-content:center;gap:7px;padding:10px 6px}.home-bookmarks a>span{font-size:24px}.home-bookmarks b{font-size:9px}.postcard-spark{font-size:27px;bottom:-13px;right:-12px}.home-page main{padding-top:31px}.home-page .section h2{font-size:22px}.home-page .sectionLead{font-size:11px;margin-bottom:22px}.home-page .gameGrid{grid-template-columns:1fr;gap:24px}.home-page .gameCard{border-radius:18px;scroll-margin-top:95px}.home-page .game-copy{padding:21px 21px 0}.home-page .gameCard p{font-size:12px}.home-page .gameCard .actions{padding:21px}.home-page .btn{width:auto;flex:1 1 auto;font-size:11px}.home-page .btn.primary{flex-basis:100%}.home-page .game-cover{padding:10px 13px}.cover-sticker{font-size:21px;width:39px;height:39px;right:14px;bottom:10px}.home-page .guideNote{margin-inline:21px}.home-page footer{padding:24px 0}}
+@media(prefers-reduced-motion:reduce){html:has(.home-page){scroll-behavior:auto}.home-page *{transition:none!important}}
+
+.home-page .game-cover:focus-visible{outline-offset:-6px}

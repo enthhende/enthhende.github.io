@@ -17,6 +17,7 @@ with zipfile.ZipFile(dest, 'w', zipfile.ZIP_DEFLATED) as z:
     z.write(root / 'assets/css/guide.css', prefix + 'assets/css/guide.css')
     z.write(root / 'assets/js/moon-guide.js', prefix + 'assets/js/moon-guide.js')
     z.write(guide / 'moon-style.css', prefix + 'moon-style.css')
+    z.write(guide / 'moon-art.js', prefix + 'moon-art.js')
     for file in sorted((guide / 'assets/pixels').glob('*.png')):
         z.write(file, prefix + 'assets/pixels/' + file.name)
     z.writestr(prefix + 'README.txt', 'moon 한국어 공략\n\nZIP 전체를 압축 해제한 뒤 index.html을 브라우저에서 여세요.\n입력한 진행도는 해당 브라우저에 저장됩니다. 상단 백업 기능으로 옮길 수 있습니다.\n공략과 도트 이미지는 오프라인으로 표시되며, 홈·패치·참고 링크는 인터넷이 필요합니다.\n')

@@ -1,0 +1,116 @@
+{
+  "task_id": "HOME-MOON-EXPAND-QA-20261116",
+  "revision": "art2-final",
+  "prior_report": "scripts/reports/home-moon-art-initial-20261116.json",
+  "correction": "Prior stale homepage finding applies only to 8877 browser response and is superseded for current preview by this 8878 fresh-query test.",
+  "source_hashes": {
+    "index.html": "18347be7d974477d4dee8108408ef89dec73fd62a9a9e8521e9cb95158acdaeb",
+    "assets/css/home.css": "2b3ea4525c64bc9a1206bd98c471c76738fae9f51e69105ae9097d51e35698d6",
+    "games/moon/guide/index.html": "d63b3bdd0854f4986664f707beca5bba84e1dedd5068c29ab2be8c8da3b5bde7",
+    "games/moon/guide/moon-style.css": "dd6dbe8e56f5c827f991ab3fa3c1d71479e95fda455cf5af6b835149e2d7b55b",
+    "games/moon/guide/moon-art.js": "9c45e7d9bf995edcaedcb600ee74bad06a33327437bd043cc3e65e5e94a834e6",
+    "assets/js/moon-guide.js": "3bbfe0a4d41b5407c7e60a25c768a962e4fb890239aae9feab97d3009d9833a3",
+    "downloads/moon-guide-offline-v1.1.16.zip": "b61eb1609158e07c019a03fbc786a432ae058bd2390c8497dfb79e6a9fea57d5"
+  },
+  "hashes_match_assignment": true,
+  "preview": "http://127.0.0.1:8878/?qa=final",
+  "browser": "ego-browser dedicated task space 4, finished keep:[]",
+  "dimensions": {
+    "method": "CDP Emulation.setDeviceMetricsOverride mobile:true, measured innerWidth/innerHeight",
+    "desktop": {
+      "viewport": [
+        1280,
+        900
+      ],
+      "home_scroll_client": [
+        1280,
+        1280
+      ],
+      "moon_scroll_client": [
+        1280,
+        1280
+      ]
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "home_scroll_client": [
+        390,
+        390
+      ],
+      "moon_scroll_client": [
+        390,
+        390
+      ]
+    }
+  },
+  "home": {
+    "status": "PASS",
+    "dom_evidence": {
+      "url": "http://127.0.0.1:8878/?qa=final",
+      "body_class": "home-page",
+      "stylesheets": [
+        "common.css",
+        "home.css?v=20261116"
+      ],
+      "images_loaded": 4,
+      "badges": [
+        "공개 중",
+        "공개 중",
+        "공개 중",
+        "공개 중"
+      ],
+      "visible_versions": false
+    },
+    "visual": "Full-page screenshots inspected at both sizes; all four title scenes and logos visible without evident cropping, readable pastel cards, no horizontal overflow.",
+    "focus": "Keyboard Tab focused brand with 3px solid outline and 4px offset.",
+    "navigation": "Prior report verified internal link HEAD responses and keyboard guide-to-home navigation; current fresh page card URLs observed."
+  },
+  "moon": {
+    "status": "PASS bounded recheck",
+    "images_loaded": 35,
+    "broken_images": [],
+    "legend_day_icons": 7,
+    "tab_day_icons": 7,
+    "beta": false,
+    "keyboard": "Focused first early hint and pressed Enter: aria-expanded false to true, hidden true to false; second Enter restored original hidden state.",
+    "visual": "Desktop hero screenshot shows four characters, logo and UI; mobile first two section headings and legend inspected and aligned.",
+    "prior_interactions": "See prior report for search, filter, progress restore, spoilers and story checks; no progress changed in this follow-up."
+  },
+  "offline": {
+    "status": "PASS",
+    "index": "/tmp/moon-expanded-final-offline-qa/moon-guide-v1.1.16/index.html",
+    "images_loaded": 35,
+    "broken_images": [],
+    "scripts": "both file: local",
+    "http_resource_entries": []
+  },
+  "screenshots": [
+    "/tmp/home-final-desktop.png",
+    "/tmp/home-final-mobile.png",
+    "/tmp/moon-final-desktop.png",
+    "/tmp/moon-final-mobile-headings.png"
+  ],
+  "limits": [
+    "Desktop and mobile CSS dimensions achieved with CDP mobile:true emulation; actual innerWidth verified.",
+    "Pointer activation was unreliable in prior emulation; keyboard activation works. No website pointer defect established.",
+    "Network check covers image load state and offline resource entries, not an exhaustive network error event log."
+  ],
+  "owner_static_checks": {
+    "local_asset_links": "all exist",
+    "original_moon_guide_js": "unchanged SHA256 3bbfe0a4d41b5407c7e60a25c768a962e4fb890239aae9feab97d3009d9833a3",
+    "native_actor_padding": "complete alpha bounds with 4 pixels margin",
+    "asset_provenance": "23 exported PNG SHA256 verified",
+    "offline_zip": "23 PNGs and both local JS files verified",
+    "diff_check": "pass"
+  },
+  "runtime_model_evidence": {
+    "thread": "01a1e4ce-53b1-7e70-8e8e-5067906f1c1f",
+    "model": "gpt-6.1-terra",
+    "effort": "medium",
+    "evidence": "rollout turn_context confirmed by owner",
+    "cmux": "workspace:1000050021"
+  }
+}

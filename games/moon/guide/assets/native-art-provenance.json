@@ -1,0 +1,222 @@
+{
+  "scope": "Complete boy/NPC sprites, everyday food/book, love heart and seven calendar UI symbols. No event scenes.",
+  "sources": {
+    "MOON.DAT": "140d5f4eee505116b2c72212cd40d66069054037d89eb74d94af31382d5b57b3",
+    "dllmoon": "246dcdd33b2fe8a106ab6339aa444bd293dc8308b750337fbc051ae10e437225"
+  },
+  "assets": [
+    {
+      "file": "pixels/boy-sitting.png",
+      "size": [
+        73,
+        74
+      ],
+      "sha256": "64cc4424b83f4eadf104f931078dc6c74cfd3f8cfd3dfba9d9620140ad4b6c01",
+      "source": "MOON.DAT",
+      "descriptor": "0x00828110",
+      "frame": 0,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/boy-looking.png",
+      "size": [
+        65,
+        87
+      ],
+      "sha256": "b3c4ba86428b1139e8018a643ece0ca05364b69732950c03456f8b2efdc744b0",
+      "source": "MOON.DAT",
+      "descriptor": "0x00828110",
+      "frame": 4,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/love-heart.png",
+      "size": [
+        30,
+        28
+      ],
+      "sha256": "b57c40a865c138ffcca0bdcbe79a594aaa52d62741c1a8d9f607a45bcb628bed",
+      "source": "MOON.DAT",
+      "descriptor": "0x0041F37C",
+      "frame": 0,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/yoshida.png",
+      "size": [
+        28,
+        33
+      ],
+      "sha256": "1abae7f6df6ed2d1af299ab758208f594665882cd84f73848021d7024c82d8c0",
+      "source": "dllmoon/arm64",
+      "symbol": "_yosida",
+      "frame": 0,
+      "partCount": 5
+    },
+    {
+      "file": "pixels/yoshida-walking.png",
+      "size": [
+        34,
+        28
+      ],
+      "sha256": "4da36937f2b8ec35fa0caf1a54bcf181f7f5a50190220433e834760e1627742d",
+      "source": "dllmoon/arm64",
+      "symbol": "_yosida",
+      "frame": 18,
+      "partCount": 5
+    },
+    {
+      "file": "pixels/grandma.png",
+      "size": [
+        48,
+        52
+      ],
+      "sha256": "e1fe25bedbed471d1fbed35c2ece06b15d882ce58154a828573721bf4f13c2cb",
+      "source": "dllmoon/arm64",
+      "symbol": "_gmam",
+      "frame": 8,
+      "partCount": 11
+    },
+    {
+      "file": "pixels/baker.png",
+      "size": [
+        36,
+        57
+      ],
+      "sha256": "3f4ee7699f19933c33b145f9533d2d3d6e99eaf08135285472616f3ff2a9e453",
+      "source": "dllmoon/arm64",
+      "symbol": "_bake",
+      "frame": 8,
+      "partCount": 10
+    },
+    {
+      "file": "pixels/day-sun.png",
+      "size": [
+        19,
+        19
+      ],
+      "sha256": "8f89f3a27f3839070f779c68fe6e44faeff9d94308e73a333dec355ca8695eb6",
+      "source": "dllmoon/arm64",
+      "symbol": "_clock_perma",
+      "frame": 56,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/day-crescent.png",
+      "size": [
+        18,
+        19
+      ],
+      "sha256": "48d226b3e46836b2cd9e20a5a5ba50be79d7a1ed46b77b55bbdeb520a0aaf41d",
+      "source": "dllmoon/arm64",
+      "symbol": "_clock_perma",
+      "frame": 57,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/day-bonfire.png",
+      "size": [
+        17,
+        19
+      ],
+      "sha256": "14cad27477d88b032f9fc359f4d09ff33c9e756f062c254436e813099d44b56b",
+      "source": "dllmoon/arm64",
+      "symbol": "_clock_perma",
+      "frame": 58,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/day-tear.png",
+      "size": [
+        17,
+        19
+      ],
+      "sha256": "5b537776481fbd51f74c22efe6d660fbb61b3b723c84e91b469417fe81b386db",
+      "source": "dllmoon/arm64",
+      "symbol": "_clock_perma",
+      "frame": 59,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/day-leaf.png",
+      "size": [
+        17,
+        19
+      ],
+      "sha256": "3f75e739f373709b1fbcc84fba56004f4f53319d3096e2cbb3243fb0a8c0b05a",
+      "source": "dllmoon/arm64",
+      "symbol": "_clock_perma",
+      "frame": 60,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/day-neka.png",
+      "size": [
+        19,
+        19
+      ],
+      "sha256": "40c762f190a6bcdbcd76721a800cc5793a13f8316c2e0ae1e4f8024c0ccaab8c",
+      "source": "dllmoon/arm64",
+      "symbol": "_clock_perma",
+      "frame": 61,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/day-echo.png",
+      "size": [
+        18,
+        19
+      ],
+      "sha256": "b9b8c20a18dbf5874ae2ad81d5621b9e13c40910692e83c0dc63d265212abc83",
+      "source": "dllmoon/arm64",
+      "symbol": "_clock_perma",
+      "frame": 62,
+      "partCount": 1
+    },
+    {
+      "file": "pixels/bread.png",
+      "size": [
+        40,
+        40
+      ],
+      "sha256": "bd263170261604ad6ee95bb824d90082b6652a0394ad8b8853720d9cec029b66",
+      "source": "dllmoon/arm64",
+      "symbol": "_i_pan",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "padding": 4
+    },
+    {
+      "file": "pixels/cookies.png",
+      "size": [
+        40,
+        40
+      ],
+      "sha256": "6cb54aa69d514bc85acbf48a51ac83264fe19d9b3d0ff8ba35ed239eef656fea",
+      "source": "dllmoon/arm64",
+      "symbol": "_i_coki",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "padding": 4
+    },
+    {
+      "file": "pixels/animal-book.png",
+      "size": [
+        40,
+        40
+      ],
+      "sha256": "7f09eaccec2fb9e2a29a09f400409bfa720dab273c6cc36332a1993be395ea26",
+      "source": "dllmoon/arm64",
+      "symbol": "_i_zuka",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "padding": 4
+    }
+  ]
+}

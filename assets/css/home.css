@@ -146,3 +146,47 @@
  .home-page [data-view=list] .home-shortcuts{display:none}
 }
 .home-page .gameCard h3{word-break:keep-all;overflow-wrap:anywhere}
+
+/* Optional series wrappers are created only for published game children. */
+.home-page .gameCard[data-published=false]{display:none!important}
+.catalog-series{min-width:0;border:1px solid #dce3cc;border-radius:20px;background:#f7f8ed;box-shadow:0 4px 0 #d8dfc328;scroll-margin-top:110px;overflow:hidden}
+.series-summary{display:grid;grid-template-columns:1fr auto;align-items:center;gap:17px;padding:24px;cursor:pointer;list-style:none;box-sizing:border-box}
+.series-summary::-webkit-details-marker{display:none}.series-summary::marker{content:""}
+.series-heading{grid-column:1/-1;display:grid;grid-template-columns:76px minmax(0,1fr);gap:15px;align-items:center;min-width:0}
+.series-art{display:grid;place-items:center;width:76px;height:57px;border:1px solid #dce4c9;border-radius:10px;background:#eaf0dd;font-size:29px;overflow:hidden}
+.series-art img{width:100%;height:100%;padding:5px;object-fit:contain}
+.series-copy{min-width:0}.series-kicker{display:block;color:#798c60;font-size:10px;letter-spacing:.06em}.series-title{display:block;font-size:24px;line-height:1.35;color:#667d50;letter-spacing:-.035em;word-break:keep-all;overflow-wrap:anywhere;margin-top:4px}
+.series-description{display:block;color:#7d826c;font-size:12px;line-height:1.7;margin-top:5px}
+.series-platforms{grid-column:1/-1;padding:0}.series-count{font-size:12px;color:#7d866b}
+.series-action{display:flex;gap:10px;align-items:center;font-size:12px;color:#667e50;background:#edf2e2;border:1px solid #d7e2c4;border-radius:9px;padding:8px 12px;white-space:nowrap}
+.series-chevron{font-size:17px;line-height:1;transition:transform .15s}.catalog-series[open]>.series-summary .series-chevron{transform:rotate(90deg)}
+.series-close-label{display:none}.catalog-series[open]>.series-summary .series-open-label{display:none}.catalog-series[open]>.series-summary .series-close-label{display:inline}
+.catalog-series[open]>.series-summary{border-bottom:1px solid #e0e6d3;margin-bottom:16px}
+.series-games{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:0 18px 18px}
+.home-page [data-view=cards]>.catalog-series[open]{grid-column:1/-1}
+.home-page [data-view=list]>.catalog-series{border-radius:15px}
+.home-page [data-view=list] .series-summary{grid-template-columns:var(--catalog-columns);gap:18px;padding:18px 20px;min-height:96px}
+.home-page [data-view=list] .series-heading,.home-page [data-view=list] .series-platforms{grid-column:auto}
+.home-page [data-view=list] .series-title{font-size:20px}.home-page [data-view=list] .series-action{justify-content:center}
+.home-page [data-view=list] .series-games{grid-template-columns:1fr}
+.series-summary:hover{background:#edf2e35c}.series-summary:focus-visible{outline-offset:-5px}
+@media(max-width:980px){
+ .home-page [data-view=list] .series-summary{grid-template-columns:minmax(0,1fr) 155px;column-gap:25px;row-gap:8px}
+ .home-page [data-view=list] .series-heading{grid-column:1;grid-row:1}
+ .home-page [data-view=list] .series-platforms{grid-column:1;grid-row:2;margin-left:91px}
+ .home-page [data-view=list] .series-count{grid-column:1;grid-row:3;margin-left:91px}
+ .home-page [data-view=list] .series-action{grid-column:2;grid-row:1/span 3}
+}
+@media(max-width:640px){
+ .catalog-series{border-radius:15px;scroll-margin-top:95px}.series-summary{padding:20px 18px;gap:13px}.series-title{font-size:22px}.series-games{grid-template-columns:1fr;padding:0 10px 12px;gap:11px}
+ .home-page [data-view=list] .series-summary{grid-template-columns:minmax(0,1fr) 100px;padding:16px 14px;gap:9px 12px}
+ .home-page [data-view=list] .series-heading{grid-column:1/-1;grid-row:1;grid-template-columns:64px minmax(0,1fr);gap:12px}
+ .home-page [data-view=list] .series-art{width:64px;height:48px;font-size:25px}
+ .home-page [data-view=list] .series-title{font-size:19px}.home-page [data-view=list] .series-platforms{margin-left:0;grid-column:1;grid-row:2}
+ .home-page [data-view=list] .series-count{margin-left:0;grid-column:1;grid-row:3;font-size:11px}
+ .home-page [data-view=list] .series-action{grid-column:2;grid-row:2/span 2;font-size:11px;gap:6px;padding:8px}
+ .home-page [data-view=list] .series-games{padding-inline:7px}
+}
+.catalog-series:not([open])>.series-games{display:none}
+.series-summary:focus-visible{outline:3px solid #a9b993;outline-offset:-5px;border-radius:inherit}
+.series-summary:hover{background:#edf2e140}

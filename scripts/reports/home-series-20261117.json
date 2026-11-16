@@ -1,0 +1,108 @@
+{
+  "task_id": "HOME-SERIES-QA-20261117",
+  "hashes": {
+    "index.html": "14e07dd3e6d12dcbee0b980fb73e427d1ef9b53d1fa15d2c0ce424362ec867bf",
+    "assets/js/home-catalog.js": "760f2839bd89fa5806057105cd171c29f3e1cc27f64dc7241e5fd4b43655004a",
+    "assets/css/home.css": "2ca509e96c546a8579162b5eab179ef02f47aba83eb133c25d67d379e5808fdf",
+    "scripts/check-home-catalog.py": "821f8ceb3efda50d105c5e1d07f01c92068d34ac432908a208ccf7643819cdc7",
+    "scripts/preview-home-catalog-series.py": "cc3ffc6dfee58faa9770c057e360d677cb1221107b3fab8b2e2da3db71dc56ae",
+    "scripts/home-catalog.md": "3f6ea0a979307620ae84187849ae365c3a9fa59d6ed1dd27cb8e11c409f1707d"
+  },
+  "hashes_match_assignment": true,
+  "preview": "http://127.0.0.1:8881/",
+  "fixture": {
+    "status": "PASS",
+    "default": "Two closed groups (Adventure 2, Moon 1) plus standalone Hakoniwa, total 4; empty and draft-only groups absent, draft hidden; grouped children in closed details had zero client rects.",
+    "aggregate_platforms": {
+      "adventure": [
+        "SFC",
+        "PSP"
+      ],
+      "moon": [
+        "PS1",
+        "Switch",
+        "PC"
+      ]
+    },
+    "keyboard": "Enter and Space toggle summary; Tab focus-visible outline rgb(169,185,147) solid 3px. Manual open remained across view switch.",
+    "search": {
+      "homestar": "Adventure open, Homestar, 1/2, total1",
+      "모험모음": "Adventure open, two children, total2",
+      "psp_plus_alias": "Homestar1",
+      "sfc_plus_alias": "Chacha1",
+      "pc": "Moon group open, 1",
+      "switch": "Moon group open plus Hakoniwa, 2",
+      "empty": "0, groups and standalone hidden, reset visible",
+      "draft_query": "0; no draft-only group"
+    },
+    "state": "Closed filtered group stayed closed after view switch; changed query reopened. Reset restored manually open Adventure and closed Moon.",
+    "bookmark": "PC-filtered hero Homestar bookmark reset filters, opened Adventure and revealed target with #game-homestar; direct fixture hash also opened and revealed child.",
+    "assets": "5 images loaded after eager loading, including group logo; no broken images or captured window errors/unhandled rejections on instrumented reload."
+  },
+  "fixture_root": "/var/folders/qt/qyvkxtj96m590njb8v18r5980000gn/T/enthhende-series-preview-23j2tabz",
+  "browser": "ego-browser task space 9, finished keep:[]",
+  "input": "keyboard focus + Enter/Space and page.fill; no DOM click",
+  "viewport_method": "CDP mobile:true, measured CSS innerWidth",
+  "dimensions": {
+    "1280": [
+      1280,
+      1280
+    ],
+    "390": [
+      390,
+      390
+    ],
+    "320": [
+      320,
+      320
+    ]
+  },
+  "production": {
+    "status": "PASS",
+    "groups": 0,
+    "published_games": 4,
+    "images_loaded": 4,
+    "switch": [
+      "moon",
+      "hakoniwa"
+    ],
+    "MOON": [
+      "moon"
+    ],
+    "reset": "four, all selected, blank query, focus search",
+    "view_persistence": "cards and list survive reload",
+    "navigation": "moon title -> intro -> home retained list; #game-moon exposed target"
+  },
+  "cleanup": {
+    "original": null,
+    "restored": null,
+    "verified_after_reload": true
+  },
+  "screenshots": [
+    "/tmp/series-production-desktop.png",
+    "/tmp/series-production-mobile.png",
+    "/tmp/series-fixture-list-desktop.png",
+    "/tmp/series-fixture-cards-desktop.png",
+    "/tmp/series-fixture-mobile.png",
+    "/tmp/series-fixture-320.png",
+    "/tmp/series-focus.png"
+  ],
+  "issues": [],
+  "limits": [
+    "Closed native details children had zero client rects; sequential tab traversal through every hidden child was not individually tested.",
+    "No exhaustive network or console event log; captured window errors and image load states.",
+    "Desktop emulation uses mobile:true to obtain requested measured CSS widths."
+  ],
+  "owner_static_checks": [
+    "Current four production game articles byte-equal to prior commit",
+    "Production series registry is empty; temporary fixture HTML lives outside repository",
+    "Production and fixture metadata validation passed; node syntax and git diff check passed",
+    "Owner inspected fixture list desktop and expanded cards mobile screenshots"
+  ],
+  "runtime_model_evidence": {
+    "thread": "01a1e4ce-53b1-7e70-8e8e-5067906f1c1f",
+    "model": "gpt-6.1-terra",
+    "effort": "medium",
+    "source": "Owner inspected rollout turn_context; visible cmux workspace:1000050021"
+  }
+}

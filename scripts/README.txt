@@ -74,3 +74,12 @@ cursor/play-button cutouts are selected. No story scenes or album covers are
 used. Art hashes and source rectangles are in moon/guide/assets/art-provenance.json.
 moon-style.css is loaded only by the moon guide; shared guide.css and
 assets/js/moon-guide.js are preserved. The offline ZIP includes local artwork.
+
+Homepage game/series catalogue
+
+Current game articles provide both list and card views. Optional series metadata
+lives in index.html#catalogSeriesData; articles opt in with data-series.
+See scripts/home-catalog.md for membership, draft visibility, search behavior
+and the temporary, non-published series preview.
+  python3 scripts/check-home-catalog.py
+  python3 scripts/preview-home-catalog-series.py

@@ -13,14 +13,9 @@
   },
   {
     "game": "hakoniwa",
-    "file": "assets/images/game-titles/hakoniwa-title.webp",
-    "source": "NSWKpatch/titles/Hakoniwa-Ranch-Sheep-Village-Switch/_work/010059C017346000/50_test/eden/point-bonus-diag-a03/title.png",
-    "sourceSha256": "26fb7cee5ed6143a3b32a01defbd97d8665f17a73e461a43f2f573b401b9d46a",
-    "sha256": "c2dac145a78770d847b4a1971cfad01f322a3f0cdff73d07e49c8440b84a3ec7",
-    "scope": "Complete title scene, no story/event gameplay",
-    "resize": [
-      960,
-      540
-    ]
+    "file": "games/hakoniwa/guide/assets/title-ko.png",
+    "source": "NSWKpatch/titles/Hakoniwa-Ranch-Sheep-Village-Switch/_work/010059C017346000/30_translation/image_translation/for_translation/renders/items_intended/unity-texture-860__title_logo_1.png",
+    "sha256": "31be4ac47a62e8fb06a5c50d8d217a93c6bb1295455bda88d954ebf8e865feae",
+    "scope": "Existing Korean typeset logo used by the guide; replaces the Japanese title screenshot"
   }
 ]

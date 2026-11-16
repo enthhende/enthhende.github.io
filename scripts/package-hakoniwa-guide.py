@@ -9,12 +9,17 @@ dest = root / 'downloads/hakoniwa-guide-offline-v0.19.0.zip'
 html = (guide / 'index.html').read_text()
 # The offline copy links back to the website for home/patch pages.
 html = re.sub(r'<a\b[^>]*href="[^"]*downloads/hakoniwa-guide-offline-[^"]*"[^>]*>.*?</a>', '', html)
+html = re.sub(r'<div class="guide-download">\s*</div>', '', html)
 html = html.replace('href="../../../index.html"', 'href="https://enthhende.github.io/"')
 html = html.replace('href="../index.html"', 'href="https://enthhende.github.io/games/hakoniwa/"')
 html = html.replace('href="../../../"', 'href="https://enthhende.github.io/"')
 html = html.replace('href="../"', 'href="https://enthhende.github.io/games/hakoniwa/"')
+html = html.replace('href="../patch/"', 'href="https://enthhende.github.io/games/hakoniwa/patch/"')
+html = html.replace('href="../guide/"', 'href="index.html"')
+html = html.replace('href="../../../assets/css/', 'href="assets/css/')
 with zipfile.ZipFile(dest, 'w', zipfile.ZIP_DEFLATED) as archive:
     archive.writestr('index.html', html)
+    archive.write(root / 'assets/css/game-shell.css', 'assets/css/game-shell.css')
     for name in ['game-reference.js', 'guide-knowledge.js', 'guide-graphics.js', 'sprite-map.js', 'guide-enhancements.js', 'guide-layout.js', 'guide-enhancements.css']:
         archive.write(guide / name, name)
     for file in sorted((guide / 'assets').rglob('*')):

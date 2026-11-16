@@ -71,3 +71,14 @@
 @media(prefers-reduced-motion:reduce){html:has(.home-page){scroll-behavior:auto}.home-page *{transition:none!important}}
 
 .home-page .game-cover:focus-visible{outline-offset:-6px}
+
+/* Uniform small previews on home; full title art lives in each game corner. */
+.home-page .game-heading{display:grid;grid-template-columns:132px minmax(0,1fr);gap:20px;align-items:center;padding:24px 25px 19px}
+.home-page .game-heading .game-cover{width:132px;height:99px;aspect-ratio:4/3;padding:7px;border:1px solid #e4dfca;border-radius:12px}
+.home-page .game-heading .game-cover:before{inset:3px;border-radius:8px}.home-page .game-cover img{border-radius:3px}
+.home-page .game-heading h3{margin:8px 0 0;font-size:25px}.home-page .game-copy{padding-top:0}
+.home-page .game-heading .cover-sticker{width:25px;height:25px;font-size:15px;border-radius:9px;bottom:3px;right:3px}
+.home-page .gameCard .actions{justify-content:space-between;align-items:center;padding-top:21px}.home-shortcuts{display:flex;gap:12px;flex-wrap:wrap}.home-shortcuts a{font-size:11px;color:#777d62;text-underline-offset:4px}
+.home-page .game-hakoniwa .game-heading .game-cover img{image-rendering:auto}
+@media(max-width:900px){.home-page .game-heading{grid-template-columns:112px minmax(0,1fr);gap:15px;padding:21px 20px 17px}.home-page .game-heading .game-cover{width:112px;height:84px}.home-page .game-heading h3{font-size:23px}}
+@media(max-width:640px){.home-page .game-heading{grid-template-columns:108px minmax(0,1fr);padding:22px 21px 18px;gap:16px}.home-page .game-heading .game-cover{width:108px;height:81px;padding:5px}.home-page .game-heading h3{font-size:24px;line-height:1.35}.home-page .gameCard .actions{gap:15px}.home-shortcuts{width:100%;justify-content:center}.home-shortcuts a{font-size:12px}.home-page .game-copy{padding-top:0}}

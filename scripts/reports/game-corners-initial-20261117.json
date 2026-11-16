@@ -1,0 +1,132 @@
+{
+  "task_id": "GAME-CORNERS-UNIFY-QA-20261117",
+  "preview": "http://127.0.0.1:8879",
+  "source_hashes": {
+    "index.html": "9b91c91eeedabd61112b2d429b98f3705c34c2c89ae0684f9060f7ff984be4cb",
+    "assets/css/home.css": "1e542a56680b0b4071d511820843de64c811cd7b3aab035228d11ead959164eb",
+    "assets/css/game-shell.css": "ef5776e6f38fa7eee73c205347b40b993ac91127181da2037d0fb04463a3ff60",
+    "games/moon/index.html": "362220c92fd205cb49474451bf2e3d26c4c05308b7bbc148a637000336039fb8",
+    "games/moon/patch/index.html": "96a0926eccf6e04f202fa515ac06a2a1bdad62cd1379a1f9f951212f6ec94e3b",
+    "games/moon/report/index.html": "443d8d57af7a329c42e16397e8feecf194765fc7223d3b9d887f7fb8a04c996d",
+    "games/moon/guide/index.html": "2d613465d11a92207081f3563b83c4a32967a4810902bbb04441ac91e9339371",
+    "games/hakoniwa/index.html": "f3a5b7b1da253b5ddf2ca15363e06addde92862843d9b6bdb37b52dd4cdd0e03",
+    "games/hakoniwa/patch/index.html": "8138c7e84a83d9b5902298a74aea8e036225ec8a38ac0603ea9121a5ec040478",
+    "games/hakoniwa/guide/index.html": "449952321c3eae79f65ee77910be6302b0f49bad1b062a691ddb312a0fd91bed",
+    "downloads/moon-guide-offline-v1.1.16.zip": "556d851983d22d44e6412e6f2003865e3abaec153c664e754562a2bd2b3beff1",
+    "downloads/hakoniwa-guide-offline-v0.19.0.zip": "0336a3f8f8259a4a8534fd01548a2723e7bcfd98effbf7f499ae264376eaa31e"
+  },
+  "hashes_match_assignment": true,
+  "browser": "ego-browser task space 5, finished keep:[]",
+  "viewport_method": "CDP Emulation.setDeviceMetricsOverride mobile:true; measured innerWidth/innerHeight",
+  "dimensions": {
+    "desktop": [
+      1280,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "home_intro_patch_guides_scroll_client": "1280/1280 and 390/390 at requested widths"
+  },
+  "home": {
+    "result": "PASS",
+    "images": 4,
+    "badges": [
+      "공개 중",
+      "공개 중",
+      "공개 중",
+      "공개 중"
+    ],
+    "frame_size_mobile_css": [
+      108,
+      81
+    ],
+    "desktop_image_boxes_css": [
+      116,
+      83
+    ],
+    "korean_logo": "games/hakoniwa/guide/assets/title-ko.png",
+    "visual": "Four uniform frames, distinct primary buttons and small shortcuts, no clipping observed."
+  },
+  "navigation": {
+    "result": "PASS",
+    "method": "focus link and keyboard Enter, waited for URL and load",
+    "moon": [
+      "home",
+      "intro",
+      "patch",
+      "guide",
+      "intro",
+      "report",
+      "intro",
+      "home"
+    ],
+    "hakoniwa": [
+      "home",
+      "intro",
+      "patch",
+      "guide",
+      "intro",
+      "home"
+    ],
+    "active_states": "Correct on all checked pages; same order home/intro/patch/guide, moon adds report",
+    "sitebar_colors": {
+      "moon": "rgb(24, 45, 50)",
+      "hakoniwa": "rgb(255, 250, 240)"
+    }
+  },
+  "pages": {
+    "moon_intro_patch": "PASS layout, loaded images and matching menu at both sizes; desktop/mobile screenshots",
+    "moon_guide": "PASS top and section navigation no apparent collision; keyboard early hint Enter opened and Enter closed; no progress changes",
+    "moon_report": "PASS active report, same theme, no broken images",
+    "hakoniwa_intro_patch": "PASS layout, Korean logo and sprites, matching menu at both sizes",
+    "hakoniwa_guide": "PASS guide and search interaction, with duplicate offline links noted below; search 양배추 yielded 42 results, opened 양배추 dialog with keyboard Enter, Escape closed, search fields restored blank; all 74 images loaded after triggering lazy loads"
+  },
+  "offline": {
+    "moon": {
+      "index": "/tmp/corners-offline/moon/moon-guide-v1.1.16/index.html",
+      "images": 36,
+      "broken": 0,
+      "errors": []
+    },
+    "hakoniwa": {
+      "index": "/tmp/corners-offline/hakoniwa/index.html",
+      "images": 74,
+      "broken": 0,
+      "errors": []
+    },
+    "links": "Home, intro and patch absolute HTTPS; current guide local index.html; no external resources observed; local shell styles and brand sprites loaded."
+  },
+  "issues": [
+    {
+      "severity": "visual",
+      "page": "games/hakoniwa/guide/",
+      "detail": "Two consecutive visible offline ZIP links appear above hero, one 오프라인 공략 ZIP and another ⇩ 오프라인 공략 ZIP, same ZIP destination. See mobile guide screenshot."
+    },
+    {
+      "severity": "readability",
+      "page": "games/moon/patch/",
+      "detail": "Footer bold moon · 한글패치 & 공략 uses rgb(57,57,47) on rgb(24,45,50), visibly very low contrast. See patch screenshots."
+    }
+  ],
+  "screenshots": [
+    "/tmp/corners-home-desktop.png",
+    "/tmp/corners-home-mobile.png",
+    "/tmp/corners-moon-intro-desktop.png",
+    "/tmp/corners-moon-intro-mobile.png",
+    "/tmp/corners-moon-patch-desktop.png",
+    "/tmp/corners-moon-patch-mobile.png",
+    "/tmp/corners-hakoniwa-intro-desktop.png",
+    "/tmp/corners-hakoniwa-intro-mobile.png",
+    "/tmp/corners-hakoniwa-patch-desktop.png",
+    "/tmp/corners-hakoniwa-patch-mobile.png",
+    "/tmp/corners-moon-guide-mobile.png",
+    "/tmp/corners-hakoniwa-guide-mobile.png"
+  ],
+  "limits": [
+    "Navigation and interactions verified using keyboard input; pointer not retested because prior emulated pointer coordinates were unreliable.",
+    "Offline and online guide images checked after lazy-loading activation; errors captured on offline pages, not exhaustive network event logging.",
+    "Runtime model/effort cannot be independently confirmed from browser evidence."
+  ]
+}

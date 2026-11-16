@@ -1,0 +1,97 @@
+{
+  "task_id": "GAME-CORNERS-UNIFY-QA-20261117",
+  "revision": "final-fixes",
+  "prior_report": "scripts/reports/game-corners-initial-20261117.json",
+  "source_hashes": {
+    "index.html": "9b91c91eeedabd61112b2d429b98f3705c34c2c89ae0684f9060f7ff984be4cb",
+    "assets/css/home.css": "1e542a56680b0b4071d511820843de64c811cd7b3aab035228d11ead959164eb",
+    "assets/css/game-shell.css": "99157fca7741e7f18a2d766f82890eb594a14100619c85ac718c126f18178d67",
+    "games/moon/index.html": "362220c92fd205cb49474451bf2e3d26c4c05308b7bbc148a637000336039fb8",
+    "games/moon/patch/index.html": "96a0926eccf6e04f202fa515ac06a2a1bdad62cd1379a1f9f951212f6ec94e3b",
+    "games/moon/report/index.html": "443d8d57af7a329c42e16397e8feecf194765fc7223d3b9d887f7fb8a04c996d",
+    "games/moon/guide/index.html": "2d613465d11a92207081f3563b83c4a32967a4810902bbb04441ac91e9339371",
+    "games/hakoniwa/index.html": "f3a5b7b1da253b5ddf2ca15363e06addde92862843d9b6bdb37b52dd4cdd0e03",
+    "games/hakoniwa/patch/index.html": "8138c7e84a83d9b5902298a74aea8e036225ec8a38ac0603ea9121a5ec040478",
+    "games/hakoniwa/guide/index.html": "debb7a0a37196665fa0d47236e117ea9b6cfb74a3c3cf29a161979783a0875dc",
+    "downloads/moon-guide-offline-v1.1.16.zip": "89a747ac599ecb3a5b168b44aaf7cb35d2a8633c8a6eb8cc76b1d5ff5870bc15",
+    "downloads/hakoniwa-guide-offline-v0.19.0.zip": "aaefe7882695728159a5609f9e17f529bfc7e12ae8304d4fd8075ed29d432179"
+  },
+  "hashes_match_assignment": true,
+  "preview": "http://127.0.0.1:8879",
+  "browser": "ego-browser task space 6, finished keep:[]",
+  "viewport_method": "CDP mobile:true emulation, actual innerWidth and innerHeight measured",
+  "dimensions": {
+    "desktop": [
+      1280,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "both_pages_scroll_client": {
+      "desktop": [
+        1280,
+        1280
+      ],
+      "mobile": [
+        390,
+        390
+      ]
+    }
+  },
+  "fixes": {
+    "moon_footer": {
+      "result": "PASS",
+      "foreground": "rgb(206, 214, 189)",
+      "background": "rgb(24, 45, 50)",
+      "visual": "Readable in screenshot at both sizes."
+    },
+    "hakoniwa_download": {
+      "result": "PASS",
+      "guide_download_wrappers": 1,
+      "utility_zip_links": 1,
+      "note": "Separate preexisting hero shortcut retained."
+    }
+  },
+  "offline": {
+    "moon": {
+      "index": "/tmp/corners-offline-final/moon/moon-guide-v1.1.16/index.html",
+      "images": 36,
+      "broken": 0,
+      "captured_errors": []
+    },
+    "hakoniwa": {
+      "index": "/tmp/corners-offline-final/hakoniwa/index.html",
+      "images": 74,
+      "broken": 0,
+      "empty_guide_download_wrappers": 0,
+      "captured_errors": []
+    },
+    "local_shell_css": "Loaded in both; extracted CSS contains .game-shell footer b{color:var(--shell-nav-ink)}."
+  },
+  "screenshots": [
+    "/tmp/corners-moon-footer-fixed.png",
+    "/tmp/corners-moon-footer-fixed-mobile.png",
+    "/tmp/corners-hakoniwa-download-fixed.png",
+    "/tmp/corners-hakoniwa-download-fixed-mobile.png"
+  ],
+  "limits": [
+    "Only the two fixes and rebuilt offline assets were rechecked; prior interaction results remain in prior report.",
+    "No exhaustive network event log; image loading and window errors checked offline."
+  ],
+  "owner_static_checks": [
+    "All local HTML links/assets exist",
+    "Original script blocks/data byte-equal to HEAD for both walkthroughs",
+    "Seven pages have one active site-menu item and common core menu order",
+    "Home has four same-size thumbnail frames, four corner primary buttons, four public badges; Hakoniwa uses existing Korean logo",
+    "Both offline packages contain shared shell CSS and correct online navigation links",
+    "git diff --check passed"
+  ],
+  "runtime_model_evidence": {
+    "thread": "01a1e4ce-53b1-7e70-8e8e-5067906f1c1f",
+    "model": "gpt-6.1-terra",
+    "effort": "medium",
+    "source": "Parent inspected rollout turn_context; visible cmux workspace:1000050021"
+  }
+}

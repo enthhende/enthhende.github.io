@@ -1,0 +1,50 @@
+{
+  "task_id": "MOON-WEB-ART-QA-20261116",
+  "session": {
+    "id": "01a1e4a6-3eb0-7630-a08a-8133c9503548",
+    "model": "gpt-6.1-terra",
+    "effort": "medium",
+    "evidence": "rollout turn_context ordinal 9, 2026-11-16T13:57:45.716Z"
+  },
+  "tested_source_hashes": {
+    "games/moon/guide/index.html": "65a9ec0a70747077d45a892fdec6e07409d41f9530a7abd47534368fd306b361",
+    "games/moon/guide/moon-style.css": "a769f0fd6dc943d664d0cf0ccc859d5b1d50d252907ad16c2ca7dd18664664d6",
+    "assets/js/moon-guide.js": "3bbfe0a4d41b5407c7e60a25c768a962e4fb890239aae9feab97d3009d9833a3"
+  },
+  "browser_taskspace": {
+    "id": 2,
+    "name": "MOON-WEB-ART-QA-20261116",
+    "finished_keep": []
+  },
+  "checks": {
+    "hashes": "all match assignment before browser testing",
+    "desktop": "CDP 1920x1350 capture at 1.5 DPR, approximately 1280x900 CSS; artwork and first content visible",
+    "mobile": "390x844 CSS measured, scrollWidth 380 equals clientWidth 380; screenshot inspected",
+    "desktop_overflow": "at measured 1029x626 CSS scrollWidth 1019 equals clientWidth 1019; exact 1280 CSS overflow not separately measured",
+    "artwork": "logo, night/day tickets, MD player, pointer hand all loaded and visible; CSS moon and stars visible",
+    "beta": "absent from rendered body text",
+    "home": "href resolves to http://127.0.0.1:8877/; clicked, arrived at home title 엔스헨데 한글패치 & 공략, returned",
+    "spoilers": "initially 137 hidden; first local hint expanded true and revealed text then returned false",
+    "story": "initially 1단계까지; later stages hidden",
+    "search": "닛카 returned 2 / 50; reset returned 50 / 50",
+    "checkbox": "first progress checkbox false -> true -> false; no storage cleared",
+    "images": "all five document images loaded with nonzero naturalWidth"
+  },
+  "issues": [
+    "No serious contrast, clipping, or overlap observed in captured hero and first content. Desktop overflow measured at 1029 CSS rather than separately at 1280 CSS."
+  ],
+  "screenshots": [
+    "/tmp/moon-guide-desktop.png",
+    "/tmp/moon-guide-mobile.png"
+  ],
+  "offline_result": "Extracted ZIP to /tmp/moon-offline-qa; file index loaded, all five images loaded, no external URLs in script, stylesheet, or image elements; basic text rendered.",
+  "owner_verification": {
+    "browser_worker_model": "Independently read actual rollout turn_context: gpt-6.1-terra / medium",
+    "tested_hashes": "Independently matched current files to worker-tested SHA-256 values",
+    "screenshots": "Owner inspected desktop/mobile images as static artifacts",
+    "guide_text": "Compared original and edited HTML text: identical except removed BETA and requested site navigation",
+    "guide_logic": "assets/js/moon-guide.js byte-identical to original git HEAD",
+    "static_assets": "HTML/CSS local links, six art hashes, JS syntax and ZIP integrity verified",
+    "scope": "Original source projects read-only; only isolated logo/calendar/MD interface art exported"
+  }
+}

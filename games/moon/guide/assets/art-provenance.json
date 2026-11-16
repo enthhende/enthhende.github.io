@@ -1,0 +1,116 @@
+{
+  "scope": "Logo, calendar and music-player UI only. No event scenes, maps, endings or album covers.",
+  "assets": [
+    {
+      "file": "pixels/moon-logo.png",
+      "crop": null,
+      "padding": 3,
+      "sha256": "5ec546d2a9678bd28510cb19f5ae54373e5a7712893112b0d44ae8d8f5ab7483",
+      "project": "MoonRemixRPGSteamKpatch",
+      "bundle": "StreamingAssets/data",
+      "bundleSha256": "ddccbeb85899839f4276458ae265b950d2f1be21c43026472bb4dbf36eed7afa",
+      "indexAsset": "assets/dataassetbundle/data/real/title/moon_index.png",
+      "paletteAsset": "assets/dataassetbundle/data/real/title/moon_clut.png",
+      "indexChannel": "alpha",
+      "transparentIndex": 0
+    },
+    {
+      "file": "pixels/night-ticket.png",
+      "crop": [
+        0,
+        0,
+        42,
+        42
+      ],
+      "padding": 3,
+      "sha256": "521652934c5afc2f9b910bb421a3511b74d40178ac9492a25133678628a8f79b",
+      "project": "MoonRemixRPGSteamKpatch",
+      "bundle": "StreamingAssets/data",
+      "bundleSha256": "ddccbeb85899839f4276458ae265b950d2f1be21c43026472bb4dbf36eed7afa",
+      "indexAsset": "assets/dataassetbundle/data/perma/dnpane00_index.png",
+      "paletteAsset": "assets/dataassetbundle/data/perma/dnpane00_clut.png",
+      "indexChannel": "alpha",
+      "transparentIndex": 0
+    },
+    {
+      "file": "pixels/day-ticket.png",
+      "crop": [
+        0,
+        42,
+        42,
+        84
+      ],
+      "padding": 3,
+      "sha256": "4e48bb2b1afcb5ddb7f00f90f0ddf9b13119c434ce5a0afb2ee190a57bd76a3b",
+      "project": "MoonRemixRPGSteamKpatch",
+      "bundle": "StreamingAssets/data",
+      "bundleSha256": "ddccbeb85899839f4276458ae265b950d2f1be21c43026472bb4dbf36eed7afa",
+      "indexAsset": "assets/dataassetbundle/data/perma/dnpane00_index.png",
+      "paletteAsset": "assets/dataassetbundle/data/perma/dnpane00_clut.png",
+      "indexChannel": "alpha",
+      "transparentIndex": 0
+    },
+    {
+      "file": "pixels/md-player.png",
+      "crop": [
+        1,
+        1,
+        87,
+        104
+      ],
+      "padding": 3,
+      "sha256": "4467814db446241b1e666fbee2ccdf3a1033946b4b9b98e4200220dd0f3ae254",
+      "project": "MoonRemixRPGKpatch",
+      "source": "work/v1_0_ending_image_extraction_2026-08-06/global_fpl_overview/source_assets/descriptor_0011f61c/resource_00_8bpp.png",
+      "sourceSha256": "56a39a82916b3b338bde9a43a0c2e305504b3021199e1e626b5f6d6b4bd57064",
+      "descriptor": "0x0011F61C",
+      "purpose": "Original MD player interface, no scene or album artwork",
+      "spriteRecord": {
+        "descriptor_source": "0x0011F61C",
+        "sprite_index": "0",
+        "record_source": "0x0011F63C",
+        "screen_x": "-41",
+        "screen_y": "-57",
+        "selector": "0x0000",
+        "u": "1",
+        "v": "1",
+        "width": "86",
+        "height": "103"
+      }
+    },
+    {
+      "file": "pixels/pointer-hand.png",
+      "crop": [
+        92,
+        49,
+        126,
+        79
+      ],
+      "padding": 3,
+      "sha256": "fbe8126d53886faf86f8051bcb7426ede78787abad795fa4e3af085ff9b12c7e",
+      "project": "MoonRemixRPGKpatch",
+      "source": "work/v1_0_ending_image_extraction_2026-08-06/global_fpl_overview/source_assets/descriptor_0011f61c/resource_00_8bpp.png",
+      "sourceSha256": "56a39a82916b3b338bde9a43a0c2e305504b3021199e1e626b5f6d6b4bd57064",
+      "descriptor": "0x0011F61C",
+      "purpose": "Original MD player interface, no scene or album artwork",
+      "isolation": "Complete alpha-connected hand component"
+    },
+    {
+      "file": "pixels/play-button.png",
+      "crop": [
+        96,
+        1,
+        127,
+        23
+      ],
+      "padding": 3,
+      "sha256": "a94e3b9fda15853fb774ca8215d259f6f9a4c27231921d74ebab887375f662fb",
+      "project": "MoonRemixRPGKpatch",
+      "source": "work/v1_0_ending_image_extraction_2026-08-06/global_fpl_overview/source_assets/descriptor_0011f61c/resource_00_8bpp.png",
+      "sourceSha256": "56a39a82916b3b338bde9a43a0c2e305504b3021199e1e626b5f6d6b4bd57064",
+      "descriptor": "0x0011F61C",
+      "purpose": "Original MD player interface, no scene or album artwork",
+      "isolation": "Complete stock play-button component"
+    }
+  ]
+}

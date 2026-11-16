@@ -62,3 +62,15 @@ These are authored layouts, not measured in-game tile plans.
 
 Data review date: 2026-11-15.
 Sources are linked in the guide itself, on event cards and in item details.
+
+moon guide decoration (walkthrough text/data remain unchanged)
+
+  python3 scripts/extract-moon-guide-art.py /path/to/Steam/Data /path/to/MoonRemixRPGKpatch
+  python3 scripts/package-moon-guide.py
+The exporter requires UnityPy and Pillow. It reads the original Steam bundle's
+alpha-channel index textures and matching CLUTs, plus the original PS1 MD UI
+atlas and native sprite bounds. Only logo, day/night tickets, music player and
+cursor/play-button cutouts are selected. No story scenes or album covers are
+used. Art hashes and source rectangles are in moon/guide/assets/art-provenance.json.
+moon-style.css is loaded only by the moon guide; shared guide.css and
+assets/js/moon-guide.js are preserved. The offline ZIP includes local artwork.
